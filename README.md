@@ -1,4 +1,4 @@
 ihommani.github.io
 ==================
 
-Personnal technical blog
+Yet another technical blog
