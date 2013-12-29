@@ -1,4 +1,8 @@
 footer: footer.html
 header: header.html
 title: title.html
+disqus: disqus.html
+disquscount: disqus_count.html
+twitter: twitter.html
+linkedin: linkedin.html
 
