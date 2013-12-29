@@ -1,0 +1,28 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include {{site.data.common.header}}%} 
+
+<body>
+<div class="shell">
+    {% include {{site.data.common.title}}%} 
+
+    <div id="no-downloads">
+        <span class="inner">
+        </span>
+    </div>
+
+    <span class="banner-fix"></span>
+    <section id="main_content">
+        {{content}}
+    </section>
+    {% include {{site.data.common.footer}}%} 
+
+</div>
+
+</body>
+</html>
+
