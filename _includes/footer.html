@@ -1,20 +1,23 @@
----
----
-<footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <div class="contact">
-                <p>
-                {% include {{site.data.common.twitter}}%} 
-                <br/>
-                {% include {{site.data.common.linkedin}}%} 
-                </p>
-            </div>
-            <p>Projects by <a href="https://github.com/ihommani">ihommani</a> can be found on <a href="https://github.com/ihommani">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
+<footer class="row">
 </footer>
+
+<footer class="row">
+    <div class="large-12 columns">
+        <hr />
+        <div>
+            <p>Projects by <a href="https://github.com/ihommani">ihommani</a> can be found on <a href="https://github.com/ihommani">GitHub</a></p>
+            <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        </div>
+        <div class="row">
+            <div class="large-6 columns">
+                <ul class="inline-list right">
+                    <li>{% include {{site.data.common.twitter}}%}</li>
+                    <li>{% include {{site.data.common.linkedin}}%}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <span class="octocat"></span>
+</footer>
+<!-- Eternalize this script inside an include file -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
