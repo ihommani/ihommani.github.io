@@ -7,25 +7,19 @@
 {% include {{site.data.common.header}}%} 
 
 <body>
-<div class="shell">
-    {% include {{site.data.common.title}}%} 
+{% include {{site.data.common.title}}%} 
+<div class="row">
+    <div class="large-9 columns" role="content">
+        <article>
+            {{content}}
+        </article>
+        {% include {{site.data.common.disqus}}%} 
+        {% include {{site.data.common.disquscount}}%} 
 
-    <div id="no-downloads">
-        <span class="inner">
-        </span>
     </div>
-
-<a href="/">
-    <span class="banner-fix"></span>
-    </a>
-    <section id="main_content">
-        {{content}}
-    </section>
-    {% include {{site.data.common.disqus}}%} 
-    {% include {{site.data.common.disquscount}}%} 
-    {% include {{site.data.common.footer}}%} 
+    {% include {{site.data.common.categories}}%}
 </div>
-
+{% include {{site.data.common.footer}}%} 
 </body>
 </html>
 

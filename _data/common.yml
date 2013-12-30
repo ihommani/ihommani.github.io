@@ -5,4 +5,7 @@ disqus: disqus.html
 disquscount: disqus_count.html
 twitter: twitter.html
 linkedin: linkedin.html
+about: about.html
+whoami: whoami.html
+categories: categories.html
 
