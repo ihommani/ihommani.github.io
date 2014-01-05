@@ -44,4 +44,3 @@ PYGMENTS_RST_OPTIONS = {'classprefix': 'pgcss', 'linenos': 'table'}
 #To show gitHub ribbon
 GITHUB_URL = 'https://github.com/ihommani'
 
-DISQUS_SITENAME = 'ihommanigithubio'
