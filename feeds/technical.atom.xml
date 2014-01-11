@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-01-09T23:58:00+01:00</updated><entry><title>Pelican</title><link href="/pelican.html" rel="alternate"></link><updated>2014-01-09T23:58:00+01:00</updated><author><name>ihommmani</name></author><id>tag:,2014-01-09:pelican.html</id><summary type="html">&lt;h1&gt;Presenting Pelican&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="/" rel="alternate"></link><link href="/feeds/technical.atom.xml" rel="self"></link><id>/</id><updated>2014-01-09T23:58:00+01:00</updated><entry><title>Pelican</title><link href="/pelican.html" rel="alternate"></link><updated>2014-01-09T23:58:00+01:00</updated><author><name>ihommmani</name></author><id>tag:,2014-01-09:pelican.html</id><summary type="html">&lt;h1&gt;Presenting Pelican&lt;/h1&gt;
 &lt;p&gt;When I'm reading a blog, besides the article, i'm also interested about the technology behind it. 
 At first it was just good curiosity, to keep me up to date and see what reviews were made on it.
 Then I started this blog. So I had to make my choice. And a clever one i.e adapted to my needs.

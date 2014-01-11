@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Thinking about...</title>
+        <title>Pelican</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
         <link href="/" type="application/atom+xml" rel="alternate" title="Thinking about... ATOM Feed" />
@@ -31,9 +31,11 @@
                 </ul></nav>
         </header><!-- /#banner -->
 
-     <section id="content" class="body">
-        <aside id="featured"><article>
-                <h1 class="entry-title"><a href="/pelican.html">Pelican</a></h1>
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="pelican.html"
+        rel="bookmark" title="Permalink to Pelican">Pelican</a></h1>  </header>
+        <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2014-01-09T23:58:00">
                 Thu 09 January 2014
@@ -45,7 +47,7 @@
 <p>In <a href="/category/technical.html">technical</a>. </p>
 <p>tags: <a href="/tag/generator.html">generator</a></p></p>
 </footer><!-- /.post-info --><!-- /.post-info -->
-                <h1>Presenting Pelican</h1>
+        <h1>Presenting Pelican</h1>
 <p>When I'm reading a blog, besides the article, i'm also interested about the technology behind it. 
 At first it was just good curiosity, to keep me up to date and see what reviews were made on it.
 Then I started this blog. So I had to make my choice. And a clever one i.e adapted to my needs.
@@ -146,15 +148,28 @@ But when it comes to construct a blog, you should give a try to Pelican. From my
 I see Pelican as an evolution of Jekyll specially adapted to my needs.
 It provides me with a better experience and a smoother workflow.</p>
 <p>Mentionable: I haven't tried yet at the time I'm writting this article but It seems that <a href="http://ruhoh.com/" title="ruho">Ruho</a> could also be a good choice. </p>
-        </article></aside><!-- /#featured -->
-</ol><!-- /#posts-list -->
-</section><!-- /#content -->
+        </div><!-- /.entry-content -->
+        <div class="comments">
+        <h2>Comments !</h2>
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+               var disqus_identifier = "pelican.html";
+               (function() {
+               var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+               dsq.src = 'http://ihommanigithubio.disqus.com/embed.js';
+               (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+            </script>
+        </div>
+
+</article>
+</section>
 
         <aside id="sidebar">
                 <div class="widget">
                         <h2>Categories</h2>
                         <ul>
-                           <li ><a href="/category/technical.html">technical</a></li>
+                           <li class="active"><a href="/category/technical.html">technical</a></li>
                         </ul>
                 </div>
                 <div class="widget blogroll">
