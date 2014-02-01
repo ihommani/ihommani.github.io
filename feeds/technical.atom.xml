@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="/" rel="alternate"></link><link href="/feeds/technical.atom.xml" rel="self"></link><id>/</id><updated>2014-01-09T23:58:00+01:00</updated><entry><title>Pelican</title><link href="/pelican.html" rel="alternate"></link><updated>2014-01-09T23:58:00+01:00</updated><author><name>ihommmani</name></author><id>tag:,2014-01-09:pelican.html</id><summary type="html">&lt;h1&gt;Presenting Pelican&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="/" rel="alternate"></link><link href="/feeds/technical.atom.xml" rel="self"></link><id>/</id><updated>2014-02-01T13:09:00+01:00</updated><entry><title>Two-Factor Authentication</title><link href="/2fa.html" rel="alternate"></link><updated>2014-02-01T13:09:00+01:00</updated><author><name>ihommmani</name></author><id>tag:,2014-02-01:2fa.html</id><summary type="html">&lt;p&gt;&lt;img alt="Login security" src="/images/FEDTECH_2FA.png" /&gt;&lt;/p&gt;
+&lt;h2&gt;Extra security&lt;/h2&gt;
+&lt;p&gt;Some applications require extra set of security because if someone get access to it, things can get ugly for you.
+After reading this sad yet interesting &lt;a href="https://medium.com/p/24eb09e026dd" title="twitter account  stolen"&gt;story&lt;/a&gt;, I was astonished of how you can put a mess in someone's life by getting access to his/her mail account.
+Not only you can change its password, you also can change the password of all applications linked to the hijacked address mail.
+For instance you can virtually restart all the password of the associated social media. (e.g: Facebook)&lt;/p&gt;
+&lt;h2&gt;Two-Factor Authentication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;2FA&lt;/strong&gt; try to solve this huge chink by applying a second identification step.
+You've surely already experienced 2FA through online paiement. Banks widely use it by sending you a code to your mobile phone to enter it inside the paiement website to finalize the transaction.
+Thus, the bank strengthen the identification process by asking you to make a "proof of work" only you can do. Even if the attacker got your credit card numbers he won't be able to get the paiement done without access to your mobile phone.&lt;/p&gt;
+&lt;p&gt;This useful system is also available in mail clients such as gmail.
+I strongly advice you to enable it since it will reinforce the overall security of your mails'access.
+In the following section I describe the different steps to enable it in Gmail.&lt;/p&gt;
+&lt;p&gt;Here a small scheme to illustrate the different steps:  &lt;br /&gt;
+&lt;img alt="2FA principle" src="http://www.assurity.sg/onekey/2fa.gif" title="2fA" /&gt;&lt;/p&gt;
+&lt;h2&gt;HOW-TO&lt;/h2&gt;
+&lt;p&gt;In your account setting go to the security menu to see a 2-step verification link.... No I'm kidding. 
+Google explain it better than I do :) .  &lt;br /&gt;
+Here the &lt;a href="https://support.google.com/accounts/answer/180744?hl=en" title="2fa"&gt;link&lt;/a&gt;.
+It's very easy and can be done in a matter of minutes. Doing this can't hurt.  &lt;br /&gt;
+For those who blame the fact to rely on mobile phone, several substitutes are explained. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;N.B: As you may notice we can use interchangeably "two step verification" and "two-factor authentication"&lt;/em&gt;&lt;/p&gt;</summary><category term="Security"></category></entry><entry><title>Pelican</title><link href="/pelican.html" rel="alternate"></link><updated>2014-01-09T23:58:00+01:00</updated><author><name>ihommmani</name></author><id>tag:,2014-01-09:pelican.html</id><summary type="html">&lt;h1&gt;Presenting Pelican&lt;/h1&gt;
 &lt;p&gt;When I'm reading a blog, besides the article, i'm also interested about the technology behind it. 
 At first it was just good curiosity, to keep me up to date and see what reviews were made on it.
 Then I started this blog. So I had to make my choice. And a clever one i.e adapted to my needs.
