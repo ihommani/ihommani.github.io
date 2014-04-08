@@ -40,7 +40,14 @@ STATIC_PATHS = ['images']
 
 #This is to suround code with a css class 'pgcss', and to automatically display lineNumber
 PYGMENTS_RST_OPTIONS = {'classprefix': 'pgcss', 'linenos': 'table'}
+PYGMENT_STYLE = 'vim'
+
+DISPLAY_TAGS_ON_SIDEBAR = True
+DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 
 #To show gitHub ribbon
 GITHUB_URL = 'https://github.com/ihommani'
 
+GITHUB_USER = 'ihommani'
+TWITTER_USERNAME = 'ihommani'
+TWITTER_WIDGET_ID = "452570615828856832"
