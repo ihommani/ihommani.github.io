@@ -1,145 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-        <title>Thinking about... - technical</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
-        <link href="/" type="application/atom+xml" rel="alternate" title="Thinking about... ATOM Feed" />
+    <title>technical - Thinking about...</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="Thinking about..." />
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Thinking about..."/>
+            <meta property="og:url" content=""/>
+            <meta property="og:description" content="Thinking about..."/>
 
-        <!--[if IE]>
-                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
 
-        <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="/css/ie.css"/>
-                <script src="/js/IE8.js" type="text/javascript"></script><![endif]-->
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
 
-        <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="/css/ie6.css"/><![endif]-->
 
 </head>
+<body>
 
-<body id="index" class="home">
-<a href="https://github.com/ihommani">
-<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
-</a>
-        <header id="banner" class="body">
-                <h1><a href="/index.html">Thinking about... </a></h1>
-                <nav><ul>
-                    <li ><a href="/pages/about.html">about</a></li>
-                <li><a href="/">Archives</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+Thinking about...            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="/pages/about.html">
+                             about
+                          </a></li>
+                        <li class="active">
+                            <a href="/category/technical.html">Technical</a>
+                        </li>
+                        <li >
+                            <a href="/category/tools.html">Tools</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
 
-     <section id="content" class="body">
-        <aside id="featured"><article>
-                <h1 class="entry-title"><a href="/2fa.html">Two-Factor Authentication</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2014-02-01T13:09:00">
-                Sat 01 February 2014
-        </abbr>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
 
-        <address class="vcard author">
-                By <a class="url fn" href="/author/ihommmani.html">ihommmani</a>
-        </address>
-<p>In <a href="/category/technical.html">technical</a>. </p>
-<p>tags: <a href="/tag/security.html">Security</a></p></p>
-</footer><!-- /.post-info --><!-- /.post-info -->
-                <p><img alt="Login security" src="/images/FEDTECH_2FA.png" /></p>
-<h2>Extra security</h2>
-<p>Some applications require extra set of security because if someone get access to it, things can get ugly for you.
-After reading this sad yet interesting <a href="https://medium.com/p/24eb09e026dd" title="twitter account  stolen">story</a>, I was astonished of how you can put a mess in someone's life by getting access to his/her mail account.
-Not only you can change its password, you also can change the password of all applications linked to the hijacked address mail.
-For instance you can virtually restart all the password of the associated social media. (e.g: Facebook)</p>
-<h2>Two-Factor Authentication</h2>
-<p><strong>2FA</strong> try to solve this huge chink by applying a second identification step.
-You've surely already experienced 2FA through online paiement. Banks widely use it by sending you a code to your mobile phone to enter it inside the paiement website to finalize the transaction.
-Thus, the bank strengthen the identification process by asking you to make a "proof of work" only you can do. Even if the attacker got your credit card numbers he won't be able to get the paiement done without access to your mobile phone.</p>
-<p>This useful system is also available in mail clients such as gmail.
-I strongly advice you to enable it since it will reinforce the overall security of your mails'access.
-In the following section I describe the different steps to enable it in Gmail.</p>
-<p>Here a small scheme to illustrate the different steps:  <br />
-<img alt="2FA principle" src="http://www.assurity.sg/onekey/2fa.gif" title="2fA" /></p>
-<h2>HOW-TO</h2>
-<p>In your account setting go to the security menu to see a 2-step verification link.... No I'm kidding. 
-Google explain it better than I do :) .  <br />
-Here the <a href="https://support.google.com/accounts/answer/180744?hl=en" title="2fa">link</a>.
-It's very easy and can be done in a matter of minutes. Doing this can't hurt.  <br />
-For those who blame the fact to rely on mobile phone, several substitutes are explained. </p>
-<p><em>N.B: As you may notice we can use interchangeably "two step verification" and "two-factor authentication"</em></p>
-        </article></aside><!-- /#featured -->
-                <h1>Other articles</h1>
-                <hr />
-                    <ol id="posts-list" class="hfeed">
-        <li><article class="hentry">
-                <header>
-                        <h1><a href="/pelican.html" rel="bookmark" title="Permalink to Pelican">Pelican</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-01-09T23:58:00">
-                Thu 09 January 2014
-        </abbr>
-
-        <address class="vcard author">
-                By <a class="url fn" href="/author/ihommmani.html">ihommmani</a>
-        </address>
-<p>In <a href="/category/technical.html">technical</a>. </p>
-<p>tags: <a href="/tag/generator.html">generator</a></p></p>
-</footer><!-- /.post-info --><!-- /.post-info -->
-                <p>How did I choose Pelican as my static blog generator</p>
-                <a class="readmore" href="/pelican.html">read more</a>
-                </div><!-- /.entry-content -->
-        </article></li>
-</ol><!-- /#posts-list -->
-</section><!-- /#content -->
-
-        <aside id="sidebar">
-                <div class="widget">
-                        <h2>Categories</h2>
-                        <ul>
-                           <li class="active"><a href="/category/technical.html">technical</a></li>
-                           <li ><a href="/category/tools.html">tools</a></li>
-                        </ul>
+            <article>
+                <h2><a href="/2fa.html">Two-Factor Authentication</a></h2>
+                <div class="summary"><p>How this feature can improve the security of your applications</p>
+                    <a class="btn btn-default btn-xs" href="/2fa.html">more ...</a>
                 </div>
-                <div class="widget blogroll">
-                        <h2>Blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="https://nicolas.perriault.net/">prendre un café</a></li>
-                            <li><a href="http://videlalvaro.github.io">videlalvaro.github.com</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="widget social">
-                        <h2>Social</h2>
-                        <ul>
-                            <li><a href="/" rel="alternate">atom feed</a></li>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="/pelican.html">Pelican</a></h2>
+                <div class="summary"><p>How did I choose Pelican as my static blog generator</p>
+                    <a class="btn btn-default btn-xs" href="/pelican.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
-                            <li><a href="http://twitter.com/ihommani">twitter</a></li>
-                            <li><a href="http://github.com/ihommani">github</a></li>
-                            <li><a href="http://www.flickr.com/photos/chaiyachaiya/">flickr</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </aside><!-- /#sidebar -->
+        </div>
+        <div class="col-sm-3 well well-sm" id="sidebar">
 
-        <footer id="footer" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://blog.getpelican.com/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
-                </address><!-- /#about -->
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+                  <ul class="list-group" id="social">
+                    <li class="list-group-item"><a href="http://twitter.com/ihommani"><i
+                            class="fa fa-twitter-square fa-lg"></i> twitter
+                    </a></li>
+                    <li class="list-group-item"><a href="http://github.com/ihommani"><i
+                            class="fa fa-github-square fa-lg"></i> github
+                    </a></li>
+                    <li class="list-group-item"><a href="http://www.flickr.com/photos/chaiyachaiya/"><i
+                            class="fa fa-flickr-square fa-lg"></i> flickr
+                    </a></li>
+                  </ul>
+                </li>
 
-                <p>The theme is «notmyidea-cms», a modified version of «notmyidea», the default theme.</p>
-        </footer><!-- /#footer -->
+                <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                    <ul class="list-group" id="recentposts">
+                        <li class="list-group-item">
+                            <a href="/2fa.html">
+                                Two-Factor Authentication
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="/pelican.html">
+                                Pelican
+                            </a>
+                        </li>
+                    </ul>
+                </li>
 
 
-<script>
-!function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
-        arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
-d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-    insertBefore(d,q)}(window,document,'script','_gs');
+                <li class="list-group-item"><a href="/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                    <ul class="list-group " id="tags">
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/security.html">
+                                Security
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/outils.html">
+                                outils
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/generator.html">
+                                generator
+                            </a>
+                        </li>
+                    </ul>
+                </li>    
 
-    _gs("GSN-556406-R");
+    <li class="list-group-item"><h4><i class="fa fa-github fa-lg"></i><span class="icon-label">GitHub Repos</span></h4>
+        <div id="gh_repos">
+            <p class="list-group-item">Status updating...</p>
+        </div>
+    </li>
+
+    <li class="list-group-item"><h4><i class="fa fa-twitter fa-lg"></i><span class="icon-label">Latest Tweets</span></h4></li>
+    <div id="twitter_timeline">
+        <a class="twitter-timeline" data-chrome="noheader" href="https://twitter.com/ihommani" data-widget-id="452570615828856832">Tweets by ihommani</a>
+    </div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://nicolas.perriault.net/" target="_blank">
+                prendre un café
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://videlalvaro.github.io" target="_blank">
+                videlalvaro.github.com
+            </a>
+        </li>
+      </ul>
+    </li>
+
+        </ul>
+    </section>
+
+</aside>        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2014 ihommani
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+    <!-- GitHub JS -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (!window.jXHR) {
+                var jxhr = document.createElement('script');
+                jxhr.type = 'text/javascript';
+                jxhr.src = '/theme/js/jXHR.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(jxhr, s);
+            }
+
+            github.showRepos({
+                user: 'ihommani',
+                count: 5,
+                skip_forks: false,
+                target: '#gh_repos'
+            });
+        });
     </script>
-
+    <script src="/theme/js/github.js" type="text/javascript"></script>
+    <!-- End GitHub JS Code -->
 </body>
 </html>

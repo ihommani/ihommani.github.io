@@ -1,156 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-        <title>Thinking about... - outils</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
-        <link href="/" type="application/atom+xml" rel="alternate" title="Thinking about... ATOM Feed" />
+    <title>outils - Thinking about...</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="Thinking about..." />
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Thinking about..."/>
+            <meta property="og:url" content=""/>
+            <meta property="og:description" content="Thinking about..."/>
 
-        <!--[if IE]>
-                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
 
-        <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="/css/ie.css"/>
-                <script src="/js/IE8.js" type="text/javascript"></script><![endif]-->
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
 
-        <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="/css/ie6.css"/><![endif]-->
 
 </head>
+<body>
 
-<body id="index" class="home">
-<a href="https://github.com/ihommani">
-<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
-</a>
-        <header id="banner" class="body">
-                <h1><a href="/index.html">Thinking about... </a></h1>
-                <nav><ul>
-                    <li ><a href="/pages/about.html">about</a></li>
-                <li><a href="/">Archives</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+Thinking about...            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="/pages/about.html">
+                             about
+                          </a></li>
+                        <li >
+                            <a href="/category/technical.html">Technical</a>
+                        </li>
+                        <li >
+                            <a href="/category/tools.html">Tools</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
 
-     <section id="content" class="body">
-        <aside id="featured"><article>
-                <h1 class="entry-title"><a href="/pearltree.html">Pearltrees</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2014-01-12T12:06:00">
-                Sun 12 January 2014
-        </abbr>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
 
-        <address class="vcard author">
-                By <a class="url fn" href="/author/ihommmani.html">ihommmani</a>
-        </address>
-<p>In <a href="/category/tools.html">tools</a>. </p>
-<p>tags: <a href="/tag/outils.html">outils</a></p></p>
-</footer><!-- /.post-info --><!-- /.post-info -->
-                <p><img alt="Alt Text" src="/images/pearltrees-logo.jpg" /></p>
-<h2>Ces favoris qu'on oublie...</h2>
-<p>Lorsque nous surfons sur le web, il est très commun de repérer des sites qui ont un attrait particulier et sur lesquels nous souhaitons revenir plus tard.
-De nos jours la plupart des navigateurs web proposent une fonction d'ajout de favoris, permettant de garder en mémoire des URL et de les classer. 
-Un des avantages est que lorsque l'on tapera une url faisant parti du pool de ces favoris, le navigateur completera de manière intelligente l'url.
-Mais cela présuppose qu'on ai retenu un mot clé de l'url et cela est rarement le cas. 
-Et là se trouve selon moi l'éceuil principal des favoris. Les favoris tombent aux oubliettes.
-pearltrees a bien saisi ce problème et se propose de libérer le potentiel des favoris à travers plusieurs concepts.</p>
-<h2>Alors qu'on devrais les cultiver...</h2>
-<p><a href="http://www.pearltrees.com/" title="pearltrees">pearltrees</a> est une webapplictation permettant d'organiser de manière intelligente et ludique ses favoris.
-Conceptuellement il permet de ranger dans un <a href="http://fr.wikipedia.org/wiki/Arbre_(graphe)" title="arbre">arbre</a>, où chaque noeud (ou perle) est une catégorie et chaque feuille un favoris.<br />
-<em>Rq: C'est une structure composite, donc un noeud peut aussi contenir des noeuds.</em><br />
-Mais pearltrees ne serais pas digne d'intérêt s'il ne se limitait qu'à mimer la fonction "favoris" des navigateurs.  </p>
-<h3>Une interface riche et simple à la fois</h3>
-<p>Pour pouvoir profiter de pearltrees il est nécessaire d'installer <strong>un perleur</strong> sur son navigateur après s'être créé un compte sur pearltrees. 
-Le perleur est une extension du navigateur qui permettra par la suite de perler les sites que vous visitez.
-Le workflow typique est le suivant. </p>
-<ul>
-<li><strong>Création de l'arbre</strong></li>
-</ul>
-<p>En se connectant sur l'interface pearltrees on créera un arbre selon notre préférence en y ajoutant des noeuds thématiques. Attention je parle bien d'arbre et non de forêt. Un compte pearltrees basique ne permet pas la gestion multi-arbres.<br />
-Bien qu'accessible depuis un navigateur sur un ordinateur classique, pearltrees vise clairement un hardware mobile type tablette/fablette voire smartphone. 
-Le glisser/déposer est en effet l'action la plus courante pour enrichir/organiser un arbre. </p>
-<ul>
-<li><strong>Feuillaison</strong></li>
-</ul>
-<p>Le perleur ne permet pas de créer de perles thématique (noeud de l'arbre) mais de transformer les sites visités en perle (feuille de l'arbre).<br />
-Un problème peut se poser dans le cas où aucune perle thématique ne correspond au thème du site à perler.
-Dans ce cas là il est possible de placer dans un <strong>panier</strong> le site pour le greffer plus tard sur l'arbre.</p>
-<ul>
-<li><strong>Entretien</strong></li>
-</ul>
-<p>Au fur et à mesure de l'enrichissisement de l'arbre il arrivera un moment où l'on souhaitera réorganiser certaines branches, les supprimer ou les fusionner.<br />
-Il faudra aussi veiller à greffer les perles du panier dans l'arbre au risque de tomber dans l'écueil des favoris classique. </p>
-<h2>...pour les partager...</h2>
-<p>Nous vivons une ère d'internet dans laquelle nous créons le contenu pour ensuite le partager. Pearltrees est intégré aux acteurs majeurs du réseau social que sont twitter et facebook. Mais là ne réside pas l'intérêt principal de pearltrees car ce dernier permet surtout de partager des perles entre différents compte. 
-Vous faite parti d'une équipe ayant pour tâche de réaliser un projet A. 
-Pearltrees permet la collaboration en permettant le partages de perles qui serviront de pot commun aux connaissances pouvant faire avancer le projet. Un peu à la manière d'un blackboard. Ces perles peuvent prendre la forme de notes, de sites ou encore de photos.
-Autre point d'intérêt, pearltrees vous envoi des alertes lorsqu'un site que vous avez perlé se retrouve perlé par un quelqu'un d'autre. De cette manière on se remémore assez souvent les sites que nous avions décidé de perler.</p>
-<h2>... et découvrir d'autres sites d'intérêts</h2>
-<p>Pearltrees intègre un moteur de recherche permettant de rechercher des centre d'intérêts parmis les arbres d'autres personnes. 
-Par ailleurs une fonction "Voisin" essaye de trouver de manière la plus pertinente les perles thématiquement proches d'un noeud selectionné.
-Je ne connais pas l'algorithme utilisé mais je suppose qu'il est important à ce titre de bien organiser ces perles afin d'avoir des résultat intéressants.</p>
-<h2>Que faire de ces anciens favoris ?</h2>
-<p>Une fonction d'import fonctionnant avec la plupart des navigateurs permet d'importer ses favoris. 
-Il s'agit d'un bon point de départ si vous n'avez pas encore d'arbre.</p>
-<h3>Pas de pub</h3>
-<p>Pearltrees est gratuit dans sa version basique et offre une capacité de stockage de 250Mo (largement suffisant dans la plupart des cas). Par expérience, cette gratuité a souvent été accompagnée de banières publicitaires nuisant à la lisibilité. 
-Or ce n'est pas le cas de pearltrees. En revanche nous serons sollicités pour passer à la version premium. Mais bon cela est tout à fait compréhensible.</p>
-<h3>Quid de la confidentialité et de la propriété du contenu ?</h3>
-<p>En compte basique, les perles sont publiques. Seuls les membres premiums peuvent bénéficier de perles privées.
-Néanmoins, chaque utilisateur est propriétaire de ses données. Donc en théorie elles ne peuvent être utilisées à des fins commerciales.
-Pour les plus frileux d'entre vous, vous pouvez toujours décortiquer leur <a href="http://www.pearltrees.com/info/privacy" title="privacy">charte</a> de confidentialité. </p>
-<h2>En conclusion</h2>
-<p>Pearltrees est un outil qui d'après moi permet de libérer le potentiel de l'action d'ajout de favoris.
-Ce qu'il permet n'est pas simplement d'acumuler des liens mais bien de créer une cartographie colaborative du web. 
-Je trouve cette approche très intéressante et gageons que je ne sois pas le seul.</p>
-        </article></aside><!-- /#featured -->
-</ol><!-- /#posts-list -->
-</section><!-- /#content -->
-
-        <aside id="sidebar">
-                <div class="widget">
-                        <h2>Categories</h2>
-                        <ul>
-                           <li ><a href="/category/technical.html">technical</a></li>
-                           <li ><a href="/category/tools.html">tools</a></li>
-                        </ul>
+            <article>
+                <h2><a href="/pearltree.html">Pearltrees</a></h2>
+                <div class="summary"><p>Découvrer cet outils très pratique pour ajouter du sens à ces favoris</p>
+                    <a class="btn btn-default btn-xs" href="/pearltree.html">more ...</a>
                 </div>
-                <div class="widget blogroll">
-                        <h2>Blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="https://nicolas.perriault.net/">prendre un café</a></li>
-                            <li><a href="http://videlalvaro.github.io">videlalvaro.github.com</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="widget social">
-                        <h2>Social</h2>
-                        <ul>
-                            <li><a href="/" rel="alternate">atom feed</a></li>
+            </article>
+            <hr/>
 
-                            <li><a href="http://twitter.com/ihommani">twitter</a></li>
-                            <li><a href="http://github.com/ihommani">github</a></li>
-                            <li><a href="http://www.flickr.com/photos/chaiyachaiya/">flickr</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </aside><!-- /#sidebar -->
+        </div>
+        <div class="col-sm-3 well well-sm" id="sidebar">
 
-        <footer id="footer" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://blog.getpelican.com/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
-                </address><!-- /#about -->
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+                  <ul class="list-group" id="social">
+                    <li class="list-group-item"><a href="http://twitter.com/ihommani"><i
+                            class="fa fa-twitter-square fa-lg"></i> twitter
+                    </a></li>
+                    <li class="list-group-item"><a href="http://github.com/ihommani"><i
+                            class="fa fa-github-square fa-lg"></i> github
+                    </a></li>
+                    <li class="list-group-item"><a href="http://www.flickr.com/photos/chaiyachaiya/"><i
+                            class="fa fa-flickr-square fa-lg"></i> flickr
+                    </a></li>
+                  </ul>
+                </li>
 
-                <p>The theme is «notmyidea-cms», a modified version of «notmyidea», the default theme.</p>
-        </footer><!-- /#footer -->
+                <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                    <ul class="list-group" id="recentposts">
+                        <li class="list-group-item">
+                            <a href="/pearltree.html">
+                                Pearltrees
+                            </a>
+                        </li>
+                    </ul>
+                </li>
 
 
-<script>
-!function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
-        arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
-d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-    insertBefore(d,q)}(window,document,'script','_gs');
+                <li class="list-group-item"><a href="/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                    <ul class="list-group " id="tags">
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/security.html">
+                                Security
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/outils.html">
+                                outils
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/generator.html">
+                                generator
+                            </a>
+                        </li>
+                    </ul>
+                </li>    
 
-    _gs("GSN-556406-R");
+    <li class="list-group-item"><h4><i class="fa fa-github fa-lg"></i><span class="icon-label">GitHub Repos</span></h4>
+        <div id="gh_repos">
+            <p class="list-group-item">Status updating...</p>
+        </div>
+    </li>
+
+    <li class="list-group-item"><h4><i class="fa fa-twitter fa-lg"></i><span class="icon-label">Latest Tweets</span></h4></li>
+    <div id="twitter_timeline">
+        <a class="twitter-timeline" data-chrome="noheader" href="https://twitter.com/ihommani" data-widget-id="452570615828856832">Tweets by ihommani</a>
+    </div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://nicolas.perriault.net/" target="_blank">
+                prendre un café
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://videlalvaro.github.io" target="_blank">
+                videlalvaro.github.com
+            </a>
+        </li>
+      </ul>
+    </li>
+
+        </ul>
+    </section>
+
+</aside>        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2014 ihommani
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+    <!-- GitHub JS -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (!window.jXHR) {
+                var jxhr = document.createElement('script');
+                jxhr.type = 'text/javascript';
+                jxhr.src = '/theme/js/jXHR.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(jxhr, s);
+            }
+
+            github.showRepos({
+                user: 'ihommani',
+                count: 5,
+                skip_forks: false,
+                target: '#gh_repos'
+            });
+        });
     </script>
-
+    <script src="/theme/js/github.js" type="text/javascript"></script>
+    <!-- End GitHub JS Code -->
 </body>
 </html>
