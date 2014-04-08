@@ -5,6 +5,7 @@ Tags: connaissance, existentialisme
 Slug: quora 
 lang: fr
 Author: ihommmani
+Status: draft
 Summary: Avoir des réponses à des questions existentielles.
 
 # Se poser des questions originales et y trouves des réponses
