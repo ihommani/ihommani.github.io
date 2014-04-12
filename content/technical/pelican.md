@@ -72,6 +72,12 @@ It's a young project with a wide community of users and commiters.
 
 ### The good: How does it fit to my needs
 
+* *Plugins*
+Pelican provides an easy way to add features through plugins. 
+There's github page 
+To add a plugin to your site, you just have to specify the name in the setting file through the SETTING variable.
+[Here](https://github.com/getpelican/pelican-plugins ,"pelican plugins") is a list of plugins you can try.
+
 * *Themes*  
 
 Pelican had a theming system somehow different from Jekyll's one. With Pelican it's more like a Plug'n play system.
@@ -79,6 +85,7 @@ Instead of manually specifying the layout on each post, you only precise once in
 Moreover, there are plenty of [them](http://pelicanthemes.com/ "themes") hosted by gitHub. Pelican gives you a tool to manage themes installation and uninstall with pelican-theme CLI.
 If you want to change your UI, you only have to change a metadata in the configfile and boom.
 To bypass the theme, there is a possibility generate custom pages besides your blog entries. You can point any Jinja2 template file with a path pointing to the file and the destination path for the generated file.
+Pelican also provide a usefull command *pelican-theme* to manage themes properly.
 
 *   *Internationalisation*  
 
