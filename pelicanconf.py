@@ -26,7 +26,7 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
 
 ########PLUGINS#########
 PLUGIN_PATH = "~/Github/pelican-plugins"
-PLUGINS = []
+PLUGINS = ["summary"]
 
 
 # Social widget
