@@ -24,6 +24,11 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('videlalvaro.github.com', 'http://videlalvaro.github.io'), 
           )
 
+########PLUGINS#########
+PLUGIN_PATH = "~/Github/pelican-plugins"
+PLUGINS = []
+
+
 # Social widget
 # Adding social links wich will appear in the footer
 SOCIAL = (('twitter', 'http://twitter.com/ihommani'),
