@@ -1,6 +1,6 @@
 Title: Quora 
 Date: 2014-03-30 20:37
-Category: outils
+Category: tools
 Tags: connaissance, knowledge
 Slug: quora 
 lang: fr
