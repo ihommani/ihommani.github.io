@@ -84,13 +84,23 @@ Pelican engine is built on top of Python and for this reason use the Jinja2 temp
 It's a young project with a wide community of users and commiters.&lt;/p&gt;
 &lt;h3&gt;The good: How does it fit to my needs&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Themes&lt;/em&gt;  &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Plugins&lt;/em&gt;
+Pelican provides an easy way to add features through plugins. 
+There's github page 
+To add a plugin to your site, you just have to specify the name in the setting file through the SETTING variable.
+&lt;a href="https://github.com/getpelican/pelican-plugins%20," title="pelican plugins"&gt;Here&lt;/a&gt; is a list of plugins you can try.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Themes&lt;/em&gt;  &lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Pelican had a theming system somehow different from Jekyll's one. With Pelican it's more like a Plug'n play system.
 Instead of manually specifying the layout on each post, you only precise once in the config file the Theme name. 
 Moreover, there are plenty of &lt;a href="http://pelicanthemes.com/" title="themes"&gt;them&lt;/a&gt; hosted by gitHub. Pelican gives you a tool to manage themes installation and uninstall with pelican-theme CLI.
 If you want to change your UI, you only have to change a metadata in the configfile and boom.
-To bypass the theme, there is a possibility generate custom pages besides your blog entries. You can point any Jinja2 template file with a path pointing to the file and the destination path for the generated file.&lt;/p&gt;
+To bypass the theme, there is a possibility generate custom pages besides your blog entries. You can point any Jinja2 template file with a path pointing to the file and the destination path for the generated file.
+Pelican also provide a usefull command &lt;em&gt;pelican-theme&lt;/em&gt; to manage themes properly.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Internationalisation&lt;/em&gt;  &lt;/li&gt;
 &lt;/ul&gt;

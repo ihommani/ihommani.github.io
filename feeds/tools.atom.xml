@@ -1,5 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="/" rel="alternate"></link><link href="/feeds/tools.atom.xml" rel="self"></link><id>/</id><updated>2014-01-12T12:06:00+01:00</updated><entry><title>Pearltrees</title><link href="/pearltree.html" rel="alternate"></link><updated>2014-01-12T12:06:00+01:00</updated><author><name>ihommmani</name></author><id>tag:,2014-01-12:pearltree.html</id><summary type="html">&lt;p&gt;&lt;img alt="Alt Text" src="/images/pearltrees-logo.jpg" /&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="/" rel="alternate"></link><link href="/feeds/tools.atom.xml" rel="self"></link><id>/</id><updated>2014-04-13T22:10:00+02:00</updated><entry><title>Ranger</title><link href="/ranger.html" rel="alternate"></link><updated>2014-04-13T22:10:00+02:00</updated><author><name>ihommmani</name></author><id>tag:,2014-04-13:ranger.html</id><summary type="html">&lt;p&gt;Ranger is a file manager where thing can get fast...blazingly fast. &lt;br /&gt;
+I trully think you should give it a try. At least to test another paradigm of file manager. &lt;br /&gt;
+So, &lt;strong&gt;is Ranger a true alternative to classic file managers &lt;/strong&gt;?&lt;br /&gt;
+As always, the right response would be "It depends.".
+Ranger has strong requirements. And the step could be too high for some people.&lt;/p&gt;
+&lt;h1&gt;Ranger ?&lt;/h1&gt;
+&lt;p&gt;Put in few words, Ranger is a &lt;strong&gt;file manager with curses interface&lt;/strong&gt;. 
+As a file manager, it allows you to do the basic CRUD operations on your file system but also operations such as setting rights on files, excute or previewing files...
+Unlike classic FM all is fast since you control it through your keyboard and shortcuts and not your mouse.
+Ranger step out of your way so you can focus on the important things.&lt;br /&gt;
+Another interisting fact is how far you can tweak it to closely match your needs.&lt;/p&gt;
+&lt;h1&gt;Interface&lt;/h1&gt;
+&lt;p&gt;Ranger relies on curses interface to display informations.&lt;br /&gt;
+This is the first step to address for someone used to GUI.&lt;br /&gt;
+No more shinny feature. All you have is a bunch of columns and lines.
+Yet the all thing is &lt;strong&gt;clear enough to navigate through&lt;/strong&gt;.   I will also add that it provides more informations than a classic FM since you not only see the content of the current directory but also the content of the directory you point. Avoiding you to enter a directory to check its content. &lt;br /&gt;
+The advantage of not relying on graphic server are numerous.   &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ranger is usable in the console &lt;br /&gt;
+Pretty cool for sysadmins&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You save a plenty of resources&lt;br /&gt;
+For instance on my 3Go RAM computer (pretty low in the time writting this article) the memory print wouldn't go over 0.5%. So it is for the CPU comsumption.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="interface" src="/images/ranger1.png" title="ranger's interface" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Navigation is by default made through the central column, although you can change the parent directory from this column&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;The tip are the tips of your fingers&lt;/h1&gt;
+&lt;p&gt;The second steps to address is to accept the fact &lt;strong&gt;you won't need a mouse&lt;/strong&gt;.
+Concerning the mouse I think there is some kind of addiction. We can't (or don't want to) see alternative, either when mouse is not the best mean. &lt;br /&gt;
+Don't get me wrong, mouse is useful for many usecases and without alternative in some case(Gaming, web browsing). &lt;br /&gt;
+But there is a better alternative in the case of file manager, and mouse is no match for the speed of the keyboard...in the case you 
+master the type touching i.e typing without watching your keyboard. &lt;br /&gt;
+That is the second part of the step. &lt;strong&gt;You have to invest yourself in mastering your keyboardi&lt;/strong&gt;. 
+And believe me in a month or two you'll thank me.&lt;/p&gt;
+&lt;h1&gt;Installation&lt;/h1&gt;
+&lt;p&gt;Ranger requires python 2.6 or higher. 
+Although you can install it with a tarball provided in the official &lt;a href="http://ranger.nongnu.org/download.html," title="ranger download"&gt;site&lt;/a&gt;, it is adviced to use the package manager of your distribution.
+In any case installation should be easy.&lt;/p&gt;
+&lt;h1&gt;Parametrisation&lt;/h1&gt;
+&lt;p&gt;One cool aspect about ranger is the way you can tweak it. &lt;br /&gt;
+Almost every aspect is configurable. Keybinding, colors, applications to open/preview files...
+Ranger relies on four files for the configuration:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;rifle.conf &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;commands.py&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;rc.conf&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;scope.sh&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;They have to be in the directory &lt;em&gt;~/.config/ranger&lt;/em&gt; .&lt;br /&gt;
+To easily bootstrap these files we can take advantage of the &lt;em&gt;copy-config&lt;/em&gt; option: &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;ranger&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;copy&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;option&lt;/span&gt; &lt;span class="n"&gt;all&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This has for effect to bootstrap your configuration directory with default configuration files.&lt;/p&gt;
+&lt;h2&gt;Rifle.conf&lt;/h2&gt;
+&lt;p&gt;Ranger uses a program named rifle to open/execute files.&lt;br /&gt;
+To configure rifle you've got to modify &lt;strong&gt;rifle.conf&lt;/strong&gt; .&lt;br /&gt;
+This file describes to rifle what application to use when you want to open or execute a file. 
+It describes with a specific syntax how to reconize file (by name, by extension, by regex...) and how to handle it.   &lt;/p&gt;
+&lt;h2&gt;Commands&lt;/h2&gt;
+&lt;p&gt;Ranger commands are defined through the file &lt;strong&gt;commands.py&lt;/strong&gt;.&lt;br /&gt;
+This python file contains classes, each one representing a command. &lt;br /&gt;
+To interface with ranger the class has to define at least some specific methods.&lt;br /&gt;
+All is well explained in the comment header of the file.&lt;/p&gt;
+&lt;p&gt;Not only you can modify some behavior, you also can create new commands.
+Here's a simple hello_world command:&lt;br /&gt;
+I want the hello_world [args] command to display "Hello World [args]" on the screen.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;class&lt;/span&gt; &lt;span class="n"&gt;hello_world&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Command&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+    &lt;span class="s"&gt;&amp;quot;&amp;quot;&amp;quot;:hello_world [args]&lt;/span&gt;
+
+    &lt;span class="n"&gt;Display&lt;/span&gt; &lt;span class="n"&gt;hello&lt;/span&gt; &lt;span class="n"&gt;world&lt;/span&gt; &lt;span class="n"&gt;on&lt;/span&gt; &lt;span class="n"&gt;console&lt;/span&gt;
+    &lt;span class="s"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;execute&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;fm&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;notify&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello world %s&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="nl"&gt;else:&lt;/span&gt;
+            &lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;fm&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;notify&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Here's the explanation.&lt;br /&gt;
+Each class must extends the Command class.&lt;br /&gt;
+Then it has to interface to ranger by defining the &lt;em&gt;execute&lt;/em&gt; metod. &lt;br /&gt;
+Inside this method we use the &lt;em&gt;fm&lt;/em&gt; object which contains most information about ranger.&lt;br /&gt;
+Now we can use our new command inside ranger by typing &lt;em&gt;:hello_world foo&lt;/em&gt;   &lt;/p&gt;
+&lt;p&gt;It also exists others methods. I let you &lt;strong&gt;read the fantastic header&lt;/strong&gt; to understand the purpose of each one.&lt;/p&gt;
+&lt;h2&gt;rc.conf&lt;/h2&gt;
+&lt;p&gt;The purpose of this file is to define the ranger's startup settings.&lt;br /&gt;
+It is where you'll find most of the ranger's setting. &lt;br /&gt;
+To know about the setting you can modify, the manuel is a good starting point. 
+It is where you also specify keybinding. By default, &lt;strong&gt;ranger comes with a vim keybinding&lt;/strong&gt;, but it's up to you if you want to keep it or change it.&lt;/p&gt;
+&lt;p&gt;This file is also a treasure of information and you should read it at least once, to discover all the setting and shortcut you've got. &lt;br /&gt;
+Ranger is powerfull only if we know how to take advantage of it.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;E.g, not only you got keybinding to navigate, you also have keybinding to sort files and directories, launch unix commands such as &lt;strong&gt;df&lt;/strong&gt;, filter files...&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: &lt;em&gt;To not forget it you can easily switch from Ranger to your terminal with &lt;strong&gt;S&lt;/strong&gt;, and go back to Ranger by exiting the same terminal.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;scope.sh&lt;/h2&gt;
+&lt;p&gt;Like rifle but used to preview files.&lt;br /&gt;
+Very useful, instead of opening files you check through the preview if it is the file you are looking for. Also works for pdf and images.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="interface" src="/images/ranger2.png" title="ranger's preview 1" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Example of a text file preview&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="interface" src="/images/ranger3.png" title="ranger's preview 2" /&gt;
+&lt;em&gt;Example of an image preview. Note that this ascii preview rely on my geek taste, but you can perfectly preview a 'normal' aspect. Just read the scope.sh header&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Theming&lt;/h2&gt;
+&lt;p&gt;You can of course change the style of ranger by creating an existing theme or creating a new one.&lt;br /&gt;
+The good thing is that creating a new one is easy thanks to inheritance.
+You just have to create a &lt;em&gt;your_theme.py&lt;/em&gt; in the colorsheme directory and define inside a class &lt;em&gt;Scheme&lt;/em&gt; inheriting from Default class.   &lt;/p&gt;
+&lt;p&gt;It can be as small as this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;class&lt;/span&gt; &lt;span class="n"&gt;Scheme&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Default&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;progress_bar_color&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;green&lt;/span&gt;
+    &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;use&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;bg&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;attr&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Default&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;use&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;directory&lt;/span&gt; &lt;span class="n"&gt;and&lt;/span&gt; &lt;span class="n"&gt;not&lt;/span&gt; &lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;marked&lt;/span&gt; &lt;span class="n"&gt;and&lt;/span&gt; &lt;span class="n"&gt;not&lt;/span&gt; &lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;link&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;fg&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;green&lt;/span&gt;
+
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;in_titlebar&lt;/span&gt; &lt;span class="n"&gt;and&lt;/span&gt; &lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;hostname&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;fg&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;red&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;context&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bad&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;blue&lt;/span&gt;
+
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;fg&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;bg&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;attr&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You then specify the theme you want in the rc.conf file by putting the following line in your rc.conf  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;set&lt;/span&gt; &lt;span class="n"&gt;colorscheme&lt;/span&gt; &lt;span class="n"&gt;your_theme&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Plugins&lt;/h1&gt;
+&lt;p&gt;To add features to Ranger without modifying the core of it, ranger support plugins. I don't include them in the scope of this article. However it is well documented and nice example are to be found under &lt;strong&gt;/usr/share/doc/ranger&lt;/strong&gt; directory.&lt;/p&gt;
+&lt;h1&gt;The downsides&lt;/h1&gt;
+&lt;p&gt;While i'm praising keyboard over the mouse, I have to confess that the drag and drop is a feature we do not have with ranger. &lt;br /&gt;
+It's the major ranger's drawback of i can see.&lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;I have used ranger for years.&lt;br /&gt;
+Ranger is different from other file manager. It gives a different experience while managing your files.&lt;br /&gt;
+Not only it is light and fast, it also stick to your needs to an extent no other file managers can match.&lt;br /&gt;
+Last but not least, a word from our beloved comrade.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Texas" src="/images/texas_ranger.jpg" title="Texas ranger" /&gt;&lt;/p&gt;</summary><category term="file manager"></category></entry><entry><title>Pearltrees</title><link href="/pearltree.html" rel="alternate"></link><updated>2014-01-12T12:06:00+01:00</updated><author><name>ihommmani</name></author><id>tag:,2014-01-12:pearltree.html</id><summary type="html">&lt;p&gt;&lt;img alt="Alt Text" src="/images/pearltrees-logo.jpg" /&gt;&lt;/p&gt;
 &lt;h2&gt;Ces favoris qu'on oublie...&lt;/h2&gt;
 &lt;p&gt;Lorsque nous surfons sur le web, il est très commun de repérer des sites qui ont un attrait particulier et sur lesquels nous souhaitons revenir plus tard.
 De nos jours la plupart des navigateurs web proposent une fonction d'ajout de favoris, permettant de garder en mémoire des URL et de les classer. 
