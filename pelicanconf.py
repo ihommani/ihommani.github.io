@@ -11,7 +11,7 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 
 # Use pelican-themes -l to list available themes
-THEME = "ihommani_pelican_bootstrap3"
+THEME = "pelican-bootstrap3"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -52,3 +52,4 @@ DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 
 #To show gitHub ribbon
 GITHUB_URL = 'https://github.com/ihommani'
+
