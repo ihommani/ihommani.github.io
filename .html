@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <title>Ranger - Thinking about...</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="Thinking about..." />
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="Ranger"/>
+            <meta property="og:url" content="/.html"/>
+            <meta property="og:description" content="Why ranger is worth to try, and it offers a good alternative to classic file managers ?"/>
+            <meta property="article:published_time" content="2014-04-13" />
+                <meta property="article:section" content="tools" />
+                <meta property="article:tag" content="file manager" />
+                <meta property="article:author" content="ihommmani" />
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+Thinking about...            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="/pages/about.html">
+                             about
+                          </a></li>
+                        <li >
+                            <a href="/category/outils.html">Outils</a>
+                        </li>
+                        <li >
+                            <a href="/category/technical.html">Technical</a>
+                        </li>
+                        <li class="active">
+                            <a href="/category/tools.html">Tools</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/.html"
+                       rel="bookmark"
+                       title="Permalink to Ranger">
+                        Ranger
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2014-04-13T22:10:00"> Sun 13 April 2014</time>
+    </span>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="/tag/file-manager.html">file manager</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>I have used ranger for two years.
+Ranger is a file manager where thing can get fast...blazingly fast.
+I trully think you should give a chance to ranger. At least to test another paradigm of file manager.
+So, is Ranger a true alternative to classic file managers ?
+As always, the right response would be "It depends.".
+Ranger has strong requirements. And the step could be too high for some people.</p>
+<h1>Ranger ?</h1>
+<p>Put in few words, Ranger is a file manager with an ncurse interface. 
+As a file manager, it allows to do the basic CRUD operations on your file system but also operations such as setting rights on files, excute or previewing files...
+But unlike classic FM all is fast since you control it through your keyboard and not your mouse and a bunch of shortcut commands.
+Ranger step out of your way so you can focus on the important things.
+Another interisting fact is how far you can tweak it to closely match your needs.</p>
+<h1>Interface</h1>
+<p>Ranger relies on an ncurse interface to display informations.
+And that is the first step to address for someone used to GUI.
+No more Mr.Shinny features. All you have is a bunch of columns and lines.
+Yet the all thing is clear enough to navigate through. I will also add that it provides more informations than a classic FM since you not only see the content of the current directory but also the content of the directory you point. Avoiding you to enter a directory to check its content.
+The advantage of not relying on graphic server are numerous.
+First, you don't need to start a graphic server, i.e ranger is usable in the console.
+Second, you save a plenty of resources. For instance on my 3Go RAM computer (pretty low in the time writting this article) the memory print wouldn't go over 0.5%. So it is for the CPU comsumption.</p>
+<h1>All the power in the tips of your fingers</h1>
+<p>The second steps to address is to accept the fact you won't need a mouse.
+Concerning the mouse I think there is some kind of addiction. We can't (or don't want to) see alternative, either when mouse is not the best mean.
+Don't get me wrong, mouse is useful for many usecases and without alternative in some case(Gaming, drawing).
+But there is a better alternative in the case of file manager, and mouse is no match for the speed of the keyboard...in the case you 
+master the type touching i.e typing without watching your keyboard.
+That is the second part of the step. You have to invest yourself in mastering your keyboard. 
+And believe me in a month or two you'll thank me.</p>
+<h1>Installation</h1>
+<p>Ranger requires python 2.6 or higher. 
+Although you can install it with a tarball provided in the official site, it is adviced to use the package manager of your distribution.
+In any case installation should be easy.</p>
+<h1>Parametrisation</h1>
+<p>One cool aspect about ranger is the way you can tweak it. 
+Almost every aspect is configurable. Keybinding, colors, applications to open/preview files...
+Ranger relies on three files for the configuration:
+<em> rifle.conf 
+</em> commands.py
+<em> rc.conf
+</em> scope.sh</p>
+<p>They have to be in the directory ~/.config/ranger .
+To easily bootstrap these files we can take advantage of the <em>copy-config</em> option: </p>
+<div class="highlight"><pre><span class="err">$</span> <span class="n">ranger</span> <span class="o">--</span><span class="n">copy</span><span class="o">-</span><span class="n">option</span> <span class="n">all</span>
+</pre></div>
+
+
+<p>This has for effect to create already populated files.</p>
+<h2>Rifle.conf</h2>
+<p>Ranger use a programm named rifle to open/execute files.
+To configure rifle you've got to modify rifle.conf 
+It describes with a specific syntax how to reconize file (by name, by extension, by regex...) and how to handle it.
+This file describes to rifle what application to use when you want to open or execute a file. </p>
+<h2>Commands</h2>
+<p>Ranger commands are defined through the file commands.py.
+This python file contains classes, each one representing a command. 
+To interface with ranger the class has to define at least some specific methods. 
+All is well explained in the comment header of the file.</p>
+<p>Not only you can modify some behavior, you also can create new commands.
+Here's a simple hello_world command:
+I want the hello_world [args] command to display "Hello World [args]" on the screen.</p>
+<div class="highlight"><pre><span class="n">class</span> <span class="n">hello_world</span><span class="p">(</span><span class="n">Command</span><span class="p">)</span><span class="o">:</span>
+    <span class="s">&quot;&quot;&quot;:hello_world [args]</span>
+
+    <span class="n">Display</span> <span class="n">hello</span> <span class="n">world</span> <span class="n">on</span> <span class="n">console</span>
+    <span class="s">&quot;&quot;&quot;</span>
+    <span class="n">def</span> <span class="n">execute</span><span class="p">(</span><span class="n">self</span><span class="p">)</span><span class="o">:</span>
+        <span class="k">if</span> <span class="n">self</span><span class="p">.</span><span class="n">args</span><span class="o">:</span>
+            <span class="n">self</span><span class="p">.</span><span class="n">fm</span><span class="p">.</span><span class="n">notify</span><span class="p">(</span><span class="s">&quot;Hello world %s&quot;</span> <span class="o">%</span> <span class="n">self</span><span class="p">.</span><span class="n">args</span><span class="p">)</span>
+        <span class="nl">else:</span>
+            <span class="n">self</span><span class="p">.</span><span class="n">fm</span><span class="p">.</span><span class="n">notify</span><span class="p">(</span><span class="s">&quot;Hello world!&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Here's the explanation.
+Each class must extends the Command class.
+Then it has to interface to ranger by defining the <em>execute</em> metod. 
+Inside this method we use the <em>fm</em> object which contains most information about ranger.
+It also exists others methods. I let you <strong>read the fantastic header</strong> to understand the purpose of each one.</p>
+<h2>rc.conf</h2>
+<p>The purpose of this file is to define the ranger's startup settings.
+It is where you'll where you'll find most of the ranger's setting. 
+To know the setting you can modify, the manuel is a good starting point. 
+It is where you also specify keybinding. By default, ranger comes with a vim keybinding, but it's up to you if you want to keep it or change it.</p>
+<p>This file is also a treasure of information and you should read it at least once, to discover all the setting and shortcut you've got. 
+Ranger is powerfull only if we know how to take advantage of it.</p>
+<h2>scope.sh</h2>
+<p>Like rifle but used to preview files.
+Very useful, instead of opening files you check through the preview if it is the file you are looking for. Also works for pdf and images.</p>
+<h2>Theming</h2>
+<p>You can of course change the style of ranger by creating an existing theme or creating a new one.
+The good thing is that creating a new one is easy thanks to inheritance.
+You just have to create a <em>your_theme.py</em> in the colorsheme directory and define inside a class Scheme inheriting from Default class. </p>
+<p>It can be as small as this:</p>
+<div class="highlight"><pre><span class="n">class</span> <span class="n">Scheme</span><span class="p">(</span><span class="n">Default</span><span class="p">)</span><span class="o">:</span>
+    <span class="n">progress_bar_color</span> <span class="o">=</span> <span class="n">green</span>
+    <span class="n">def</span> <span class="n">use</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span><span class="o">:</span>
+        <span class="n">fg</span><span class="p">,</span> <span class="n">bg</span><span class="p">,</span> <span class="n">attr</span> <span class="o">=</span> <span class="n">Default</span><span class="p">.</span><span class="n">use</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">context</span><span class="p">.</span><span class="n">directory</span> <span class="n">and</span> <span class="n">not</span> <span class="n">context</span><span class="p">.</span><span class="n">marked</span> <span class="n">and</span> <span class="n">not</span> <span class="n">context</span><span class="p">.</span><span class="n">link</span><span class="o">:</span>
+            <span class="n">fg</span> <span class="o">=</span> <span class="n">green</span>
+
+        <span class="k">if</span> <span class="n">context</span><span class="p">.</span><span class="n">in_titlebar</span> <span class="n">and</span> <span class="n">context</span><span class="p">.</span><span class="n">hostname</span><span class="o">:</span>
+            <span class="n">fg</span> <span class="o">=</span> <span class="n">red</span> <span class="k">if</span> <span class="n">context</span><span class="p">.</span><span class="n">bad</span> <span class="k">else</span> <span class="n">blue</span>
+
+        <span class="k">return</span> <span class="n">fg</span><span class="p">,</span> <span class="n">bg</span><span class="p">,</span> <span class="n">attr</span>
+</pre></div>
+
+
+<p>You then specify the theme you want in the rc.conf file by putting the following line in your rc.conf
+set colorscheme your_theme</p>
+<h1>Plugins</h1>
+<p>To add features to Ranger without modifying the core of it, ranger support plugins. I don't include them in the scope of this article. However it is well documented.  cf /usr/share/doc/ranger</p>
+<h1>The downsides</h1>
+<p>While i'm praising keyboard over the mouse, I have to confess that the drag and drop is a feature we do not have with ranger. 
+It's the major drawback of ranger i see.</p>
+<h1>Conclusion</h1>
+<p>Ranger is different from other file manager. </p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3 well well-sm" id="sidebar">
+
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+                  <ul class="list-group" id="social">
+                    <li class="list-group-item"><a href="http://twitter.com/ihommani"><i
+                            class="fa fa-twitter-square fa-lg"></i> twitter
+                    </a></li>
+                    <li class="list-group-item"><a href="http://github.com/ihommani"><i
+                            class="fa fa-github-square fa-lg"></i> github
+                    </a></li>
+                    <li class="list-group-item"><a href="http://www.flickr.com/photos/chaiyachaiya/"><i
+                            class="fa fa-flickr-square fa-lg"></i> flickr
+                    </a></li>
+                  </ul>
+                </li>
+
+                <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                    <ul class="list-group" id="recentposts">
+                        <li class="list-group-item">
+                            <a href="/.html">
+                                Ranger
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="/quora-fr.html">
+                                Quora
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="/2fa.html">
+                                Two-Factor Authentication
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="/pearltree.html">
+                                Pearltrees
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="/pelican.html">
+                                Pelican
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="list-group-item"><a href="/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                    <ul class="list-group " id="tags">
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/security.html">
+                                Security
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/file-manager.html">
+                                file manager
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/outils.html">
+                                outils
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/generator.html">
+                                generator
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/connaissance.html">
+                                connaissance
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/knowledge.html">
+                                knowledge
+                            </a>
+                        </li>
+                    </ul>
+                </li>    
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://nicolas.perriault.net/" target="_blank">
+                prendre un café
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://videlalvaro.github.io" target="_blank">
+                videlalvaro.github.com
+            </a>
+        </li>
+      </ul>
+    </li>
+
+        </ul>
+    </section>
+
+</aside>        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2014 ihommani
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+</body>
+</html>
