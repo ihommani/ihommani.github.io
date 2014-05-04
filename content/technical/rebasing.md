@@ -70,5 +70,3 @@ Also this is fine, interactive rebase is a better option to erase commits.
 
 # Conclusion
 We have seen that git branches are all but motion less. You can define bases very easily.
-
-
