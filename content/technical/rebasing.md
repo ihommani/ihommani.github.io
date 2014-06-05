@@ -17,10 +17,19 @@ In this small article, I want to share my vision of a simple option of the rebas
 
 ## Git and branching
 From my point of view, git branching system is really THE killer feature of git. 
-To make things simple, we can consider a branch as pointer to a git commit. It's nothing more. 
+To make things simple, we can consider a branch as pointer to a git commit. It's nothing more.  
 Simple insn't it ?
-Branches are hence lightweight objects we can create, merge and rebase at will. 
-It's the action of rebasing which interest me, and in particular in association with the onto option.
+Branches are hence lightweight objects we can create at will. 
+The reason to make a branch is to isolate developments from one another. So if something takes more than 5 minutes to developp, you highly should condider
+to create a branch.
+When you're done you generally want to merge or rebase the branch you've created on the principal branch (the one used to release your application)
+So depending on which branch you are, you may have different features.
+Now suppose we have the following configuration:  
+
+
+We have the main branch used to release the application.
+Test branch wich is the one used to test new added features.
+To add new feature
 
 With git when you create branch you can precise a base to that branch. By default it's the current branch but it can be whatever branch. 
 Just type the following command:
@@ -34,7 +43,6 @@ or more pragmatically,
 git checkout -b [foo_branch] [base_branch]
 ```
 
-If you do not precise the base branch, git considers the current branch as the default base branch.
 
 I wasn't aware of the fact that the original base branch can be changed at will. 
 It's here where the onto option appears. 
