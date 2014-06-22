@@ -15,7 +15,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content=""/>
             <meta property="og:url" content="/.html"/>
-            <meta property="og:description" content=""/>
+            <meta property="og:description" content="How to render git branching alive"/>
             <meta property="article:published_time" content="2014-05-01" />
             <meta property="article:section" content="" />
             <meta property="article:tag" content="" />
@@ -52,6 +52,9 @@ Thinking about...            </a>
                           </a></li>
                         <li >
                             <a href="/category/technical.html">Technical</a>
+                        </li>
+                        <li >
+                            <a href="/category/thoughts.html">Thoughts</a>
                         </li>
                         <li >
                             <a href="/category/tools.html">Tools</a>
@@ -96,7 +99,54 @@ Thinking about...            </a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                
+                <h1>Rebasing onto</h1>
+<p>I used git for the first time two years ago. 
+At that time I only knew some of the basic commands such as status, add, commit and push/pull.
+For a time it was good. But since I have read pro git I realize that I greatly underused this powerfull tool. 
+In this small article, I want to share my vision of a simple option of the rebase command, the onto option.</p>
+<h2>Git and branching</h2>
+<p>From my point of view, git branching system is really THE killer feature of git. 
+To make things simple, we can consider a branch as pointer to a git commit. It's nothing more. 
+Simple insn't it ?
+Branches are hence lightweight objects we can create, merge and rebase at will. 
+It's the action of rebasing which interest me, and in particular in association with the onto option.</p>
+<p>With git when you create branch you can precise a base to that branch. By default it's the current branch but it can be whatever branch. 
+Just type the following command:</p>
+<div class="highlight"><pre><span class="n">git</span> <span class="n">branch</span> <span class="p">[</span><span class="n">foo_branch</span><span class="p">]</span> <span class="p">[</span><span class="n">base_branch</span><span class="p">]</span>
+</pre></div>
+
+
+<p>or more pragmatically, </p>
+<div class="highlight"><pre><span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="p">[</span><span class="n">foo_branch</span><span class="p">]</span> <span class="p">[</span><span class="n">base_branch</span><span class="p">]</span>
+</pre></div>
+
+
+<p>If you do not precise the base branch, git considers the current branch as the default base branch.</p>
+<p>I wasn't aware of the fact that the original base branch can be changed at will. 
+It's here where the onto option appears. </p>
+<p>Like a gardener you can decide to cut your branch and graft it onto another branch, ie give it a new base.</p>
+<p>Now why would I do that ?</p>
+<h2>How it works</h2>
+<p>Simply put: 
+'''
+git rebase --onto [new_base] [former_branch_base] [branch_head]
+'''
+Now former_branch_base will now point to the new_base, and we will have the following scheme:</p>
+<p>Remember we said branches are nothing more than pointers to commits ?
+Knowing that, you can also replace branch name by commit which comes handy when we use the following trick to erase some commits.
+Indeed nothing prevent us from considering new_base, former_branch_base and branch_name as parts of the same branch.
+That way we can shorten it, ie erase commits.
+Consider the following branch:</p>
+<p>If we run the following command:</p>
+<div class="highlight"><pre>
+</pre></div>
+
+
+<p>We'll now have:</p>
+<p>Notice that the commits disapeared. 
+Also this is fine, interactive rebase is a better option to erase commits. </p>
+<h1>Conclusion</h1>
+<p>We have seen that git branches are all but motion less. You can define bases very easily.</p>
             </div>
             <!-- /.entry-content -->
     <hr />
@@ -152,6 +202,11 @@ Thinking about...            </a>
                 <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                     <ul class="list-group" id="recentposts">
                         <li class="list-group-item">
+                            <a href="/pourquoi-le-livre-electronique-compte.html">
+                                Pourquoi le livre electronique compte
+                            </a>
+                        </li>
+                        <li class="list-group-item">
                             <a href="/ranger.html">
                                 Ranger
                             </a>
@@ -171,11 +226,6 @@ Thinking about...            </a>
                                 Pearltrees
                             </a>
                         </li>
-                        <li class="list-group-item">
-                            <a href="/pelican.html">
-                                Pelican
-                            </a>
-                        </li>
                     </ul>
                 </li>
 
@@ -183,13 +233,23 @@ Thinking about...            </a>
                 <li class="list-group-item"><a href="/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                     <ul class="list-group " id="tags">
                         <li class="list-group-item tag-4">
-                            <a href="/tag/knowledge.html">
-                                knowledge
+                            <a href="/tag/connaissance.html">
+                                connaissance
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="/tag/generator.html">
-                                generator
+                            <a href="/tag/outils.html">
+                                outils
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/ebooks.html">
+                                ebooks
+                            </a>
+                        </li>
+                        <li class="list-group-item tag-4">
+                            <a href="/tag/knowledge.html">
+                                knowledge
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
@@ -198,18 +258,13 @@ Thinking about...            </a>
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="/tag/connaissance.html">
-                                connaissance
-                            </a>
-                        </li>
-                        <li class="list-group-item tag-4">
                             <a href="/tag/security.html">
                                 Security
                             </a>
                         </li>
                         <li class="list-group-item tag-4">
-                            <a href="/tag/outils.html">
-                                outils
+                            <a href="/tag/generator.html">
+                                generator
                             </a>
                         </li>
                     </ul>
