@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Thinking about... Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+
+<meta name="author" content="ihommmani" />
+<meta name="description" content="How to render git branching alive" />
+<meta name="keywords" content="">
+<meta property="og:site_name" content="Thinking about..."/>
+<meta property="og:title" content=""/>
+<meta property="og:description" content="How to render git branching alive"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/drafts/.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2014-05-01 11:41:00+02:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="/author/ihommmani.html">
+<meta property="article:section" content="technical"/>
+<meta property="og:image" content="">
+
+  <title>Thinking about... &ndash; </title>
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="" title="">
+      </a>
+      <h1><a href=""></a></h1>
+
+
+      <nav>
+        <ul class="list">
+          <li><a href="/pages/about.html#about">about</a></li>
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="https://nicolas.perriault.net/" target="_blank">prendre un café</a></li>
+          <li><a href="http://videlalvaro.github.io" target="_blank">videlalvaro.github.com</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-twitter" href="http://twitter.com/ihommani" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="sc-github" href="http://github.com/ihommani" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-flickr" href="http://www.flickr.com/photos/chaiyachaiya/" target="_blank"><i class="fa fa-flickr"></i></a></li>
+      </ul>
+    </div>
+  </aside>
+  <main>
+
+<article>
+  <header>
+    <h1 id=""></h1>
+    <p>
+          Posted on jeu. 01 mai 2014 in <a href="/category/technical.html">technical</a>
+
+
+    </p>
+  </header>
+  <div>
+    <h1>Rebasing onto</h1>
+<p>I used git for the first time two years ago. 
+At that time I only knew some of the basic commands such as status, add, commit and push/pull.
+For a time it was good. But since I have read pro git I realize that I greatly underused this powerfull tool. 
+In this small article, I want to share my vision of a simple option of the rebase command, the onto option.</p>
+<h2>Git and branching</h2>
+<p>From my point of view, git branching system is really THE killer feature of git. 
+To make things simple, we can consider a branch as pointer to a git commit. It's nothing more. 
+Simple insn't it ?
+Branches are hence lightweight objects we can create, merge and rebase at will. 
+It's the action of rebasing which interest me, and in particular in association with the onto option.</p>
+<p>With git when you create branch you can precise a base to that branch. By default it's the current branch but it can be whatever branch. 
+Just type the following command:</p>
+<div class="highlight"><pre><span></span>git branch [foo_branch] [base_branch]
+</pre></div>
+
+
+<p>or more pragmatically, </p>
+<div class="highlight"><pre><span></span>git checkout -b [foo_branch] [base_branch]
+</pre></div>
+
+
+<p>If you do not precise the base branch, git considers the current branch as the default base branch.</p>
+<p>I wasn't aware of the fact that the original base branch can be changed at will. 
+It's here where the onto option appears. </p>
+<p>Like a gardener you can decide to cut your branch and graft it onto another branch, ie give it a new base.</p>
+<p>Now why would I do that ?</p>
+<h2>How it works</h2>
+<p>Simply put: 
+'''
+git rebase --onto [new_base] [former_branch_base] [branch_head]
+'''
+Now former_branch_base will now point to the new_base, and we will have the following scheme:</p>
+<p>Remember we said branches are nothing more than pointers to commits ?
+Knowing that, you can also replace branch name by commit which comes handy when we use the following trick to erase some commits.
+Indeed nothing prevent us from considering new_base, former_branch_base and branch_name as parts of the same branch.
+That way we can shorten it, ie erase commits.
+Consider the following branch:</p>
+<p>If we run the following command:</p>
+<div class="highlight"><pre><span></span>
+</pre></div>
+
+
+<p>We'll now have:</p>
+<p>Notice that the commits disapeared. 
+Also this is fine, interactive rebase is a better option to erase commits. </p>
+<h1>Conclusion</h1>
+<p>We have seen that git branches are all but motion less. You can define bases very easily.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'ihommani';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
+</article>
+
+    <footer>
+<p>&copy; ihommani </p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Thinking about... ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+</body>
+</html>

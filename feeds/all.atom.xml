@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-08-23T18:58:00+02:00</updated><entry><title>Being a developer</title><link href="/career.html" rel="alternate"></link><published>2014-08-23T18:58:00+02:00</published><author><name>ihommmani</name></author><id>tag:,2014-08-23:career.html</id><summary type="html">&lt;h1&gt;Being a software developer&lt;/h1&gt;
+&lt;h2&gt;A passion made of interactions&lt;/h2&gt;
+&lt;p&gt;In each serious reviews there is always the same classical question.&lt;br /&gt;
+&lt;em&gt;What do you like about programming ?&lt;/em&gt;&lt;br /&gt;
+To be totally honest it wasn't something I have dreamed about being a kid. Nor a teenager for that matters.&lt;br /&gt;
+Yet I have always been tied up with computers since my childhood. Doing things and others like hacking public computers to get access to the internet.&lt;br /&gt;
+But seing people working in front of their screen all day long wasn't apealing to me.&lt;br /&gt;
+Then I discovered a totally different world. Far from what one can expect.&lt;br /&gt;
+Unlike the common cliche people think, a true programmer does not spend his entire day motionless and/or silent.
+The day is full of interactions. &lt;br /&gt;
+In fact, as a programmer, &lt;strong&gt;the more you interact the better&lt;/strong&gt;.&lt;br /&gt;
+Interaction doesn't necessarily means speaking with people. Reading, writing (via social medias, forums, blog articles and others) are also part of the interaction process.&lt;br /&gt;
+It is a great source of inspiration and lets you &lt;strong&gt;change your mind, renew your knowledge and share your point of view&lt;/strong&gt;.&lt;br /&gt;
+All in all, it allows you to &lt;strong&gt;change and adapt&lt;/strong&gt;, something important in such line of work.&lt;br /&gt;
+Besides, you also have the satisfaction to see things you build working and having a positive impact on others.   &lt;/p&gt;
+&lt;h2&gt;A mutating profession&lt;/h2&gt;
+&lt;p&gt;Unfortunately for many years programmers were being seen as resources. Someone you give specifications and then ables to translate the needs into lines of code.&lt;br /&gt;
+&lt;strong&gt;Denying in the process his/her ability to think and create&lt;/strong&gt;.&lt;br /&gt;
+Lately big tech companies and movement like &lt;a href="http://en.wikipedia.org/wiki/Software_craftsmanship," title="craftmanship"&gt;software craftmanship&lt;/a&gt; emerged. It's an important step in the recognition of developer's carreer as a prestigious one. &lt;br /&gt;
+&lt;strong&gt;Programmer is not a tool or a resource anymore, but someone you have to rely on&lt;/strong&gt;.&lt;br /&gt;
+Someone able to renew the way you think your business. Someone with the abilities to make business happen. Someone who has talent for inovation.&lt;br /&gt;
+Reality reminds these simple facts every days:&lt;br /&gt;
+- Behind the success of such companies like Google, Facebook and others there are developers&lt;br /&gt;
+- Behind all these devices which make your life simpler, there are developers&lt;br /&gt;
+- Behind the video games you play, there are developers  &lt;/p&gt;
+&lt;p&gt;Programmers who thought and built a product which has an impact on how you aprehend your world.  &lt;/p&gt;
+&lt;h2&gt;Social aspect&lt;/h2&gt;
+&lt;p&gt;One aspect I missed as a student was the richness of this world.&lt;br /&gt;
+While studying, I enjoyed reading books and doing homework but this was only the tip of the iceberg.&lt;br /&gt;
+I didn't take advantage of the networking aspect.&lt;br /&gt;
+For instance I only discovered the concepts of &lt;a href="http://en.wikipedia.org/wiki/Hackathon," title="hackathon"&gt;hackathon&lt;/a&gt; and meetup not so long ago.&lt;br /&gt;
+I regret not being aware of these events earlier.&lt;br /&gt;
+Fortunaltely, throughout my young carrer I met people who showed me how socializing the programming world can be.&lt;br /&gt;
+Now aware of it I changed my approach of being a developer.&lt;br /&gt;
+Today I'm proactive. I read more blogs, I have my own blog, I participate to open source projects, I try to help fellow programmers, I ask help to fellow programmers, I try new things and share things. &lt;br /&gt;
+&lt;strong&gt;Try , share and propose&lt;/strong&gt; are the new watchwords, and that is for the best.
+Among people who inspired me, two have a special place. &lt;br /&gt;
+They proved me that, &lt;strong&gt;as a developer, you can not only be an internal asset but also an ambassador for a company&lt;/strong&gt;.&lt;br /&gt;
+That is to say, you can be a &lt;strong&gt;dev evangelist&lt;/strong&gt;.  &lt;/p&gt;
+&lt;h2&gt;Dev evangelist&lt;/h2&gt;
+&lt;h3&gt;Who is he ?&lt;/h3&gt;
+&lt;p&gt;In November 2013 I met &lt;a href="http://timgrid.com/" title="Tim's blog"&gt;Tim Fall&lt;/a&gt; and &lt;a href="http://nicholasquinlan.com/" title="Nick's blog"&gt;Nick Quilan&lt;/a&gt; two dev evangelists from SendGrid.&lt;br /&gt;
+&lt;strong&gt;So what is a dev evangelist ?&lt;/strong&gt; &lt;br /&gt;
+You can raise your eyebrows when reading the word "evangelist". Why such a religious word is associated to the term of developer ?
+Obviously it's a metaphor.&lt;br /&gt;
+Evangelism is the act of relying information about a particular set of beliefs to others with intention of conversion.&lt;br /&gt;
+Where I come from, "evangelist" has a strong conotation. Something you will not/should not associate with a term like developer.&lt;br /&gt;
+So to speak to everyone, let's consider titles such as &lt;strong&gt;technical advocate&lt;/strong&gt; or &lt;strong&gt;technical ambasador&lt;/strong&gt;.&lt;br /&gt;
+As a developer he/she contributes to software products but stresses on the social and community aspect.&lt;br /&gt;
+Not only he/she codes, he/she is also the ambassador of an entire company.&lt;br /&gt;
+- He presents products and features he directly contributed to (such as SDKs, APIs, articles...).&lt;br /&gt;
+- He writes articles and tutorials to help the community he is devoted to.&lt;br /&gt;
+- He helps to design products and develops businesses. &lt;br /&gt;
+More importantly, &lt;strong&gt;he is here to help&lt;/strong&gt;, and this aspect appeals to me a lot.&lt;br /&gt;
+In the rest of the article we will refer to dev evangelist as DE.&lt;/p&gt;
+&lt;h2&gt;Why do they matter ?&lt;/h2&gt;
+&lt;h3&gt;Being well rounded in both communication and technical skills&lt;/h3&gt;
+&lt;p&gt;In France, we do not have this culture of DE (I don't know any french group using this concept, if you do let me know). &lt;br /&gt;
+We usually let commercials do the presentation part, and programmers the technical part.&lt;br /&gt;
+&lt;strong&gt;Things are separated&lt;/strong&gt;.  This matter of fact is not exclusive to the software world.&lt;br /&gt;
+But this strategy has a major flaw. Commercials, no matter how good they are, usually &lt;strong&gt;do not have the technical knowledge&lt;/strong&gt; not only to sell a product but also to explain it from a technical view and even to contribute to it. &lt;br /&gt;
+I met commercials who previously were developers and now promote softwares. But they completly changed their job.&lt;br /&gt;
+They don't code anymore, and it's only a matter of time before their technical skills start to dwindle.&lt;br /&gt;
+They cannot feel how a software or an API is perceived by the community it is conceived for.&lt;br /&gt;
+And one cannot expect programmers to deeply understand the need of their end users if they do not interact with them.&lt;br /&gt;
+I noticed this symptom during the API days in Paris.&lt;br /&gt;
+On the one hand, we had two commercials. On the other, one DE from Sengrid. Both groups presented tools related to APIs.&lt;br /&gt;
+The first were clumsy in their approach as they clearly didn't prepared their presentation and heavily relied on their slides.&lt;br /&gt;
+Yet the presented tool was something powerful and apealing (generate an API based on HTML elements of any websites).&lt;br /&gt;
+But they did not transfer any enthiusasm to the audience and let them guess what was behind the product. &lt;br /&gt;
+On the other hand, the DE was full of inspiration and enthusiasm, and made it contagious. Slides were not so important as he was able to mesmerize the audience.&lt;br /&gt;
+In the end I was full of ideas and motivation to explore the API he contributes to and the business behind it.  &lt;/p&gt;
+&lt;p&gt;One can ask the following question. &lt;strong&gt;Why not associate a commercial with a programmer?&lt;/strong&gt; 
+That's what happened during the APIdays' hackathon.&lt;br /&gt;
+Among the presentators, one commercial and one programmer paired together. The association may sound good.
+Indeed,  if a commercial does not fit the technical part, let's associate a programmer to leverage interaction with the audience.&lt;br /&gt;
+But the programmer simply didn't want to be here. He presented the tool he contributed to and then left.&lt;br /&gt;
+That was dubious. On the one hand a commercial was speaking about what was being done by the programmer. On the other hand a silent guy was hardly explaining what was happening and left when everything was done.&lt;br /&gt;
+Why did this association didn't perform as one can expect ? Why this lack of motivation while all the other DE were making their show ?&lt;br /&gt;
+Two reasons come to my mind.&lt;br /&gt;
+1. &lt;strong&gt;the job&lt;/strong&gt;&lt;br /&gt;
+It was saturday morning and the programmer was doing extra. In other word he wasn't paid.
+To make things simple every non DE didn't stay more than half a day during this two days long event.&lt;br /&gt;
+On the contrary, working on non predifined shedules is part of the job of DE. He is devoted to a community, which still exists during the weekend.&lt;br /&gt;
+2. &lt;strong&gt;skills&lt;/strong&gt;&lt;br /&gt;
+DE besides being good developers and fast learners are inclined to socialize with people. Express ideas and make them simple. 
+In france we don't have jobs specially fitted to speak for developers. We usually send pure developers, but they do not necessarily fit the task although they may be very good at developping.  &lt;/p&gt;
+&lt;h3&gt;Being open minded&lt;/h3&gt;
+&lt;p&gt;Reading this, one can say that DEs are new breed of commercials.
+In my point of view, &lt;strong&gt;they are not.&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;In fact they aim at a different target, that is to say developers&lt;/strong&gt;.&lt;br /&gt;
+While commercials aim at companies, decision makers and share olders, dev evangelists are &lt;strong&gt;programmers who speak to programmers&lt;/strong&gt;.&lt;br /&gt;
+Looking for business oppurtunities is part of their job, but their main goal is to help people. No matter what they are working on. &lt;br /&gt;
+If it concerns the API they contribute to, it's fine. If it's not, it's also fine. &lt;br /&gt;
+They also represent a state of mind (and skills) of their employer. 
+Nick Fall once told me the following story:   &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;During an hackathon, one DE proposed to help a team. &lt;br /&gt;
+Knowing he was working for Sendgrid they politely declined his help saying that they didn't need to send emails with their application.&lt;br /&gt;
+He insisted and made it to succesfully help the team. Later, one team's member heard about sendgrid at his job. 
+He was asked about sendgrid's products and replied this: "&lt;em&gt;I don't know anything about sendgrid but given the level of skill of their developers, I don't think their products are bad.&lt;/em&gt;"&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This tell-tale story sums up pretty well what a dev evangelist is devoted to.
+As I was intrigued by the way you become a DE, I asked Tim on how to become a dev evangelist, and I will finish with his simple answer.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"&lt;strong&gt;The best way to be a dev evangelist is to be a dev evangelist.&lt;/strong&gt;"&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Am I happy to be developer ? Yes.&lt;br /&gt;
+Altough we do not have (yet) the attractiveness of other carrers like physician or pilot, I'm conviced that things are changing for the better.&lt;br /&gt;
+&lt;strong&gt;Jobs like dev evangelist, to me, are the evidence of a mutation in the programming world.&lt;/strong&gt; &lt;br /&gt;
+It proves that being a developper is far from the cliche vehiculed by medias such as movies and are real asset for companies.&lt;br /&gt;
+Will I be still a developer in 10 years ? Well I don't know. I also have other passions I can dive into like movies, photos or travels. &lt;br /&gt;
+But being a programmer gives me the oppurtunity to meet interesting people and think on various topics.&lt;br /&gt;
+The era in which we live gives more and more place to technology.&lt;br /&gt;
+This trend won't change (&lt;a href="http://www.theguardian.com/environment/earth-insight/2014/mar/14/nasa-civilisation-irreversible-collapse-study-scientists"&gt;at least for the 15 next years&lt;/a&gt;) and this is good news for developers.  &lt;/p&gt;</summary><category term="carreer"></category><category term="technologies"></category></entry><entry><title>Pourquoi le livre electronique compte</title><link href="/pourquoi-le-livre-electronique-compte.html" rel="alternate"></link><published>2014-06-22T16:59:00+02:00</published><author><name>ihommmani</name></author><id>tag:,2014-06-22:pourquoi-le-livre-electronique-compte.html</id><summary type="html">&lt;h1&gt;Pourquoi ai-je choisi le livre électronique ?&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="eBook" src="/images/book.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;Le plaisir de lire&lt;/h2&gt;
+&lt;p&gt;La lecture est pour moi un plaisir que je partage avec de nombreuse personnes.&lt;br /&gt;
+Je ne vais pas ici énumérer les bienfaits de cette activité mais plutôt m'intéresser sur les vecteurs par lesquels elle se fait.&lt;br /&gt;
+Je les partage en deux catégories:&lt;br /&gt;
+1. &lt;strong&gt;Le numérique&lt;/strong&gt; (ordinateur, tablette, livre électronique) 
+2.  &lt;strong&gt;Le digital&lt;/strong&gt; (papier).&lt;/p&gt;
+&lt;p&gt;Je suis un consommateur de livre sur format numérique et plus précisément sur &lt;strong&gt;livre éléctronique&lt;/strong&gt;.
+Ce dernier fait néanmoins apparaître de nombreuses réticences parmi les lecteurs de livres papier. &lt;br /&gt;
+Les arguments avancés sont plus ou moins les mêmes.&lt;br /&gt;
+Je vais m'attacher à les analyser et vous fournir ma vision des choses en tant qu'utilisateur assidu du livre électronique.&lt;/p&gt;
+&lt;h2&gt;L'argument financier&lt;/h2&gt;
+&lt;p&gt;Cet argument consiste à avancer &lt;strong&gt;le prix "élevé" des eBooks&lt;/strong&gt; (ne pas comprendre le support mais bien le livre en format electronique).&lt;br /&gt;
+Elevé par rapport au prix qu'aurait souhaité le client. &lt;br /&gt;
+Il n'est pas rare de tomber sur  un tel qui dénonce un vol voir milite pour une quasi gratuité du format électronique. &lt;br /&gt;
+Mais pourquoi donc ? &lt;strong&gt;Pour la simple et mauvaise raison que le format électronique est dématérialisé&lt;/strong&gt;. &lt;br /&gt;
+Or si le livre ne nécessite pas de coût de fabrication ou qu'en tout cas qu'il devienne dérisoire, il est tout à fait normal que le prix baisse considérablement. CQFD
+La réalité est comme souvent un peu plus complexe.&lt;br /&gt;
+Cet argument repose sur une prémice non dite mais implicite : &lt;em&gt;Une grande parti du prix du livre réside dans son coût de fabrication&lt;/em&gt;.
+Ce qu'il y a de plus précieux ou coûteux dans un livre serait donc le papier sur lequel on l'imprime ? &lt;br /&gt;
+&lt;strong&gt;Que devient le travail intellectuel des auteurs&lt;/strong&gt; ? &lt;strong&gt;Le travail de recherche et la prise de risque des maisons d'éditions&lt;/strong&gt; ?&lt;br /&gt;
+Quoi qu'il en soit il y a un fait indéniable: &lt;strong&gt;le format electronique est systématiquement moins cher que le format papier neuf&lt;/strong&gt;.&lt;br /&gt;
+Autre fait important à avoir en tête. Le code de la propriété intelectuelle français garantit un passage dans le domaine publique d'une oeuvre 70 ans 
+après la mort de son auteur. &lt;br /&gt;
+Concrètement cela veut dire qu'une myriade de classiques est &lt;strong&gt;librement disponible&lt;/strong&gt; sur les différentes plateformes de téléchargements d'Ebooks.&lt;br /&gt;
+Le &lt;em&gt;compte de Monte Cristo&lt;/em&gt;, &lt;em&gt;les Misérables&lt;/em&gt;... sont autant de classiques gratuitement téléchargeables. &lt;br /&gt;
+J'en suis un bénéficiaire, car la plupart de ces oeuvres m'ont intimidées étant plus jeune, soit par leur taille soit par leur complexité. &lt;br /&gt;
+Aujourd'hui je suis content de pouvoir parler d'Edmond Dantes, de Jean Valjean et d'autres encore. &lt;br /&gt;
+L'ebook, au delà de l'avantage financier, permet de découvrir ou de redécouvrir des oeuvres qui pour certaines seraient restées de vagues titres entendus au détour d'un cours de français.   &lt;/p&gt;
+&lt;h2&gt;L'argument "Big brother is watching you"&lt;/h2&gt;
+&lt;p&gt;L'émergence d'une société de l'information et de la communication rend de plus en plus prégnant l'exigence de la protection des donnés personnelles et plus généralement de la vie privée. &lt;br /&gt;
+Les détracteurs du livre éléctronique n'ont pas oublié de le noter tant ils mettent en avant le manque de transparence de la gestion des livres par la plateforme d'achat. (un &lt;a href="http://www.nytimes.com/2009/07/18/technology/companies/18amazon.html?_r=0" title="Big brother"&gt;précédent douteux&lt;/a&gt; plaide en leur faveur) &lt;br /&gt;
+Mais quel est réellement ce manque de transparence cher à certaine personne ? &lt;br /&gt;
+Il faut savoir que &lt;strong&gt;la loi Européenne protège le consommateur de certaines dérives des géants du Web&lt;/strong&gt;.
+Afin de protéger le droit à la vie privée, à l'égard du traitement automatisé des données personnelles, le Conseil de l'Europe a élaboré la "Convention pour la protection des personnes à l'égard du traitement automatisé des données à caractère personnel".&lt;br /&gt;
+&lt;em&gt;&lt;a href="http://www.conventions.coe.int/Treaty/FR/Treaties/Html/108.htm" title="convention"&gt;lien&lt;/a&gt;&lt;/em&gt;   &lt;/p&gt;
+&lt;p&gt;On peut très bien en rire en disant que ces conditions ne valent que pour ceux qui veulent bien y croire.&lt;br /&gt;
+Il n'empêche qu'&lt;strong&gt;un cadre légal est bien définit&lt;/strong&gt;.
+Cela dit on peut très bien "cacher" les livres que l'on possède en se coupant totalement de l'internet. Je serais tout de même curieux de connaitre les moteurs de recherche qu'utilisent ces personnes ainsi que leur serveur de mail... &lt;br /&gt;
+Cela étant-dit, &lt;strong&gt;que critique-t-on réélement lorsque l'on pointe les risques de dérive lié à l'achat de livre éléctronique ?&lt;/strong&gt;
+Le support ou les acteurs des plateformes de téléchargement ? &lt;br /&gt;
+L'ebook n'est en rien responsable de cette situation. Lorsque quelqu'un commet un crime, on ne juge pas l'arme du crime mais bien l'auteur des faits (j'ai quand même l'exemple du taser en tête mais cela reste des cas minoritaire).&lt;br /&gt;
+Ne jugeons donc pas le livre électronique en tant que responsable de certaines dérives.   &lt;/p&gt;
+&lt;h2&gt;L'argument de celui qui n'a rien compris&lt;/h2&gt;
+&lt;p&gt;Il arrive de temps en temps d'entendre, "&lt;em&gt;A quoi me servirait un livre electronique puisque je peux déjà lire sur ma tablette&lt;/em&gt;".  &lt;br /&gt;
+L'argument est faible. Peut on penser ne pas acheter de chaussures de sport pour la seule raison que l'on possède déjà des chaussures de marche ?&lt;br /&gt;
+Ne pas acheter de VTT pour un treck en montagne parce que l'on possède déjà notre mono pignon pour déambuler dans les rues ?
+&lt;strong&gt;Lire sur une tablette n'a rien d'un plaisir&lt;/strong&gt;. La luminosité est similaire à celle d'un écran d'ordinateur. Je ne sais pas pour vous mais je n'aurais jamais l'idée de lire &lt;em&gt;A la recherche du temps perdu&lt;/em&gt; sur un écran d'ordinateur et à fortiori sur une tablette. &lt;br /&gt;
+Assez ironiquement c'est un des livres qui m'a été offert avec la Nexus 7... &lt;br /&gt;
+Non, la tablette est adaptée à la lecture d'un certain contenu type article de journaux, page web voire pdf.&lt;br /&gt;
+A l'inverse &lt;strong&gt;le rendu d'un livre électronique se veut très proche de celui du papier&lt;/strong&gt;. Pas de luminosité et avec ça la possibilité d'accéder à tout moment à un dictionnaire (très pratique dans le cas de lecture en langues étrangères) et de régler la taille de la police (pratique pour les personnes ayant des problèmes de vue).&lt;/p&gt;
+&lt;h2&gt;L'argument sentimental&lt;/h2&gt;
+&lt;p&gt;Je parle d'argument mais en fait il ne suis en rien la logique de l'argumentation.&lt;br /&gt;
+Il ne se base sur rien de tangible ni de concret. &lt;br /&gt;
+C'est le fameux " &lt;em&gt;Y a un truc en plus avec le papier, que je ne ressent pas avec le livre électronique.&lt;/em&gt;"
+Ce qui est plutôt comique, c'est que la plupart des personnes m'ayant avancé cet argument n'avait jamais essayé (ou si peu) le livre électronique.  &lt;br /&gt;
+J'accepte bien la critique mais encore faut-il qu'elle soit fondée.&lt;br /&gt;
+On peut apprecier que les livres prennent la poussière dans une bibliothèque ou l'odeur du papier jaunit. En soi ce n'est pas incompatible avec l'achat d'un livre électronique. &lt;br /&gt;
+Parce que oui il y a des choses en plus avec le format papier. &lt;br /&gt;
+En premier lieu le poids. Ensuite la place que prenne des livre dans une bibliothèque. Certaine personne les revendent voire les donne mais je ne pense pas qu'ils soient majoritaires. &lt;br /&gt;
+Les livres de poches n'ont parfois de poche que le nom. Avec un livre electronique peu importe le nombre de page, le nombre de livre, le nombre de Bd, il tiendra toujours dans ma poche pour un poid équivalent à celui d'une nouvelle d'Edgard Poe. &lt;br /&gt;
+Le format restera toujours le même. &lt;br /&gt;
+Lire d'une seule main est un luxe non négligeable, surtout lors des heures de pointe dans les transport en commun.&lt;/p&gt;
+&lt;p&gt;Pour être tout à fait honnête il m'arrive d'acheter des livres papier. Tout simplement parce que &lt;strong&gt;le livre électronique n'apporte pas de réponse aux défauts du format papier dans sa globalité&lt;/strong&gt;.&lt;br /&gt;
+Il ne peut même pas prétendre à remplacer certaines catégories.&lt;br /&gt;
+En premier lieux les livres elctroniques ne reproduisent pas pour le moment la couleur. Elément au combien fondamental dans la litérature enfantine par exemple. Des livres comme &lt;a href="http://lireauxenfants.com/livres-elmer.html" title="Elemere"&gt;Elmere l'éléphant&lt;/a&gt; pedraient tout leur sens.  &lt;br /&gt;
+De même, pour une question de format, je considère que les livres de tables auront toujours leur place dans une bibliothèque tout autant que les livres illustrés. &lt;br /&gt;
+Ils occupent une part importante dans l'enfance. Le touché est fondamentale à cet age. 
+Enfin certains livre ne sont pas et ne seront pas édité au format électronique. Trop ancien ou tout simplement hors du circuit d'édition.  &lt;br /&gt;
+Le format papier apparait alors comme l'unique alternative.  &lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;J'ai essayé le long de cet article d'exprimer mon ressenti face à une peur non fondée. Celle de voir disparaitre le format papier au profit du format électronique. Le format électronique est un progrès sur de nombreux aspect de la lecture. &lt;br /&gt;
+Il n'a néanmoins pas vocation à faire disparaitre le format papier mais plutot à le compléter voire le faire évoluer.
+Ne soyons pas timorés et disons oui à l'évolution de la lecture.   &lt;/p&gt;
+&lt;p&gt;Je finirais cet article par un extrait issu de Gargantua de François Rabelais.
+« C'est pourquoi fault ouvrir le livre et soigneusement peser ce que y est déduict. [...] Puis, par curieuse leçon et meditation frequente, rompre l'os, et sugcer la substantifique moelle, [...]. »
+Cessons d'accorder de l'importance au format. Fut-il papier ou electronique l'important est bien la &lt;strong&gt;substantique moelle&lt;/strong&gt;.  &lt;br /&gt;
+J'y ajouterais enfin qu'il faut savoir vivre avec son temps.&lt;/p&gt;</summary><category term="ebooks"></category></entry><entry><title>Ranger</title><link href="/ranger.html" rel="alternate"></link><published>2014-04-13T22:10:00+02:00</published><author><name>ihommmani</name></author><id>tag:,2014-04-13:ranger.html</id><summary type="html">&lt;p&gt;Ranger is a file manager where thing can get fast...blazingly fast. &lt;br /&gt;
+I trully think you should give it a try. At least to test another paradigm of file manager. &lt;br /&gt;
+So, &lt;strong&gt;is Ranger a true alternative to classic file managers &lt;/strong&gt;?&lt;br /&gt;
+As always, the right response would be "It depends.".
+Ranger has strong requirements. And the step could be too high for some people.&lt;/p&gt;
+&lt;h1&gt;Ranger ?&lt;/h1&gt;
+&lt;p&gt;Put in few words, Ranger is a &lt;strong&gt;file manager with curses interface&lt;/strong&gt;. 
+As a file manager, it allows you to do the basic CRUD operations on your file system but also operations such as setting rights on files, excute or previewing files...
+Unlike classic FM all is fast since you control it through your keyboard and shortcuts and not your mouse.
+Ranger step out of your way so you can focus on the important things.&lt;br /&gt;
+Another interisting fact is how far you can tweak it to closely match your needs.&lt;/p&gt;
+&lt;h1&gt;Interface&lt;/h1&gt;
+&lt;p&gt;Ranger relies on curses interface to display informations.&lt;br /&gt;
+This is the first step to address for someone used to GUI.&lt;br /&gt;
+No more shinny feature. All you have is a bunch of columns and lines.
+Yet the all thing is &lt;strong&gt;clear enough to navigate through&lt;/strong&gt;.   I will also add that it provides more informations than a classic FM since you not only see the content of the current directory but also the content of the directory you point. Avoiding you to enter a directory to check its content. &lt;br /&gt;
+The advantage of not relying on graphic server are numerous.   &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ranger is usable in the console &lt;br /&gt;
+Pretty cool for sysadmins&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You save a plenty of resources&lt;br /&gt;
+For instance on my 3Go RAM computer (pretty low in the time writting this article) the memory print wouldn't go over 0.5%. So it is for the CPU comsumption.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="interface" src="/images/ranger1.png" title="ranger's interface" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Navigation is by default made through the central column, although you can change the parent directory from this column&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;The tip are the tips of your fingers&lt;/h1&gt;
+&lt;p&gt;The second steps to address is to accept the fact &lt;strong&gt;you won't need a mouse&lt;/strong&gt;.
+Concerning the mouse I think there is some kind of addiction. We can't (or don't want to) see alternative, either when mouse is not the best mean. &lt;br /&gt;
+Don't get me wrong, mouse is useful for many usecases and without alternative in some case(Gaming, web browsing). &lt;br /&gt;
+But there is a better alternative in the case of file manager, and mouse is no match for the speed of the keyboard...in the case you 
+master the type touching i.e typing without watching your keyboard. &lt;br /&gt;
+That is the second part of the step. &lt;strong&gt;You have to invest yourself in mastering your keyboardi&lt;/strong&gt;. 
+And believe me in a month or two you'll thank me.&lt;/p&gt;
+&lt;h1&gt;Installation&lt;/h1&gt;
+&lt;p&gt;Ranger requires python 2.6 or higher. 
+Although you can install it with a tarball provided in the official &lt;a href="http://ranger.nongnu.org/download.html," title="ranger download"&gt;site&lt;/a&gt;, it is adviced to use the package manager of your distribution.
+In any case installation should be easy.&lt;/p&gt;
+&lt;h1&gt;Parametrisation&lt;/h1&gt;
+&lt;p&gt;One cool aspect about ranger is the way you can tweak it. &lt;br /&gt;
+Almost every aspect is configurable. Keybinding, colors, applications to open/preview files...
+Ranger relies on four files for the configuration:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;rifle.conf &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;commands.py&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;rc.conf&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;scope.sh&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;They have to be in the directory &lt;em&gt;~/.config/ranger&lt;/em&gt; .&lt;br /&gt;
+To easily bootstrap these files we can take advantage of the &lt;em&gt;copy-config&lt;/em&gt; option: &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ ranger --copy-option all
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This has for effect to bootstrap your configuration directory with default configuration files.&lt;/p&gt;
+&lt;h2&gt;Rifle.conf&lt;/h2&gt;
+&lt;p&gt;Ranger uses a program named rifle to open/execute files.&lt;br /&gt;
+To configure rifle you've got to modify &lt;strong&gt;rifle.conf&lt;/strong&gt; .&lt;br /&gt;
+This file describes to rifle what application to use when you want to open or execute a file. 
+It describes with a specific syntax how to reconize file (by name, by extension, by regex...) and how to handle it.   &lt;/p&gt;
+&lt;h2&gt;Commands&lt;/h2&gt;
+&lt;p&gt;Ranger commands are defined through the file &lt;strong&gt;commands.py&lt;/strong&gt;.&lt;br /&gt;
+This python file contains classes, each one representing a command. &lt;br /&gt;
+To interface with ranger the class has to define at least some specific methods.&lt;br /&gt;
+All is well explained in the comment header of the file.&lt;/p&gt;
+&lt;p&gt;Not only you can modify some behavior, you also can create new commands.
+Here's a simple hello_world command:&lt;br /&gt;
+I want the hello_world [args] command to display "Hello World [args]" on the screen.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="n"&gt;hello_world&lt;/span&gt;(&lt;span class="n"&gt;Command&lt;/span&gt;):
+    &lt;span class="s"&gt;&amp;quot;&amp;quot;&amp;quot;:hello_world [args]&lt;/span&gt;
+
+&lt;span class="s"&gt;    Display hello world on console&lt;/span&gt;
+&lt;span class="s"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;execute&lt;/span&gt;(&lt;span class="k"&gt;self&lt;/span&gt;):
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="k"&gt;self&lt;/span&gt;.&lt;span class="n"&gt;args:&lt;/span&gt;
+            &lt;span class="k"&gt;self&lt;/span&gt;.&lt;span class="n"&gt;fm&lt;/span&gt;.&lt;span class="n"&gt;notify&lt;/span&gt;(&lt;span class="s"&gt;&amp;quot;Hello world %s&amp;quot;&lt;/span&gt; % &lt;span class="k"&gt;self&lt;/span&gt;.&lt;span class="n"&gt;args&lt;/span&gt;)
+        &lt;span class="n"&gt;else:&lt;/span&gt;
+            &lt;span class="k"&gt;self&lt;/span&gt;.&lt;span class="n"&gt;fm&lt;/span&gt;.&lt;span class="n"&gt;notify&lt;/span&gt;(&lt;span class="s"&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Here's the explanation.&lt;br /&gt;
+Each class must extends the Command class.&lt;br /&gt;
+Then it has to interface to ranger by defining the &lt;em&gt;execute&lt;/em&gt; metod. &lt;br /&gt;
+Inside this method we use the &lt;em&gt;fm&lt;/em&gt; object which contains most information about ranger.&lt;br /&gt;
+Now we can use our new command inside ranger by typing &lt;em&gt;:hello_world foo&lt;/em&gt;   &lt;/p&gt;
+&lt;p&gt;It also exists others methods. I let you &lt;strong&gt;read the fantastic header&lt;/strong&gt; to understand the purpose of each one.&lt;/p&gt;
+&lt;h2&gt;rc.conf&lt;/h2&gt;
+&lt;p&gt;The purpose of this file is to define the ranger's startup settings.&lt;br /&gt;
+It is where you'll find most of the ranger's setting. &lt;br /&gt;
+To know about the setting you can modify, the manuel is a good starting point. 
+It is where you also specify keybinding. By default, &lt;strong&gt;ranger comes with a vim keybinding&lt;/strong&gt;, but it's up to you if you want to keep it or change it.&lt;/p&gt;
+&lt;p&gt;This file is also a treasure of information and you should read it at least once, to discover all the setting and shortcut you've got. &lt;br /&gt;
+Ranger is powerfull only if we know how to take advantage of it.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;E.g, not only you got keybinding to navigate, you also have keybinding to sort files and directories, launch unix commands such as &lt;strong&gt;df&lt;/strong&gt;, filter files...&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: &lt;em&gt;To not forget it you can easily switch from Ranger to your terminal with &lt;strong&gt;S&lt;/strong&gt;, and go back to Ranger by exiting the same terminal.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;scope.sh&lt;/h2&gt;
+&lt;p&gt;Like rifle but used to preview files.&lt;br /&gt;
+Very useful, instead of opening files you check through the preview if it is the file you are looking for. Also works for pdf and images.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="interface" src="/images/ranger2.png" title="ranger's preview 1" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Example of a text file preview&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="interface" src="/images/ranger3.png" title="ranger's preview 2" /&gt;
+&lt;em&gt;Example of an image preview. Note that this ascii preview rely on my geek taste, but you can perfectly preview a 'normal' aspect. Just read the scope.sh header&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Theming&lt;/h2&gt;
+&lt;p&gt;You can of course change the style of ranger by creating an existing theme or creating a new one.&lt;br /&gt;
+The good thing is that creating a new one is easy thanks to inheritance.
+You just have to create a &lt;em&gt;your_theme.py&lt;/em&gt; in the colorsheme directory and define inside a class &lt;em&gt;Scheme&lt;/em&gt; inheriting from Default class.   &lt;/p&gt;
+&lt;p&gt;It can be as small as this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="n"&gt;Scheme&lt;/span&gt;(&lt;span class="n"&gt;Default&lt;/span&gt;):
+    &lt;span class="n"&gt;progress_bar_color&lt;/span&gt; = &lt;span class="n"&gt;green&lt;/span&gt;
+    &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="k"&gt;use&lt;/span&gt;(&lt;span class="k"&gt;self&lt;/span&gt;, &lt;span class="nb"&gt;context&lt;/span&gt;):
+        &lt;span class="n"&gt;fg&lt;/span&gt;, &lt;span class="n"&gt;bg&lt;/span&gt;, &lt;span class="nb"&gt;attr&lt;/span&gt; = &lt;span class="n"&gt;Default&lt;/span&gt;.&lt;span class="k"&gt;use&lt;/span&gt;(&lt;span class="k"&gt;self&lt;/span&gt;, &lt;span class="nb"&gt;context&lt;/span&gt;)
+
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;directory&lt;/span&gt; &lt;span class="o"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;marked&lt;/span&gt; &lt;span class="o"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;link:&lt;/span&gt;
+            &lt;span class="n"&gt;fg&lt;/span&gt; = &lt;span class="n"&gt;green&lt;/span&gt;
+
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;in_titlebar&lt;/span&gt; &lt;span class="o"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;hostname:&lt;/span&gt;
+            &lt;span class="n"&gt;fg&lt;/span&gt; = &lt;span class="n"&gt;red&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;bad&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;blue&lt;/span&gt;
+
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;fg&lt;/span&gt;, &lt;span class="n"&gt;bg&lt;/span&gt;, &lt;span class="nb"&gt;attr&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You then specify the theme you want in the rc.conf file by putting the following line in your rc.conf  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;set colorscheme your_theme
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Plugins&lt;/h1&gt;
+&lt;p&gt;To add features to Ranger without modifying the core of it, ranger support plugins. I don't include them in the scope of this article. However it is well documented and nice example are to be found under &lt;strong&gt;/usr/share/doc/ranger&lt;/strong&gt; directory.&lt;/p&gt;
+&lt;h1&gt;The downsides&lt;/h1&gt;
+&lt;p&gt;While i'm praising keyboard over the mouse, I have to confess that the drag and drop is a feature we do not have with ranger. &lt;br /&gt;
+It's the major ranger's drawback of i can see.&lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;I have used ranger for years.&lt;br /&gt;
+Ranger is different from other file manager. It gives a different experience while managing your files.&lt;br /&gt;
+Not only it is light and fast, it also stick to your needs to an extent no other file managers can match.&lt;br /&gt;
+Last but not least, a word from our beloved comrade.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Texas" src="/images/texas_ranger.jpg" title="Texas ranger" /&gt;&lt;/p&gt;</summary><category term="file manager"></category></entry><entry><title>Quora</title><link href="/quora-fr.html" rel="alternate"></link><published>2014-03-30T20:37:00+02:00</published><author><name>ihommmani</name></author><id>tag:,2014-03-30:quora-fr.html</id><summary type="html">&lt;p&gt;&lt;img alt="Quora" src="https://pbs.twimg.com/profile_images/453594268095889408/EGmOkBn6.png" title="Quora" /&gt;&lt;/p&gt;
+&lt;h2&gt;Etre curieux&lt;/h2&gt;
+&lt;p&gt;Ce cours billet à pour but de présenter &lt;strong&gt;&lt;a href="http://www.quora.com/" title="quora"&gt;Quora&lt;/a&gt;&lt;/strong&gt;, un site que j'ai récemment découvert et que je trouve digne d'intérêt. &lt;/p&gt;
+&lt;p&gt;Il est naturel et sain de se poser des questions. 
+Cela vient d'un désir d'aller de l'avant, de comprendre le monde qui nous entoure afin d'en mieux cerner les limites pour pouvoir ensuite les repousser, ou de plus humblement les comprendre. &lt;br /&gt;
+A mesure que l'on grandit et/ou que l'on gagne en maturité &lt;strong&gt;les questions se complexifient&lt;/strong&gt;.&lt;br /&gt;
+Nos expériences se multiplient. Nous sommes confrontés à de nouvelles problématiques chaque jour et nous y cherchons naturellement des réponses.&lt;br /&gt;
+Certaines questions trouvent des réponses simples et uniques. 
+D'autres nécessitent une approche différente. &lt;strong&gt;Nous ne pouvons plus nous baser sur une unique réponse&lt;/strong&gt;, mais un ensemble de réponses. Chacune apportant une contribution à la formation de notre opinion.
+Je pense en particulier aux questions existentielles, ou celles liées à l'âge et l'experience.
+Il n'y a pas de réponse unique à apporter à des questions en rapport avec la vie, la conscience, les sentiments...&lt;/p&gt;
+&lt;h2&gt;Quora&lt;/h2&gt;
+&lt;p&gt;La volonté de Quora n'est pas d'apporter une réponse à une question mais de &lt;strong&gt;réunir les conditions nécessaires&lt;/strong&gt; (mais non suffisantes) à l'émergence de réponses pertinentes.
+Le site offre une palette impresionnante de thématiques.&lt;br /&gt;
+Mieux que cela, quora &lt;strong&gt;aiguise la curiosité&lt;/strong&gt;, en proposant de s'inscrire à des newsletters en fonctions de nos centres d'intérêts.
+On se voit donc proposer des réponses à des questions suceptibles d'attirer notre attention. &lt;/p&gt;
+&lt;p&gt;Cela ne serait bien sûr pas possible sans l'apport d'une communauté active. 
+Et c'est ce qui m'attire le plus dans Quora. &lt;strong&gt;L'implication de la communauté y est élevée&lt;/strong&gt;. Rarement je n'ai vu des réponses aussi développées. 
+Un système de vote permet de classer les réponses par pertinence, incitant les personnes à développer leur réponse dans le but d'être lu par le plus grand nombre.
+Il n'est par ailleurs pas rare de lire des réponses venant de personnes expertes dans le domaine lié à la question.&lt;/p&gt;
+&lt;p&gt;D'aucun penserons que Quora est une copie de &lt;a href="https://answers.yahoo.com/" title="yahoo answers"&gt;Yahoo answers&lt;/a&gt; ou &lt;a href="http://www.reddit.com/r/AskReddit/" title="Reddit"&gt;Reddit&lt;/a&gt;.&lt;br /&gt;
+La remarque est légitime et je n'ai pas été étonné de retrouver des questions relatives à la pertinence de Quora sur Quora même.&lt;br /&gt;
+Ce qu'il en ressort est en général la qualité des réponses fournies ainsi que des questions qu'on y pose. &lt;/p&gt;
+&lt;h2&gt;Votre choix&lt;/h2&gt;
+&lt;p&gt;Mon propos n'est pas d'affirmer la supériorité de Quora sur d'autres sites similaires. Il est plutôt d'attirer l'attention sur une communauté grandissante qui m'a aidée à réfléchir certaines questions et qui, je vous le souhaite, vous ouvrira l'esprit sur de nouveaux sujets.&lt;/p&gt;</summary><category term="connaissance"></category><category term="knowledge"></category></entry><entry><title>Two-Factor Authentication</title><link href="/2fa.html" rel="alternate"></link><published>2014-02-01T13:09:00+01:00</published><author><name>ihommmani</name></author><id>tag:,2014-02-01:2fa.html</id><summary type="html">&lt;p&gt;&lt;img alt="Login security" src="/images/FEDTECH_2FA.png" /&gt;&lt;/p&gt;
+&lt;h2&gt;Extra security&lt;/h2&gt;
+&lt;p&gt;Some applications require extra set of security because if someone get access to it, things can get ugly for you.
+After reading this sad yet interesting &lt;a href="https://medium.com/p/24eb09e026dd" title="twitter account  stolen"&gt;story&lt;/a&gt;, I was astonished of how you can put a mess in someone's life by getting access to his/her mail account.
+Not only you can change its password, you also can change the password of all applications linked to the hijacked address mail.
+For instance you can virtually restart all the password of the associated social media. (e.g: Facebook)&lt;/p&gt;
+&lt;h2&gt;Two-Factor Authentication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;2FA&lt;/strong&gt; try to solve this huge chink by applying a second identification step.
+You've surely already experienced 2FA through online paiement. Banks widely use it by sending you a code to your mobile phone to enter it inside the paiement website to finalize the transaction.
+Thus, the bank strengthen the identification process by asking you to make a "proof of work" only you can do. Even if the attacker got your credit card numbers he won't be able to get the paiement done without access to your mobile phone.&lt;/p&gt;
+&lt;p&gt;This useful system is also available in mail clients such as gmail.
+I strongly advice you to enable it since it will reinforce the overall security of your mails'access.
+In the following section I describe the different steps to enable it in Gmail.&lt;/p&gt;
+&lt;p&gt;Here a small scheme to illustrate the different steps:  &lt;br /&gt;
+&lt;img alt="2FA principle" src="http://www.assurity.sg/onekey/2fa.gif" title="2fA" /&gt;&lt;/p&gt;
+&lt;h2&gt;HOW-TO&lt;/h2&gt;
+&lt;p&gt;In your account setting go to the security menu to see a 2-step verification link.... No I'm kidding. 
+Google explain it better than I do :) .  &lt;br /&gt;
+Here the &lt;a href="https://support.google.com/accounts/answer/180744?hl=en" title="2fa"&gt;link&lt;/a&gt;.
+It's very easy and can be done in a matter of minutes. Doing this can't hurt.  &lt;br /&gt;
+For those who blame the fact to rely on mobile phone, several substitutes are explained. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;N.B: As you may notice we can use interchangeably "two step verification" and "two-factor authentication"&lt;/em&gt;&lt;/p&gt;</summary><category term="Security"></category></entry><entry><title>Go beyond in the functionnal paradigm with Javaslang</title><link href="/slug.html" rel="alternate"></link><published>2014-02-01T13:09:00+01:00</published><author><name>ihommmani</name></author><id>tag:,2014-02-01:slug.html</id><summary type="html">&lt;h1&gt;Functional paradigm vs Object paradigm&lt;/h1&gt;
+&lt;h1&gt;Java 8 a brand new world&lt;/h1&gt;
+&lt;p&gt;Not so long ago I used to code with Java in a world exclusively dedicated to the Object paradigm. 
+Indeed Java 7 was not offering what many languages already were, namely streams and lambdas.&lt;br /&gt;
+Then in march 2014 Java 8 was released.
+The promise was to open the Java world to functional programming.&lt;br /&gt;
+Thanks to the new Stream API and lambdas this was now possible.  &lt;/p&gt;
+&lt;p&gt;However, when comparing Java 8 features with the one provided by pure functional languages (Scala, Haskell)
+we still have a gap.&lt;br /&gt;
+It appears that Java 8 can still progress into the functional paradigm.&lt;br /&gt;
+This is where JavaSlang gets interesting. JavaSlang is a java library developed on top of Java 8 that reimplements some&lt;br /&gt;
+of basic data structures (especially collections) to make it fit better the functional paradigm.&lt;br /&gt;
+Also with the addition of new data structures, it's an all new world that opens to us. &lt;/p&gt;
+&lt;p&gt;In this article I want to give my feedback on JavaSlang's use and show how it can helps in the code expresivity.&lt;/p&gt;
+&lt;h1&gt;Requirements and Installation&lt;/h1&gt;
+&lt;p&gt;As a library build on top of Java 8, &lt;strong&gt;javaslang requires a JRE 8 to work&lt;/strong&gt;.&lt;br /&gt;
+Installation is fairly easy, based on the fact you use a build tool like Maven or Gradle.&lt;br /&gt;
+Just add a dependency to your project. 
+Sources are available on the &lt;a href="https://github.com/javaslang/javaslang" title="javaslang"&gt;github repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Java 8 defects&lt;/h1&gt;
+&lt;p&gt;Once passed the wow effect of the Java 8 stream API. Here what we can complain about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We have to convert back and forth collections when we want to apply lambda on it&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;list.stream().map(...).collect(Collectors.toList())
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Why open a stream instead of applying directly lambdas on the list elements ?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Map structure is not well handled by the Stream API&lt;/p&gt;
+&lt;p&gt;The way we treat maps through stream is not very intuitive.
+    &lt;code&gt;hashMap.entries.stream().map(entry -&amp;gt; ...)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Where we would have seen
+    &lt;code&gt;hashMap.entries.stream().map((key, value)-&amp;gt; ... )&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lambdas' inability to throw checked exceptions&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;JavaSlang goodness&lt;/h1&gt;
+&lt;p&gt;JavaSlang provides new APIs and data structures to tackle those issues.&lt;br /&gt;
+Unlike utilities such as Guava it is not meant to really cohabit with standard Java.&lt;br /&gt;
+It replaces it where it needs to. In particular in the implementation of the Java Iterable interface.
+This approach gives Javaslang enough liberty to choose immutability over mutability.&lt;br /&gt;
+And this is for the best. &lt;/p&gt;
+&lt;h2&gt;Immutability&lt;/h2&gt;
+&lt;p&gt;Java by default creates mutable data structures, i.e one can operate directly on a structure instance.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;list.add(3) // list has the 
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;map.remove(5) // 
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Javaslangs' data structures are &lt;a href="https://en.wikipedia.org/wiki/Persistent_data_structure"&gt;persistent&lt;/a&gt; and therefore "effectively immutable".&lt;br /&gt;
+In short, their operations do not (visibly) update the structure in-place, but instead always yield a new updated structure.&lt;br /&gt;
+Do not worry about performance issues, Javaslang share what can be shared :) .  &lt;/p&gt;
+&lt;p&gt;This example helped me to understand what it means:  &lt;/p&gt;
+&lt;p&gt;In java we can create a list of three integers as follow.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;List&amp;lt;Integer&amp;gt; elements = new ArrayList&amp;lt;Integer&amp;gt;  
+elements.add(1);  
+elements.add(2);  
+elements.add(3);    
+
+// elements.size() == 3
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The add method has no return type (void) and does perform side effect on the list element by adding new elements into it.&lt;/p&gt;
+&lt;p&gt;In JavaSlang, the same example would be: &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;List&amp;lt;Integer&amp;gt; elements = List.empty();
+elements.push(3).push(2).push(3);
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;// If we get elements. It is still empty
+// elements.size() == 0 !
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In fact we have to assign the list returned by push to get the &lt;strong&gt;new&lt;/strong&gt; list. &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;List&amp;lt;String&amp;gt; filledElements = elements.push(3).push(2).push(3);
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Strange at first, but nice !&lt;br /&gt;
+This is the case for all data structures in JavaSlang.&lt;/p&gt;
+&lt;h2&gt;Functional data structures API&lt;/h2&gt;
+&lt;p&gt;In Java 8 we tend to separate the data collection from the operations. &lt;br /&gt;
+That obliges us to open a stream on a list (datas), performs operations on it (stream elements), and then recollect it. &lt;/p&gt;
+&lt;p&gt;If we think stream as a lazy list of operations, it is as if we had to clip two lists together to get a refined list.&lt;/p&gt;
+&lt;p&gt;Wouldn't it be simpler to directly operate on the list instead of a stream ?
+Javaslang thinks so. Simpler and more expressive.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;List&amp;lt;String&amp;gt; toto = List.of(&amp;quot;hello&amp;quot;, &amp;quot;world&amp;quot;).map(operation1).map(operation2);
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;No more recollection.&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;One of the pain point when working on Map with Java, is the unability to simply parcour map entries.&lt;br /&gt;
+In javaSlang this is very easy as the map method accepts a bifunction.&lt;br /&gt;
+A rather complex operation in java such as inverting the pair key/value in a Map:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt; &lt;span class="nt"&gt;We&lt;/span&gt; &lt;span class="nt"&gt;use&lt;/span&gt; &lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="nt"&gt;collector&lt;/span&gt; &lt;span class="nt"&gt;with&lt;/span&gt; &lt;span class="nt"&gt;two&lt;/span&gt; &lt;span class="nt"&gt;Functions&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;String&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;String&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;map&lt;/span&gt;&lt;span class="nc"&gt;.entrySet&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt;&lt;span class="nc"&gt;.stream&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt;&lt;span class="nc"&gt;.collect&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;Collectors&lt;/span&gt;&lt;span class="nc"&gt;.toMap&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;Map&lt;/span&gt;&lt;span class="nc"&gt;.Entry&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;:getValue&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;Map&lt;/span&gt;&lt;span class="nc"&gt;.Entry&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;:getKey&lt;/span&gt;&lt;span class="o"&gt;));&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Ends up in javaslang with: &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;// We use one bifunction (Function2&amp;lt;String, String, Tuple2&amp;lt;String, String&amp;gt;&amp;gt;)
+map.map((key, value) -&amp;gt; Tuple.of(value, key));
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Stream on steroids&lt;/h2&gt;
+&lt;p&gt;Most functional operations on collections do not require to open a stream anymore.&lt;br /&gt;
+So in most cases Stream will not be as needed as it is with standard java.   &lt;/p&gt;
+&lt;p&gt;In fact, in javaSlang we use Streams for what they really are i.e a linked list of operation lazily evaluated and not what they allow to do.
+Let's precise this thought. &lt;/p&gt;
+&lt;p&gt;In java 8 the vast majority of my Stream API use cases are with collections.&lt;br /&gt;
+From a collection (List or Map) I open a stream to aggregate operations and finally consume the stream by collecting the stream element.
+Like we saw, in JavaSlang, we directly do this on the List/Map object.
+So why do we need streams for ?&lt;/p&gt;
+&lt;p&gt;1) &lt;strong&gt;Stream are lazily evaluated&lt;/strong&gt;&lt;br /&gt;
+When collecting operation, you don't need/want to apply it at once (eagerly).&lt;br /&gt;
+For instance you may need an element you'll catch later in your execution flow, to apply it in a filter for instance. &lt;/p&gt;
+&lt;p&gt;2) &lt;strong&gt;Data contained into a stream can be expressed through logical expressions&lt;/strong&gt;&lt;br /&gt;
+What if I need to represent all the prime number. Remember, it is infinite :) 
+First solution:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;List.of(1, 3, 5, 7, 11 ....)  // See you at the end of eternity . Anyway your computer has not enough memory.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Or:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; // = Stream(2L, 3L, 5L, 7L, ...)
+ Stream.iterate(2L, PrimeNumbers::nextPrimeFrom)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;where&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; &lt;span class="o"&gt;//&lt;/span&gt; &lt;span class="nt"&gt;helpers&lt;/span&gt;    
+ &lt;span class="nt"&gt;static&lt;/span&gt; &lt;span class="nt"&gt;long&lt;/span&gt; &lt;span class="nt"&gt;nextPrimeFrom&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;long&lt;/span&gt; &lt;span class="nt"&gt;num&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;  &lt;span class="p"&gt;{&lt;/span&gt;  
+     &lt;span class="n"&gt;return&lt;/span&gt; &lt;span class="n"&gt;Stream&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;from&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;num&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;PrimeNumbers&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;isPrime&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;  
+ &lt;span class="p"&gt;}&lt;/span&gt;  
+
+ &lt;span class="nt"&gt;static&lt;/span&gt; &lt;span class="nt"&gt;boolean&lt;/span&gt; &lt;span class="nt"&gt;isPrime&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;long&lt;/span&gt; &lt;span class="nt"&gt;num&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;  
+     &lt;span class="n"&gt;return&lt;/span&gt; &lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="n"&gt;Stream&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;rangeClosed&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="n"&gt;L&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;long&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sqrt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;num&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exists&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;num&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;  
+ &lt;span class="p"&gt;}&lt;/span&gt;  
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Beautiful, isn't it ?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Streams allow to express a level of abstraction that list structures can't.&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;So how do I access the processed elements of a stream ? Do we need to collect or do something else ?&lt;br /&gt;
+Oddly enough, there is no such thing as Collector in JavaSlang.
+In fact, you can directly access the element of a stream.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;// b
+Stream.of(&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;).get(1)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;// 2
+Stream.ofAll(List.of(&amp;quot;hello&amp;quot;, &amp;quot;world&amp;quot;)).size()
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If you really want to get it into a collection, we can think of: &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; HashMap.ofEntries(Stream.of(Tuple.of(&amp;quot;key&amp;quot;, &amp;quot;value&amp;quot;)));
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;or&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;List.ofAll(Stream.of(&amp;quot;hello&amp;quot;, &amp;quot;world&amp;quot;))
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Traversables and Seq&lt;/h2&gt;
+&lt;p&gt;Lists, Maps and Streams are all implementations of &lt;a href="http://static.javadoc.io/io.javaslang/javaslang/2.0.0/javaslang/collection/Traversable.html"&gt;Traversable&lt;/a&gt; 
+and &lt;a href="http://static.javadoc.io/io.javaslang/javaslang/2.0.0/javaslang/collection/Seq.html"&gt;Seq&lt;/a&gt; (except Map) interfaces. &lt;br /&gt;
+They offer a complete set of methods, we unfortunately don't have in standard Java.&lt;br /&gt;
+Here is a few of them, the complete list is to be found on the doc API.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;sliding ~ windows function in SQL&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;slicing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;zip&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;crossProduct&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;dropUntil&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I highly suggest to read them all once, so you can have an idea of how you can simplify your existing code using these new methods.&lt;/p&gt;
+&lt;h2&gt;New data structures&lt;/h2&gt;
+&lt;p&gt;JavaSlang is also a new set of data&lt;/p&gt;
+&lt;h3&gt;Tuple&lt;/h3&gt;
+&lt;p&gt;Something we really miss in java. A collection of elements of different types.&lt;br /&gt;
+&lt;strong&gt;To use carrefully though&lt;/strong&gt;.  It should not replace the notion of class.  &lt;/p&gt;
+&lt;p&gt;When we come from Java, we tend to see everything as a class. &lt;br /&gt;
+So a Tuple can be seen as a class with poor expressiveness since we access its elements&lt;br /&gt;
+through standard getters (_1, _2,...,_8) that do not say much on the underlying element.  &lt;/p&gt;
+&lt;p&gt;What I see in tuples is a "context" factory on the fly. For instance in javaSlang, Maps are list of Tuple2 and not of 'MapEntry' objects... 
+It is very handy to use when chaining lambda operations, because it allow to return several outputs packaged into one Tuple.  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;int&lt;/span&gt; &lt;span class="nt"&gt;inputValue&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nt"&gt;42&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+&lt;span class="nt"&gt;listOfvalues&lt;/span&gt;&lt;span class="nc"&gt;.map&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;value&lt;/span&gt; &lt;span class="nt"&gt;-&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="nt"&gt;Tuple2&lt;/span&gt;&lt;span class="nc"&gt;.of&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;value&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;inputValue&lt;/span&gt;&lt;span class="o"&gt;))&lt;/span&gt;&lt;span class="nc"&gt;.foreach&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;this&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;:operation&lt;/span&gt;&lt;span class="o"&gt;);&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;void operation(Tuple2&amp;lt;String, int&amp;gt; tuple){
+    // make something with tuple._1
+
+    // make something with tuple._2
+}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Try&lt;/h3&gt;
+&lt;p&gt;In java, lambdas cannot throw checked exceptions.&lt;br /&gt;
+Javaslang offers a specific data structure to wrap call to specific function.&lt;/p&gt;
+&lt;h3&gt;Option&lt;/h3&gt;
+&lt;p&gt;In java8 we have optionals.&lt;br /&gt;
+Its constructor, &lt;em&gt;Optional.of()&lt;/em&gt; throws an NPE on a null reference (not necessarily a bad thing). To handle null reference we have Optional.ofNullable(). &lt;br /&gt;
+In javaSlang there is only one constructor &lt;em&gt;Option.of()&lt;/em&gt;. It is the only real difference I noticed with Java optional.&lt;br /&gt;
+In usage we rather use the same pattern than in standard java. &lt;/p&gt;
+&lt;h3&gt;Pattern matching&lt;/h3&gt;
+&lt;p&gt;I haven't really use this feature. the problem is it is still in developemtn, pain integration with intelliJ .&lt;/p&gt;
+&lt;h1&gt;Drawbacks&lt;/h1&gt;
+&lt;h2&gt;Naming collision&lt;/h2&gt;
+&lt;p&gt;JavaSlang is a layer above standard Java8 to make it more functional.&lt;br /&gt;
+It reimplements many structures.&lt;br /&gt;
+The drawback lies in the word "reimplementation".  &lt;/p&gt;
+&lt;p&gt;Where Guava is more an utility to ease the use of Standard Java and cohabites well with Java,
+JavaSlang will struggle to do so.&lt;br /&gt;
+Because of naming collision (List and Map for instance), working in the same class with standard java and javaslang is cumbersome.&lt;br /&gt;
+When using javaSlang inside a class it has to be isolated and be exclusively used.
+That brings us to another drawback.&lt;/p&gt;
+&lt;h2&gt;Coopeation with other modules&lt;/h2&gt;
+&lt;p&gt;We don't have the control on all the code we work with. Using a tierce SDK for instance.&lt;br /&gt;
+Other libraries surely don't use JavaSlang.&lt;br /&gt;
+That create contention points where we need to convert a Java util list into a javaSlang list for instance. Same thing for maps and stream.
+Although JavaSlang provides utilities such as toJavaList, List.ofAll, this work stay tedious.&lt;/p&gt;
+&lt;h2&gt;Watch out NullPointerExceptions&lt;/h2&gt;
+&lt;p&gt;Thes transformations are not harmless either.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;javaslangList.toJavaList()
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;List.ofAll(javaList)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Are as many potential NPE we have to be carefull on.&lt;/p&gt;
+&lt;h1&gt;Should I consider Java for my code&lt;/h1&gt;
+&lt;p&gt;It depends.&lt;/p&gt;
+&lt;p&gt;First of all you need your project to run on Java 8. &lt;br /&gt;
+The second and as mandatory condition, the code you modify must be tested hard !&lt;br /&gt;
+As far as I am concerned I took the opportunity to modify production code with Javaslang only because of unit tests and
+integration tests. &lt;br /&gt;
+Forget it on untested legacy code.&lt;/p&gt;
+&lt;p&gt;If you intend to develop a library you want to share, I would not recommand to add an extra dependency to the library's consumers. &lt;br /&gt;
+This &lt;a href="https://blog.jooq.org/2016/08/11/all-libraries-should-follow-a-zero-dependency-policy/"&gt;nice article&lt;/a&gt; explain this point of view.&lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;JavaSlang is really worth the try. It brings java functional development to a more pragmatic level.&lt;br /&gt;
+It is also glimpse of what other functional languages offer.&lt;br /&gt;
+We have however seen that it comes at a price. Wether you can afford this cost or not should not
+detere you from trying it. At least to see what other functional languages offer, in comparaison to Java without having to.&lt;/p&gt;</summary><category term="java"></category></entry><entry><title>Pearltrees</title><link href="/pearltree.html" rel="alternate"></link><published>2014-01-12T12:06:00+01:00</published><author><name>ihommmani</name></author><id>tag:,2014-01-12:pearltree.html</id><summary type="html">&lt;p&gt;&lt;img alt="Alt Text" src="/images/pearltrees-logo.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;Ces favoris qu'on oublie...&lt;/h2&gt;
+&lt;p&gt;Lorsque nous surfons sur le web, il est très commun de repérer des sites qui ont un attrait particulier et sur lesquels nous souhaitons revenir plus tard.
+De nos jours la plupart des navigateurs web proposent une fonction d'ajout de favoris, permettant de garder en mémoire des URL et de les classer. 
+Un des avantages est que lorsque l'on tapera une url faisant parti du pool de ces favoris, le navigateur completera de manière intelligente l'url.
+Mais cela présuppose qu'on ai retenu un mot clé de l'url et cela est rarement le cas. 
+Et là se trouve selon moi l'éceuil principal des favoris. Les favoris tombent aux oubliettes.
+pearltrees a bien saisi ce problème et se propose de libérer le potentiel des favoris à travers plusieurs concepts.&lt;/p&gt;
+&lt;h2&gt;Alors qu'on devrais les cultiver...&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.pearltrees.com/" title="pearltrees"&gt;pearltrees&lt;/a&gt; est une webapplictation permettant d'organiser de manière intelligente et ludique ses favoris.
+Conceptuellement il permet de ranger dans un &lt;a href="http://fr.wikipedia.org/wiki/Arbre_(graphe)" title="arbre"&gt;arbre&lt;/a&gt;, où chaque noeud (ou perle) est une catégorie et chaque feuille un favoris.&lt;br /&gt;
+&lt;em&gt;Rq: C'est une structure composite, donc un noeud peut aussi contenir des noeuds.&lt;/em&gt;&lt;br /&gt;
+Mais pearltrees ne serais pas digne d'intérêt s'il ne se limitait qu'à mimer la fonction "favoris" des navigateurs.  &lt;/p&gt;
+&lt;h3&gt;Une interface riche et simple à la fois&lt;/h3&gt;
+&lt;p&gt;Pour pouvoir profiter de pearltrees il est nécessaire d'installer &lt;strong&gt;un perleur&lt;/strong&gt; sur son navigateur après s'être créé un compte sur pearltrees. 
+Le perleur est une extension du navigateur qui permettra par la suite de perler les sites que vous visitez.
+Le workflow typique est le suivant. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Création de l'arbre&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En se connectant sur l'interface pearltrees on créera un arbre selon notre préférence en y ajoutant des noeuds thématiques. Attention je parle bien d'arbre et non de forêt. Un compte pearltrees basique ne permet pas la gestion multi-arbres.&lt;br /&gt;
+Bien qu'accessible depuis un navigateur sur un ordinateur classique, pearltrees vise clairement un hardware mobile type tablette/fablette voire smartphone. 
+Le glisser/déposer est en effet l'action la plus courante pour enrichir/organiser un arbre. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Feuillaison&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le perleur ne permet pas de créer de perles thématique (noeud de l'arbre) mais de transformer les sites visités en perle (feuille de l'arbre).&lt;br /&gt;
+Un problème peut se poser dans le cas où aucune perle thématique ne correspond au thème du site à perler.
+Dans ce cas là il est possible de placer dans un &lt;strong&gt;panier&lt;/strong&gt; le site pour le greffer plus tard sur l'arbre.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Entretien&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Au fur et à mesure de l'enrichissisement de l'arbre il arrivera un moment où l'on souhaitera réorganiser certaines branches, les supprimer ou les fusionner.&lt;br /&gt;
+Il faudra aussi veiller à greffer les perles du panier dans l'arbre au risque de tomber dans l'écueil des favoris classique. &lt;/p&gt;
+&lt;h2&gt;...pour les partager...&lt;/h2&gt;
+&lt;p&gt;Nous vivons une ère d'internet dans laquelle nous créons le contenu pour ensuite le partager. Pearltrees est intégré aux acteurs majeurs du réseau social que sont twitter et facebook. Mais là ne réside pas l'intérêt principal de pearltrees car ce dernier permet surtout de partager des perles entre différents compte. 
+Vous faite parti d'une équipe ayant pour tâche de réaliser un projet A. 
+Pearltrees permet la collaboration en permettant le partages de perles qui serviront de pot commun aux connaissances pouvant faire avancer le projet. Un peu à la manière d'un blackboard. Ces perles peuvent prendre la forme de notes, de sites ou encore de photos.
+Autre point d'intérêt, pearltrees vous envoi des alertes lorsqu'un site que vous avez perlé se retrouve perlé par un quelqu'un d'autre. De cette manière on se remémore assez souvent les sites que nous avions décidé de perler.&lt;/p&gt;
+&lt;h2&gt;... et découvrir d'autres sites d'intérêts&lt;/h2&gt;
+&lt;p&gt;Pearltrees intègre un moteur de recherche permettant de rechercher des centre d'intérêts parmis les arbres d'autres personnes. 
+Par ailleurs une fonction "Voisin" essaye de trouver de manière la plus pertinente les perles thématiquement proches d'un noeud selectionné.
+Je ne connais pas l'algorithme utilisé mais je suppose qu'il est important à ce titre de bien organiser ces perles afin d'avoir des résultat intéressants.&lt;/p&gt;
+&lt;h2&gt;Que faire de ces anciens favoris ?&lt;/h2&gt;
+&lt;p&gt;Une fonction d'import fonctionnant avec la plupart des navigateurs permet d'importer ses favoris. 
+Il s'agit d'un bon point de départ si vous n'avez pas encore d'arbre.&lt;/p&gt;
+&lt;h3&gt;Pas de pub&lt;/h3&gt;
+&lt;p&gt;Pearltrees est gratuit dans sa version basique et offre une capacité de stockage de 250Mo (largement suffisant dans la plupart des cas). Par expérience, cette gratuité a souvent été accompagnée de banières publicitaires nuisant à la lisibilité. 
+Or ce n'est pas le cas de pearltrees. En revanche nous serons sollicités pour passer à la version premium. Mais bon cela est tout à fait compréhensible.&lt;/p&gt;
+&lt;h3&gt;Quid de la confidentialité et de la propriété du contenu ?&lt;/h3&gt;
+&lt;p&gt;En compte basique, les perles sont publiques. Seuls les membres premiums peuvent bénéficier de perles privées.
+Néanmoins, chaque utilisateur est propriétaire de ses données. Donc en théorie elles ne peuvent être utilisées à des fins commerciales.
+Pour les plus frileux d'entre vous, vous pouvez toujours décortiquer leur &lt;a href="http://www.pearltrees.com/info/privacy" title="privacy"&gt;charte&lt;/a&gt; de confidentialité. &lt;/p&gt;
+&lt;h2&gt;En conclusion&lt;/h2&gt;
+&lt;p&gt;Pearltrees est un outil qui d'après moi permet de libérer le potentiel de l'action d'ajout de favoris.
+Ce qu'il permet n'est pas simplement d'acumuler des liens mais bien de créer une cartographie colaborative du web. 
+Je trouve cette approche très intéressante et gageons que je ne sois pas le seul.&lt;/p&gt;</summary><category term="outils"></category></entry><entry><title>Pelican</title><link href="/pelican.html" rel="alternate"></link><published>2014-01-09T23:58:00+01:00</published><author><name>ihommmani</name></author><id>tag:,2014-01-09:pelican.html</id><summary type="html">&lt;h1&gt;Presenting Pelican&lt;/h1&gt;
+&lt;p&gt;When I'm reading a blog, besides the article, i'm also interested about the technology behind it. 
+At first it was just good curiosity, to keep me up to date and see what reviews were made on it.
+Then I started this blog. So I had to make my choice. And a clever one i.e adapted to my needs.
+This choice was guided by these simple needs: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;My blog has to be simple to host&lt;/li&gt;
+&lt;li&gt;The tool generating it must be easy to handle&lt;/li&gt;
+&lt;li&gt;The communauty behind it active&lt;/li&gt;
+&lt;li&gt;Allow internationalisation i.e multi-languages articles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When it comes to host a site, there is no simpler than pure Html. No database, no logic, only text.
+For this, static site generators are great. You give markup language file in input and you get html in output. 
+There are a &lt;a href="http://staticsitegenerators.net/" title="generators list"&gt;lot of them&lt;/a&gt; out there. Each with a different technology, architecture... a different flavour. To give a try to each of them would take a long time so I mainly relied on my previous first searches to filter.
+Github kindly provides free hosting through &lt;a href="http://pages.github.com/, gh-pages"&gt;github-pages&lt;/a&gt;. I took this oppurtunity and follow their tutorial taking advantage on the Jekyll generator.
+But I encountered Pelican in my search and finally switched to it. &lt;/p&gt;
+&lt;p&gt;This article provides answers on why I chose Pelican and not other generator. &lt;br /&gt;
+&lt;strong&gt;This is not a tutorial. The official tutorial is enough &lt;a href="http://docs.getpelican.com/en/latest/" title="pelican doc"&gt;documented&lt;/a&gt; for this.&lt;/strong&gt; &lt;/p&gt;
+&lt;h2&gt;&lt;a href="http://jekyllrb.com/" title="Jekyll"&gt;Jekyll&lt;/a&gt;&lt;/h2&gt;
+&lt;h3&gt;First encounter&lt;/h3&gt;
+&lt;p&gt;Like I said, I had my first static site generator experience with Jekyll. Unlike general first experiences, this, was not painful.
+Thanks to a good &lt;a href="http://jekyllrb.com/docs/home/" title="jekyll tuto"&gt;tutorial&lt;/a&gt; I had a functional blog in less than an afternoon.
+Jekyll engine is based on Ruby and take advantage of the liquid templating language.
+Unfortunately after the basic HelloWorld, discord begun.&lt;br /&gt;
+Still, Jekyll is not a bad choice and provided me with a better understanding of static site generator workflow.&lt;/p&gt;
+&lt;h3&gt;The good&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fairly simple&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Publishing is as easy as pushing a commit. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using YAML for configuration&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The bad&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Theming system&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In Jekyll you have to specify on each post the layout to apply on it. When constructing a blog it's clearly the same layout we want for each post.
+So it obviously left me a taste of duplication. If we want to change the theme, we have to change on each post the layout metadata which can be very tedious and error prone. (may you master awk...) .&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Internationalisation&lt;/em&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Through this blog I want to write in several languages. It's not cocky at all it's just about reaching a wider audience. 
+English is good for this but in my opinion it's better to show we also care about other languages. We don't only code in Java, C# or C++. We do also code in Python, Ruby, Javascript...
+So let's consider languages like code languages.
+Jekyll, is good to distinct categories and tag, but languages, its none. We cannot simply say that: "Look, those two articles are in fact the same. They do not share the same language, that's all".
+I don't say you can't reach this, I'm just saying that it is not native in Jekyll. Someone proposed to use &lt;a href="http://www.garron.me/en/blog/jekyll-multi-language.html" title="blog"&gt;category&lt;/a&gt; as a substitute to language. In my opinion it's not the good way to do it. Language is not a category. If I have category movie with a post in english and chinese I have to make my choice 
+between one category "Movie" and two categories "English" and "Chinese".
+What I want is one category "Movie" and a link to switch from one language to another.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Integration with other sites&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I put it in the drawbacks but it depends on your preference. You can say I want to choose my own analytic system or comment system. In that case Jekyll 
+is Ok for you. Or you can choose to prefer to only specify throuh configuration just one identifier you were provided with (disqus, ga...) and let the engine take care of the integration for you. No copy/paste needed in templates.   &lt;/p&gt;
+&lt;h2&gt;&lt;a href="http://blog.getpelican.com/" title="pelican"&gt;Pelican&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I knew Pelican before Jekyll but never gave it a try.
+Pelican engine is built on top of Python and for this reason use the Jinja2 templating language.
+It's a young project with a wide community of users and commiters.&lt;/p&gt;
+&lt;h3&gt;The good: How does it fit to my needs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Plugins&lt;/em&gt;
+Pelican provides an easy way to add features through plugins. 
+There's github page 
+To add a plugin to your site, you just have to specify the name in the setting file through the SETTING variable.
+&lt;a href="https://github.com/getpelican/pelican-plugins ," title="pelican plugins"&gt;Here&lt;/a&gt; is a list of plugins you can try.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Themes&lt;/em&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pelican had a theming system somehow different from Jekyll's one. With Pelican it's more like a Plug'n play system.
+Instead of manually specifying the layout on each post, you only precise once in the config file the Theme name. 
+Moreover, there are plenty of &lt;a href="http://pelicanthemes.com/" title="themes"&gt;them&lt;/a&gt; hosted by gitHub. Pelican gives you a tool to manage themes installation and uninstall with pelican-theme CLI.
+If you want to change your UI, you only have to change a metadata in the configfile and boom.
+To bypass the theme, there is a possibility generate custom pages besides your blog entries. You can point any Jinja2 template file with a path pointing to the file and the destination path for the generated file.
+Pelican also provide a usefull command &lt;em&gt;pelican-theme&lt;/em&gt; to manage themes properly.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Internationalisation&lt;/em&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pelican is "traduction ready". That is to say, you can bound N articles as being the same article but with a different language.
+For this, you just have to add two metadatas in your post:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The slug&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;Slug&lt;/em&gt; is the link between the articles. All articles with the same slug will be considered as being the same.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Language&lt;/strong&gt;&lt;br /&gt;
+    It comes with &lt;em&gt;slug&lt;/em&gt; and specify the link's name which will allow to switch beetween versions. An error will occur at the generation if you forget it. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Integration with other sites&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pelican's themes already embed some link to sites like Disqus or google-analitycs. You only have to specify in the config-file your identifiers. 
+I think it's good idea for it does all the work for you. You don't have to copy paste anything in the layout because it's already there.
+If you're not fine with those sites you still can modify the templates. (to know the path: pelican-themes -lv) 
+And remember that most of metadatas you specify in the config file are variables used in the layout by Jinja.&lt;/p&gt;
+&lt;h3&gt;The bad&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Github hosting&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Unfortunately Pelican directory structure can't be pushed directly to the gh-pages repository. &lt;br /&gt;
+But thanks to the tool &lt;a href="https://github.com/davisp/ghp-import" title="ghp-import"&gt;ghp-import&lt;/a&gt; it very easy.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;What can be said from all of that ?
+Jekyll and Pelican are very similar. I guess it's a constant when talking about static site generator. Differences lay in the details. 
+When it comes to construct a static site, Jekyll is a good to go. The liberty it provides is clearly an asset. 
+But when it comes to construct a blog, you should give a try to Pelican. From my point of view, Pelican is more adapted for this than Jekyll. 
+I see Pelican as an evolution of Jekyll specially adapted to my needs.
+It provides me with a better experience and a smoother workflow.&lt;/p&gt;
+&lt;p&gt;Mentionable: I haven't tried yet at the time I'm writting this article but It seems that &lt;a href="http://ruhoh.com/" title="ruho"&gt;Ruho&lt;/a&gt; could also be a good choice. &lt;/p&gt;</summary><category term="generator"></category></entry></feed>

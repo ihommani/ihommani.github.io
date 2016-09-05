@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="/" rel="alternate"></link><link href="/feeds/tools.atom.xml" rel="self"></link><id>/</id><updated>2014-04-13T22:10:00+02:00</updated><entry><title>Ranger</title><link href="/ranger.html" rel="alternate"></link><published>2014-04-13T22:10:00+02:00</published><author><name>ihommmani</name></author><id>tag:,2014-04-13:ranger.html</id><summary type="html">&lt;p&gt;Ranger is a file manager where thing can get fast...blazingly fast. &lt;br /&gt;
+I trully think you should give it a try. At least to test another paradigm of file manager. &lt;br /&gt;
+So, &lt;strong&gt;is Ranger a true alternative to classic file managers &lt;/strong&gt;?&lt;br /&gt;
+As always, the right response would be "It depends.".
+Ranger has strong requirements. And the step could be too high for some people.&lt;/p&gt;
+&lt;h1&gt;Ranger ?&lt;/h1&gt;
+&lt;p&gt;Put in few words, Ranger is a &lt;strong&gt;file manager with curses interface&lt;/strong&gt;. 
+As a file manager, it allows you to do the basic CRUD operations on your file system but also operations such as setting rights on files, excute or previewing files...
+Unlike classic FM all is fast since you control it through your keyboard and shortcuts and not your mouse.
+Ranger step out of your way so you can focus on the important things.&lt;br /&gt;
+Another interisting fact is how far you can tweak it to closely match your needs.&lt;/p&gt;
+&lt;h1&gt;Interface&lt;/h1&gt;
+&lt;p&gt;Ranger relies on curses interface to display informations.&lt;br /&gt;
+This is the first step to address for someone used to GUI.&lt;br /&gt;
+No more shinny feature. All you have is a bunch of columns and lines.
+Yet the all thing is &lt;strong&gt;clear enough to navigate through&lt;/strong&gt;.   I will also add that it provides more informations than a classic FM since you not only see the content of the current directory but also the content of the directory you point. Avoiding you to enter a directory to check its content. &lt;br /&gt;
+The advantage of not relying on graphic server are numerous.   &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ranger is usable in the console &lt;br /&gt;
+Pretty cool for sysadmins&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You save a plenty of resources&lt;br /&gt;
+For instance on my 3Go RAM computer (pretty low in the time writting this article) the memory print wouldn't go over 0.5%. So it is for the CPU comsumption.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="interface" src="/images/ranger1.png" title="ranger's interface" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Navigation is by default made through the central column, although you can change the parent directory from this column&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;The tip are the tips of your fingers&lt;/h1&gt;
+&lt;p&gt;The second steps to address is to accept the fact &lt;strong&gt;you won't need a mouse&lt;/strong&gt;.
+Concerning the mouse I think there is some kind of addiction. We can't (or don't want to) see alternative, either when mouse is not the best mean. &lt;br /&gt;
+Don't get me wrong, mouse is useful for many usecases and without alternative in some case(Gaming, web browsing). &lt;br /&gt;
+But there is a better alternative in the case of file manager, and mouse is no match for the speed of the keyboard...in the case you 
+master the type touching i.e typing without watching your keyboard. &lt;br /&gt;
+That is the second part of the step. &lt;strong&gt;You have to invest yourself in mastering your keyboardi&lt;/strong&gt;. 
+And believe me in a month or two you'll thank me.&lt;/p&gt;
+&lt;h1&gt;Installation&lt;/h1&gt;
+&lt;p&gt;Ranger requires python 2.6 or higher. 
+Although you can install it with a tarball provided in the official &lt;a href="http://ranger.nongnu.org/download.html," title="ranger download"&gt;site&lt;/a&gt;, it is adviced to use the package manager of your distribution.
+In any case installation should be easy.&lt;/p&gt;
+&lt;h1&gt;Parametrisation&lt;/h1&gt;
+&lt;p&gt;One cool aspect about ranger is the way you can tweak it. &lt;br /&gt;
+Almost every aspect is configurable. Keybinding, colors, applications to open/preview files...
+Ranger relies on four files for the configuration:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;rifle.conf &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;commands.py&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;rc.conf&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;scope.sh&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;They have to be in the directory &lt;em&gt;~/.config/ranger&lt;/em&gt; .&lt;br /&gt;
+To easily bootstrap these files we can take advantage of the &lt;em&gt;copy-config&lt;/em&gt; option: &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ ranger --copy-option all
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This has for effect to bootstrap your configuration directory with default configuration files.&lt;/p&gt;
+&lt;h2&gt;Rifle.conf&lt;/h2&gt;
+&lt;p&gt;Ranger uses a program named rifle to open/execute files.&lt;br /&gt;
+To configure rifle you've got to modify &lt;strong&gt;rifle.conf&lt;/strong&gt; .&lt;br /&gt;
+This file describes to rifle what application to use when you want to open or execute a file. 
+It describes with a specific syntax how to reconize file (by name, by extension, by regex...) and how to handle it.   &lt;/p&gt;
+&lt;h2&gt;Commands&lt;/h2&gt;
+&lt;p&gt;Ranger commands are defined through the file &lt;strong&gt;commands.py&lt;/strong&gt;.&lt;br /&gt;
+This python file contains classes, each one representing a command. &lt;br /&gt;
+To interface with ranger the class has to define at least some specific methods.&lt;br /&gt;
+All is well explained in the comment header of the file.&lt;/p&gt;
+&lt;p&gt;Not only you can modify some behavior, you also can create new commands.
+Here's a simple hello_world command:&lt;br /&gt;
+I want the hello_world [args] command to display "Hello World [args]" on the screen.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="n"&gt;hello_world&lt;/span&gt;(&lt;span class="n"&gt;Command&lt;/span&gt;):
+    &lt;span class="s"&gt;&amp;quot;&amp;quot;&amp;quot;:hello_world [args]&lt;/span&gt;
+
+&lt;span class="s"&gt;    Display hello world on console&lt;/span&gt;
+&lt;span class="s"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;execute&lt;/span&gt;(&lt;span class="k"&gt;self&lt;/span&gt;):
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="k"&gt;self&lt;/span&gt;.&lt;span class="n"&gt;args:&lt;/span&gt;
+            &lt;span class="k"&gt;self&lt;/span&gt;.&lt;span class="n"&gt;fm&lt;/span&gt;.&lt;span class="n"&gt;notify&lt;/span&gt;(&lt;span class="s"&gt;&amp;quot;Hello world %s&amp;quot;&lt;/span&gt; % &lt;span class="k"&gt;self&lt;/span&gt;.&lt;span class="n"&gt;args&lt;/span&gt;)
+        &lt;span class="n"&gt;else:&lt;/span&gt;
+            &lt;span class="k"&gt;self&lt;/span&gt;.&lt;span class="n"&gt;fm&lt;/span&gt;.&lt;span class="n"&gt;notify&lt;/span&gt;(&lt;span class="s"&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Here's the explanation.&lt;br /&gt;
+Each class must extends the Command class.&lt;br /&gt;
+Then it has to interface to ranger by defining the &lt;em&gt;execute&lt;/em&gt; metod. &lt;br /&gt;
+Inside this method we use the &lt;em&gt;fm&lt;/em&gt; object which contains most information about ranger.&lt;br /&gt;
+Now we can use our new command inside ranger by typing &lt;em&gt;:hello_world foo&lt;/em&gt;   &lt;/p&gt;
+&lt;p&gt;It also exists others methods. I let you &lt;strong&gt;read the fantastic header&lt;/strong&gt; to understand the purpose of each one.&lt;/p&gt;
+&lt;h2&gt;rc.conf&lt;/h2&gt;
+&lt;p&gt;The purpose of this file is to define the ranger's startup settings.&lt;br /&gt;
+It is where you'll find most of the ranger's setting. &lt;br /&gt;
+To know about the setting you can modify, the manuel is a good starting point. 
+It is where you also specify keybinding. By default, &lt;strong&gt;ranger comes with a vim keybinding&lt;/strong&gt;, but it's up to you if you want to keep it or change it.&lt;/p&gt;
+&lt;p&gt;This file is also a treasure of information and you should read it at least once, to discover all the setting and shortcut you've got. &lt;br /&gt;
+Ranger is powerfull only if we know how to take advantage of it.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;E.g, not only you got keybinding to navigate, you also have keybinding to sort files and directories, launch unix commands such as &lt;strong&gt;df&lt;/strong&gt;, filter files...&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: &lt;em&gt;To not forget it you can easily switch from Ranger to your terminal with &lt;strong&gt;S&lt;/strong&gt;, and go back to Ranger by exiting the same terminal.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;scope.sh&lt;/h2&gt;
+&lt;p&gt;Like rifle but used to preview files.&lt;br /&gt;
+Very useful, instead of opening files you check through the preview if it is the file you are looking for. Also works for pdf and images.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="interface" src="/images/ranger2.png" title="ranger's preview 1" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Example of a text file preview&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="interface" src="/images/ranger3.png" title="ranger's preview 2" /&gt;
+&lt;em&gt;Example of an image preview. Note that this ascii preview rely on my geek taste, but you can perfectly preview a 'normal' aspect. Just read the scope.sh header&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Theming&lt;/h2&gt;
+&lt;p&gt;You can of course change the style of ranger by creating an existing theme or creating a new one.&lt;br /&gt;
+The good thing is that creating a new one is easy thanks to inheritance.
+You just have to create a &lt;em&gt;your_theme.py&lt;/em&gt; in the colorsheme directory and define inside a class &lt;em&gt;Scheme&lt;/em&gt; inheriting from Default class.   &lt;/p&gt;
+&lt;p&gt;It can be as small as this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="n"&gt;Scheme&lt;/span&gt;(&lt;span class="n"&gt;Default&lt;/span&gt;):
+    &lt;span class="n"&gt;progress_bar_color&lt;/span&gt; = &lt;span class="n"&gt;green&lt;/span&gt;
+    &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="k"&gt;use&lt;/span&gt;(&lt;span class="k"&gt;self&lt;/span&gt;, &lt;span class="nb"&gt;context&lt;/span&gt;):
+        &lt;span class="n"&gt;fg&lt;/span&gt;, &lt;span class="n"&gt;bg&lt;/span&gt;, &lt;span class="nb"&gt;attr&lt;/span&gt; = &lt;span class="n"&gt;Default&lt;/span&gt;.&lt;span class="k"&gt;use&lt;/span&gt;(&lt;span class="k"&gt;self&lt;/span&gt;, &lt;span class="nb"&gt;context&lt;/span&gt;)
+
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;directory&lt;/span&gt; &lt;span class="o"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;marked&lt;/span&gt; &lt;span class="o"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;link:&lt;/span&gt;
+            &lt;span class="n"&gt;fg&lt;/span&gt; = &lt;span class="n"&gt;green&lt;/span&gt;
+
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;in_titlebar&lt;/span&gt; &lt;span class="o"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;hostname:&lt;/span&gt;
+            &lt;span class="n"&gt;fg&lt;/span&gt; = &lt;span class="n"&gt;red&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;context&lt;/span&gt;.&lt;span class="n"&gt;bad&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;blue&lt;/span&gt;
+
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;fg&lt;/span&gt;, &lt;span class="n"&gt;bg&lt;/span&gt;, &lt;span class="nb"&gt;attr&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You then specify the theme you want in the rc.conf file by putting the following line in your rc.conf  &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;set colorscheme your_theme
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Plugins&lt;/h1&gt;
+&lt;p&gt;To add features to Ranger without modifying the core of it, ranger support plugins. I don't include them in the scope of this article. However it is well documented and nice example are to be found under &lt;strong&gt;/usr/share/doc/ranger&lt;/strong&gt; directory.&lt;/p&gt;
+&lt;h1&gt;The downsides&lt;/h1&gt;
+&lt;p&gt;While i'm praising keyboard over the mouse, I have to confess that the drag and drop is a feature we do not have with ranger. &lt;br /&gt;
+It's the major ranger's drawback of i can see.&lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;I have used ranger for years.&lt;br /&gt;
+Ranger is different from other file manager. It gives a different experience while managing your files.&lt;br /&gt;
+Not only it is light and fast, it also stick to your needs to an extent no other file managers can match.&lt;br /&gt;
+Last but not least, a word from our beloved comrade.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Texas" src="/images/texas_ranger.jpg" title="Texas ranger" /&gt;&lt;/p&gt;</summary><category term="file manager"></category></entry><entry><title>Quora</title><link href="/quora-fr.html" rel="alternate"></link><published>2014-03-30T20:37:00+02:00</published><author><name>ihommmani</name></author><id>tag:,2014-03-30:quora-fr.html</id><summary type="html">&lt;p&gt;&lt;img alt="Quora" src="https://pbs.twimg.com/profile_images/453594268095889408/EGmOkBn6.png" title="Quora" /&gt;&lt;/p&gt;
+&lt;h2&gt;Etre curieux&lt;/h2&gt;
+&lt;p&gt;Ce cours billet à pour but de présenter &lt;strong&gt;&lt;a href="http://www.quora.com/" title="quora"&gt;Quora&lt;/a&gt;&lt;/strong&gt;, un site que j'ai récemment découvert et que je trouve digne d'intérêt. &lt;/p&gt;
+&lt;p&gt;Il est naturel et sain de se poser des questions. 
+Cela vient d'un désir d'aller de l'avant, de comprendre le monde qui nous entoure afin d'en mieux cerner les limites pour pouvoir ensuite les repousser, ou de plus humblement les comprendre. &lt;br /&gt;
+A mesure que l'on grandit et/ou que l'on gagne en maturité &lt;strong&gt;les questions se complexifient&lt;/strong&gt;.&lt;br /&gt;
+Nos expériences se multiplient. Nous sommes confrontés à de nouvelles problématiques chaque jour et nous y cherchons naturellement des réponses.&lt;br /&gt;
+Certaines questions trouvent des réponses simples et uniques. 
+D'autres nécessitent une approche différente. &lt;strong&gt;Nous ne pouvons plus nous baser sur une unique réponse&lt;/strong&gt;, mais un ensemble de réponses. Chacune apportant une contribution à la formation de notre opinion.
+Je pense en particulier aux questions existentielles, ou celles liées à l'âge et l'experience.
+Il n'y a pas de réponse unique à apporter à des questions en rapport avec la vie, la conscience, les sentiments...&lt;/p&gt;
+&lt;h2&gt;Quora&lt;/h2&gt;
+&lt;p&gt;La volonté de Quora n'est pas d'apporter une réponse à une question mais de &lt;strong&gt;réunir les conditions nécessaires&lt;/strong&gt; (mais non suffisantes) à l'émergence de réponses pertinentes.
+Le site offre une palette impresionnante de thématiques.&lt;br /&gt;
+Mieux que cela, quora &lt;strong&gt;aiguise la curiosité&lt;/strong&gt;, en proposant de s'inscrire à des newsletters en fonctions de nos centres d'intérêts.
+On se voit donc proposer des réponses à des questions suceptibles d'attirer notre attention. &lt;/p&gt;
+&lt;p&gt;Cela ne serait bien sûr pas possible sans l'apport d'une communauté active. 
+Et c'est ce qui m'attire le plus dans Quora. &lt;strong&gt;L'implication de la communauté y est élevée&lt;/strong&gt;. Rarement je n'ai vu des réponses aussi développées. 
+Un système de vote permet de classer les réponses par pertinence, incitant les personnes à développer leur réponse dans le but d'être lu par le plus grand nombre.
+Il n'est par ailleurs pas rare de lire des réponses venant de personnes expertes dans le domaine lié à la question.&lt;/p&gt;
+&lt;p&gt;D'aucun penserons que Quora est une copie de &lt;a href="https://answers.yahoo.com/" title="yahoo answers"&gt;Yahoo answers&lt;/a&gt; ou &lt;a href="http://www.reddit.com/r/AskReddit/" title="Reddit"&gt;Reddit&lt;/a&gt;.&lt;br /&gt;
+La remarque est légitime et je n'ai pas été étonné de retrouver des questions relatives à la pertinence de Quora sur Quora même.&lt;br /&gt;
+Ce qu'il en ressort est en général la qualité des réponses fournies ainsi que des questions qu'on y pose. &lt;/p&gt;
+&lt;h2&gt;Votre choix&lt;/h2&gt;
+&lt;p&gt;Mon propos n'est pas d'affirmer la supériorité de Quora sur d'autres sites similaires. Il est plutôt d'attirer l'attention sur une communauté grandissante qui m'a aidée à réfléchir certaines questions et qui, je vous le souhaite, vous ouvrira l'esprit sur de nouveaux sujets.&lt;/p&gt;</summary><category term="connaissance"></category><category term="knowledge"></category></entry><entry><title>Pearltrees</title><link href="/pearltree.html" rel="alternate"></link><published>2014-01-12T12:06:00+01:00</published><author><name>ihommmani</name></author><id>tag:,2014-01-12:pearltree.html</id><summary type="html">&lt;p&gt;&lt;img alt="Alt Text" src="/images/pearltrees-logo.jpg" /&gt;&lt;/p&gt;
+&lt;h2&gt;Ces favoris qu'on oublie...&lt;/h2&gt;
+&lt;p&gt;Lorsque nous surfons sur le web, il est très commun de repérer des sites qui ont un attrait particulier et sur lesquels nous souhaitons revenir plus tard.
+De nos jours la plupart des navigateurs web proposent une fonction d'ajout de favoris, permettant de garder en mémoire des URL et de les classer. 
+Un des avantages est que lorsque l'on tapera une url faisant parti du pool de ces favoris, le navigateur completera de manière intelligente l'url.
+Mais cela présuppose qu'on ai retenu un mot clé de l'url et cela est rarement le cas. 
+Et là se trouve selon moi l'éceuil principal des favoris. Les favoris tombent aux oubliettes.
+pearltrees a bien saisi ce problème et se propose de libérer le potentiel des favoris à travers plusieurs concepts.&lt;/p&gt;
+&lt;h2&gt;Alors qu'on devrais les cultiver...&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.pearltrees.com/" title="pearltrees"&gt;pearltrees&lt;/a&gt; est une webapplictation permettant d'organiser de manière intelligente et ludique ses favoris.
+Conceptuellement il permet de ranger dans un &lt;a href="http://fr.wikipedia.org/wiki/Arbre_(graphe)" title="arbre"&gt;arbre&lt;/a&gt;, où chaque noeud (ou perle) est une catégorie et chaque feuille un favoris.&lt;br /&gt;
+&lt;em&gt;Rq: C'est une structure composite, donc un noeud peut aussi contenir des noeuds.&lt;/em&gt;&lt;br /&gt;
+Mais pearltrees ne serais pas digne d'intérêt s'il ne se limitait qu'à mimer la fonction "favoris" des navigateurs.  &lt;/p&gt;
+&lt;h3&gt;Une interface riche et simple à la fois&lt;/h3&gt;
+&lt;p&gt;Pour pouvoir profiter de pearltrees il est nécessaire d'installer &lt;strong&gt;un perleur&lt;/strong&gt; sur son navigateur après s'être créé un compte sur pearltrees. 
+Le perleur est une extension du navigateur qui permettra par la suite de perler les sites que vous visitez.
+Le workflow typique est le suivant. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Création de l'arbre&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En se connectant sur l'interface pearltrees on créera un arbre selon notre préférence en y ajoutant des noeuds thématiques. Attention je parle bien d'arbre et non de forêt. Un compte pearltrees basique ne permet pas la gestion multi-arbres.&lt;br /&gt;
+Bien qu'accessible depuis un navigateur sur un ordinateur classique, pearltrees vise clairement un hardware mobile type tablette/fablette voire smartphone. 
+Le glisser/déposer est en effet l'action la plus courante pour enrichir/organiser un arbre. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Feuillaison&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le perleur ne permet pas de créer de perles thématique (noeud de l'arbre) mais de transformer les sites visités en perle (feuille de l'arbre).&lt;br /&gt;
+Un problème peut se poser dans le cas où aucune perle thématique ne correspond au thème du site à perler.
+Dans ce cas là il est possible de placer dans un &lt;strong&gt;panier&lt;/strong&gt; le site pour le greffer plus tard sur l'arbre.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Entretien&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Au fur et à mesure de l'enrichissisement de l'arbre il arrivera un moment où l'on souhaitera réorganiser certaines branches, les supprimer ou les fusionner.&lt;br /&gt;
+Il faudra aussi veiller à greffer les perles du panier dans l'arbre au risque de tomber dans l'écueil des favoris classique. &lt;/p&gt;
+&lt;h2&gt;...pour les partager...&lt;/h2&gt;
+&lt;p&gt;Nous vivons une ère d'internet dans laquelle nous créons le contenu pour ensuite le partager. Pearltrees est intégré aux acteurs majeurs du réseau social que sont twitter et facebook. Mais là ne réside pas l'intérêt principal de pearltrees car ce dernier permet surtout de partager des perles entre différents compte. 
+Vous faite parti d'une équipe ayant pour tâche de réaliser un projet A. 
+Pearltrees permet la collaboration en permettant le partages de perles qui serviront de pot commun aux connaissances pouvant faire avancer le projet. Un peu à la manière d'un blackboard. Ces perles peuvent prendre la forme de notes, de sites ou encore de photos.
+Autre point d'intérêt, pearltrees vous envoi des alertes lorsqu'un site que vous avez perlé se retrouve perlé par un quelqu'un d'autre. De cette manière on se remémore assez souvent les sites que nous avions décidé de perler.&lt;/p&gt;
+&lt;h2&gt;... et découvrir d'autres sites d'intérêts&lt;/h2&gt;
+&lt;p&gt;Pearltrees intègre un moteur de recherche permettant de rechercher des centre d'intérêts parmis les arbres d'autres personnes. 
+Par ailleurs une fonction "Voisin" essaye de trouver de manière la plus pertinente les perles thématiquement proches d'un noeud selectionné.
+Je ne connais pas l'algorithme utilisé mais je suppose qu'il est important à ce titre de bien organiser ces perles afin d'avoir des résultat intéressants.&lt;/p&gt;
+&lt;h2&gt;Que faire de ces anciens favoris ?&lt;/h2&gt;
+&lt;p&gt;Une fonction d'import fonctionnant avec la plupart des navigateurs permet d'importer ses favoris. 
+Il s'agit d'un bon point de départ si vous n'avez pas encore d'arbre.&lt;/p&gt;
+&lt;h3&gt;Pas de pub&lt;/h3&gt;
+&lt;p&gt;Pearltrees est gratuit dans sa version basique et offre une capacité de stockage de 250Mo (largement suffisant dans la plupart des cas). Par expérience, cette gratuité a souvent été accompagnée de banières publicitaires nuisant à la lisibilité. 
+Or ce n'est pas le cas de pearltrees. En revanche nous serons sollicités pour passer à la version premium. Mais bon cela est tout à fait compréhensible.&lt;/p&gt;
+&lt;h3&gt;Quid de la confidentialité et de la propriété du contenu ?&lt;/h3&gt;
+&lt;p&gt;En compte basique, les perles sont publiques. Seuls les membres premiums peuvent bénéficier de perles privées.
+Néanmoins, chaque utilisateur est propriétaire de ses données. Donc en théorie elles ne peuvent être utilisées à des fins commerciales.
+Pour les plus frileux d'entre vous, vous pouvez toujours décortiquer leur &lt;a href="http://www.pearltrees.com/info/privacy" title="privacy"&gt;charte&lt;/a&gt; de confidentialité. &lt;/p&gt;
+&lt;h2&gt;En conclusion&lt;/h2&gt;
+&lt;p&gt;Pearltrees est un outil qui d'après moi permet de libérer le potentiel de l'action d'ajout de favoris.
+Ce qu'il permet n'est pas simplement d'acumuler des liens mais bien de créer une cartographie colaborative du web. 
+Je trouve cette approche très intéressante et gageons que je ne sois pas le seul.&lt;/p&gt;</summary><category term="outils"></category></entry></feed>

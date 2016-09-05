@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Thinking about... Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+
+<meta name="author" content="ihommmani" />
+<meta name="description" content="How you can increase shell script quality with few tips" />
+<meta name="keywords" content="">
+<meta property="og:site_name" content="Thinking about..."/>
+<meta property="og:title" content="Shell tips"/>
+<meta property="og:description" content="How you can increase shell script quality with few tips"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/drafts/shell-tips.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2014-05-02 22:41:00+02:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="/author/ihommmani.html">
+<meta property="article:section" content="technical"/>
+<meta property="og:image" content="">
+
+  <title>Thinking about... &ndash; Shell tips</title>
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="" title="">
+      </a>
+      <h1><a href=""></a></h1>
+
+
+      <nav>
+        <ul class="list">
+          <li><a href="/pages/about.html#about">about</a></li>
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="https://nicolas.perriault.net/" target="_blank">prendre un café</a></li>
+          <li><a href="http://videlalvaro.github.io" target="_blank">videlalvaro.github.com</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-twitter" href="http://twitter.com/ihommani" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="sc-github" href="http://github.com/ihommani" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-flickr" href="http://www.flickr.com/photos/chaiyachaiya/" target="_blank"><i class="fa fa-flickr"></i></a></li>
+      </ul>
+    </div>
+  </aside>
+  <main>
+
+<article>
+  <header>
+    <h1 id="shell-tips">Shell tips</h1>
+    <p>
+          Posted on ven. 02 mai 2014 in <a href="/category/technical.html">technical</a>
+
+
+    </p>
+  </header>
+  <div>
+    <p>Shell language is at disadvantage compared to other languages such as Java, C/C++ and others. 
+Unlike those, we usually do not learn it on classes (unless we aim becoming a system administrator).
+Most of us learned learn it on his/her own. It is true for me but also for most of the people I met. 
+As software developpers we focused on object programming and functionnal programming but hardly on pure scripting languages.<br />
+And shell is one of them. <br />
+Why ? Because we wrongly think it as a burden, something useless used by a bunch of hackers.
+Rather learning it we prefer to google the task we want and copy/paste the all thing. 
+The result could be a poor written script if lucky, or a weapon of mass destruction in the hands of beginners (no parameters checking, security leaks...and the feared rm -rf *). <br />
+I recently focused on the langage because as a GNU/Linux user I needed to make some repetitive tasks. 
+I don't know if it's the fact of becoming older but the truth is I hate repeating myself when I can obviously automate the task.<br />
+And we all use script in this way for that matter. 
+What is your bashrc, if not a script allowing you to initialize many things you would have to repeat without it (environement variables, aliases, ) ?</p>
+<p>I will use this article as a reminder, and to share some tips we can use to greatly improve shell script readability, maintanability and security.</p>
+<h2>Expansion operators</h2>
+<h2>Arguments</h2>
+<h2>Know the until loop</h2>
+<p>In general we use while loop to wait for an event to happen. 
+But semanticaly, until is more fited to do so.</p>
+<h2>Here scripts</h2>
+<p>When I needed to write a script, I usualy start an editor and begin to write the script done.
+No matter the size of the script. In reality we can gain time by not starting any editor and taking advantage of the here script.
+Suppose, your script is 8 or ten lines long like this one. 
+Here script is also your friend to output some text. 
+You surely know the well known echo command.
+And you surely have seen the following lines:
+echo "##########################"
+echo "###### HELLO WORLD #######"
+echo "##########################"</p>
+<p>It 's a lot of echo there.
+Now consider this piece of code:</p>
+<p>cat &lt;&lt; EOF</p>
+<h6></h6>
+<h4>HELLO WORLD</h4>
+<h6></h6>
+<p>EOF</p>
+<p>I don't know for you but I prefer the second version. Much more...DRY</p>
+<h2>Special variable</h2>
+<p>Any shell script can access the following variables:
+$@
+$? ...</p>
+<h2>Special files</h2>
+<p>/dev/null
+/dev/tty</p>
+<h2>Use test</h2>
+<p>Did you know that [...] is an alias for <em>test</em> ?
+The command test allow you to, as it sounds, test a condition.
+Instead of writting: 
+if [ toto = titi ]
+    then 
+        echo titi
+fi</p>
+<p>Do instead: test toto = titi</p>
+<h2>Why to suround variables with brackets when working with conditions ?</h2>
+<p>Because bad things happen if the variable is not initialized.</p>
+<p>'
+'
+Surounding the variable allow to protect us from this and at least contains a null string.
+So, even tough this is clearly not an obligation, it </p>
+<h2>Manipulate the files descriptor</h2>
+<p>I mean do it. It's a nice feature. 
+You want to hush your script up ? Easy.
+Just redirect the Stdout and Stderr to the /dev/null</p>
+<h2>You don't understand the &amp; sign in stream redirection ?</h2>
+<p>The well known make &gt; results &gt; 2&gt;&amp;1
+We always forget where the sign goes and uber all what does it stands for.
+Luckily the problems are solvable at the same time.
+When you see redirect the STDERR wherever file descriptor 1 is.
+So to blackout you script, do the following at the beginning:</p>
+<h2>Should I use echo for debugging ? Answer: No!</h2>
+<p>The shell allow you to trace the call it has been through.
+Using echo to debug is simply a waste of time when you have sh -x.
+To much information ? Do it like a surgeon.
+Surround the piece of code you want to debug with set -x...set +x (Yeah I know, the convention sucks: - to enable and + to disable) </p>
+<h2>Use getopts...for small utilities.</h2>
+<p>In my opinion, if your script exceeds 20~30 line you should add the option handling, (at least for the --help)
+Getopts </p>
+<h2>understand the shif command for option handling</h2>
+<p>You don't have to manipulate option through $3, $4 or higher. 
+Stick with the brave $1 and $2. Above, it's a mess. For the other guy who will read you. 
+(Don't forget that the other guy, it's you in two month)</p>
+<h2>Master the power of pipelining</h2>
+<p>Shell language is at disadvantage compared to other languages.
+It is viewed as a scripting langage (and it's true) only useful for system administration task.
+At school I haven't seen anybody learning shell. Even as a scripting language shell is seen less.
+The consequence can be seen in the quality of shell script.
+Before learning it on my own, I usually googled the question "How to..." and then copy/paste/adapt.
+The overal script is more like a bunch of nonsens hard to read and understand. 
+More important, we usually don't see any security concern nor stability concern.
+I coded in shell this way for quite a time, until I read an article and a book showing me how powerfull the language is, 
+and haw readable script can be.</p>
+<p>I can't sum up all I've learned in just one article. Instead, I will, as the previous article did, give some tips to 
+, if not master, at least produce better scripts.
+You will </p>
+<h2>Variables manipulation</h2>
+<h2>Arguments</h2>
+<h2>Now the until loop</h2>
+<p>In general we use while loop to wait for an event to happen. 
+But semanticaly, until is more fited to do so.</p>
+<h2>Here scripts</h2>
+<p>When I needed to write a script, I usualy start an editor and begin to write the script done.
+No matter the size of the script. In reality we can gain time by not starting any editor and taking advantage of the here script.
+Suppose, your script is 8 or ten lines long like this one. 
+Here script is also your friend to output some text. 
+You surely know the well known echo command.
+And you surely have seen the following lines:
+echo "##########################"
+echo "###### HELLO WORLD #######"
+echo "##########################"</p>
+<p>It 's a lot of echo there.
+Now consider this piece of code:</p>
+<p>cat &lt;&lt; EOF</p>
+<h6></h6>
+<h4>HELLO WORLD</h4>
+<h6></h6>
+<p>EOF</p>
+<p>I don't know for you but I prefer the second version. Much more...DRY</p>
+<h2>Special variable</h2>
+<p>Any shell script can access the following variables:
+$@
+$? ...</p>
+<h2>Special files</h2>
+<p>/dev/null
+/dev/tty</p>
+<h2>Use test</h2>
+<p>Did you know that [...] is an alias for <em>test</em> ?
+The command test allow you to, as it sounds, test a condition.
+Instead of writting: 
+if [ toto = titi ]
+    then 
+        echo titi
+fi</p>
+<p>Do instead: test toto = titi</p>
+<h2>Why to suround variables with brackets when working with conditions ?</h2>
+<p>Because bad things happen if the variable is not initialized.</p>
+<p>'
+'
+Surounding the variable allow to protect us from this and at least contains a null string.
+So, even tough this is clearly not an obligation, it </p>
+<h2>Manipulate the files descriptor</h2>
+<p>I mean do it. It's a nice feature. 
+You want to hush your script up ? Easy.
+Just redirect the Stdout and Stderr to the /dev/null</p>
+<h2>You don't understand the &amp; sign in stream redirection ?</h2>
+<p>The well known make &gt; results &gt; 2&gt;&amp;1
+We always forget where the sign goes and uber all what does it stands for.
+Luckily the problems are solvable at the same time.
+When you see redirect the STDERR wherever file descriptor 1 is.
+So to blackout you script, do the following at the beginning:</p>
+<h2>Should I use echo for debugging ? Answer: No!</h2>
+<p>The shell allow you to trace the call it has been through.
+Using echo to debug is simply a waste of time when you have sh -x.
+To much information ? Do it like a surgeon.
+Surround the piece of code you want to debug with set -x...set +x (Yeah I know, the convention sucks: - to enable and + to disable) </p>
+<h2>Use getopts...for small utilities.</h2>
+<p>In my opinion, if your script exceeds 20~30 line you should add the option handling, (at least for the --help)
+Getopts </p>
+<h2>understand the shif command for option handling</h2>
+<p>You don't have to manipulate option through $3, $4 or higher. 
+Stick with the brave $1 and $2. Above, it's a mess. For the other guy who will read you. 
+(Don't forget that the other guy, it's you in two month)</p>
+<h2>Master the power of pipelining</h2>
+<p>Sometimes i need to automate tasks through shell script. 
+To make the thing clearer for the person who use it I usually put some echo "What ever"
+For small text it's oK 
+But when you've got to write more text, instead of calling many times echo, 
+we can do that this way:</p>
+<p>cat &lt;&lt; EOF
+Hello there, i'm writting something
+sooooooooooooooooooooooooooooooo lonnnnnnnnnnnnnnnnnnnnng
+to show some improvement in scripting speed. </p>
+<p>EOF</p>
+<h2>Change the shell behavior at the runtime whit the eval statement</h2>
+<h2>Subshell|codeblock</h2>
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'ihommani';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
+</article>
+
+    <footer>
+<p>&copy; ihommani </p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Thinking about... ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+</body>
+</html>
