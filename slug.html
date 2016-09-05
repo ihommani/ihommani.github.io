@@ -302,14 +302,14 @@ It is very handy to use when chaining lambda operations, because it allow to ret
 
 <h3>Try</h3>
 <p>In java, lambdas cannot throw checked exceptions.<br />
-Javaslang offers a specific data structure to wrap call to specific function.</p>
+Javaslang offers a specific data structure to wrap lambdas that may fail in error.  </p>
 <h3>Option</h3>
 <p>In java8 we have optionals.<br />
 Its constructor, <em>Optional.of()</em> throws an NPE on a null reference (not necessarily a bad thing). To handle null reference we have Optional.ofNullable(). <br />
 In javaSlang there is only one constructor <em>Option.of()</em>. It is the only real difference I noticed with Java optional.<br />
 In usage we rather use the same pattern than in standard java. </p>
 <h3>Pattern matching</h3>
-<p>I haven't really use this feature. the problem is it is still in developemtn, pain integration with intelliJ .</p>
+<p>I haven't used this feature much. It is still in development and integration with Intellij is not really that good.</p>
 <h1>Drawbacks</h1>
 <h2>Naming collision</h2>
 <p>JavaSlang is a layer above standard Java8 to make it more functional.<br />
@@ -320,7 +320,7 @@ JavaSlang will struggle to do so.<br />
 Because of naming collision (List and Map for instance), working in the same class with standard java and javaslang is cumbersome.<br />
 When using javaSlang inside a class it has to be isolated and be exclusively used.
 That brings us to another drawback.</p>
-<h2>Coopeation with other modules</h2>
+<h2>Cooperation with other modules</h2>
 <p>We don't have the control on all the code we work with. Using a tierce SDK for instance.<br />
 Other libraries surely don't use JavaSlang.<br />
 That create contention points where we need to convert a Java util list into a javaSlang list for instance. Same thing for maps and stream.

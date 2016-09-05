@@ -611,14 +611,14 @@ It is very handy to use when chaining lambda operations, because it allow to ret
 
 &lt;h3&gt;Try&lt;/h3&gt;
 &lt;p&gt;In java, lambdas cannot throw checked exceptions.&lt;br /&gt;
-Javaslang offers a specific data structure to wrap call to specific function.&lt;/p&gt;
+Javaslang offers a specific data structure to wrap lambdas that may fail in error.  &lt;/p&gt;
 &lt;h3&gt;Option&lt;/h3&gt;
 &lt;p&gt;In java8 we have optionals.&lt;br /&gt;
 Its constructor, &lt;em&gt;Optional.of()&lt;/em&gt; throws an NPE on a null reference (not necessarily a bad thing). To handle null reference we have Optional.ofNullable(). &lt;br /&gt;
 In javaSlang there is only one constructor &lt;em&gt;Option.of()&lt;/em&gt;. It is the only real difference I noticed with Java optional.&lt;br /&gt;
 In usage we rather use the same pattern than in standard java. &lt;/p&gt;
 &lt;h3&gt;Pattern matching&lt;/h3&gt;
-&lt;p&gt;I haven't really use this feature. the problem is it is still in developemtn, pain integration with intelliJ .&lt;/p&gt;
+&lt;p&gt;I haven't used this feature much. It is still in development and integration with Intellij is not really that good.&lt;/p&gt;
 &lt;h1&gt;Drawbacks&lt;/h1&gt;
 &lt;h2&gt;Naming collision&lt;/h2&gt;
 &lt;p&gt;JavaSlang is a layer above standard Java8 to make it more functional.&lt;br /&gt;
@@ -629,7 +629,7 @@ JavaSlang will struggle to do so.&lt;br /&gt;
 Because of naming collision (List and Map for instance), working in the same class with standard java and javaslang is cumbersome.&lt;br /&gt;
 When using javaSlang inside a class it has to be isolated and be exclusively used.
 That brings us to another drawback.&lt;/p&gt;
-&lt;h2&gt;Coopeation with other modules&lt;/h2&gt;
+&lt;h2&gt;Cooperation with other modules&lt;/h2&gt;
 &lt;p&gt;We don't have the control on all the code we work with. Using a tierce SDK for instance.&lt;br /&gt;
 Other libraries surely don't use JavaSlang.&lt;br /&gt;
 That create contention points where we need to convert a Java util list into a javaSlang list for instance. Same thing for maps and stream.
