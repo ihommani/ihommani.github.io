@@ -22,15 +22,15 @@
 
 
 <meta name="author" content="ihommmani" />
-<meta name="description" content="How Javaslang allow to go bypass the Java 8 limitations" />
+<meta name="description" content="How Javaslang allow to bypass some of Java 8 limitations" />
 <meta name="keywords" content="java">
 <meta property="og:site_name" content="Thinking about..."/>
 <meta property="og:title" content="Go beyond in the functionnal paradigm with Javaslang"/>
-<meta property="og:description" content="How Javaslang allow to go bypass the Java 8 limitations"/>
+<meta property="og:description" content="How Javaslang allow to bypass some of Java 8 limitations"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="/slug.html"/>
+<meta property="og:url" content="/javaslang.html"/>
 <meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2014-02-01 13:09:00+01:00"/>
+<meta property="article:published_time" content="2016-09-01 13:09:00+02:00"/>
 <meta property="article:modified_time" content=""/>
 <meta property="article:author" content="/author/ihommmani.html">
 <meta property="article:section" content="technical"/>
@@ -69,9 +69,9 @@
 
 <article>
   <header>
-    <h1 id="slug">Go beyond in the functionnal paradigm with Javaslang</h1>
+    <h1 id="javaslang">Go beyond in the functionnal paradigm with Javaslang</h1>
     <p>
-          Posted on sam. 01 février 2014 in <a href="/category/technical.html">technical</a>
+          Posted on jeu. 01 septembre 2016 in <a href="/category/technical.html">technical</a>
 
 
     </p>
@@ -119,11 +119,30 @@ Sources are available on the <a href="https://github.com/javaslang/javaslang" ti
 </li>
 </ul>
 <h1>JavaSlang goodness</h1>
+<h2>Javaslang and the functional paradigm</h2>
+<p>Using and learning about Javaslang showed me one important thing.<br />
+<strong>Java 8 is not that functional</strong>. It is still deeply rooted in the OO paradigm.  <br />
+It allows to apply functionnal patterns with stream and lambda but is not striclty speaking a functional language.    </p>
+<p>So, what is the difference between an OO language and FP language ?</p>
+<blockquote>
+<p><em>FP imposes discipline upon assignment[...] <br />
+A true functional programming language has no assignment operator. You cannot change the state of a variable.</em>
+Uncle Bob</p>
+</blockquote>
+<p>Yep. It's an all word that opened to my brain washed oriented object mind :)</p>
+<p>In OO we mainly expose void methods to modify the state of an object. 
+According to Javaslang's creator: </p>
+<blockquote>
+<p><em>I comprehend a void return type as a smell. It is evidence that side-effects take place, state is mutated.<br />
+Shared mutable state is an important source of failure, not only in a concurrent setting.</em>
+Daniel Dietrich</p>
+</blockquote>
+<h2>How Javaslang does it ?</h2>
 <p>JavaSlang provides new APIs and data structures to tackle those issues.<br />
 Unlike utilities such as Guava it is not meant to really cohabit with standard Java.<br />
 It replaces it where it needs to. In particular in the implementation of the Java Iterable interface.
 This approach gives Javaslang enough liberty to choose immutability over mutability.<br />
-And this is for the best. </p>
+And this gives a true functional flavour to Java. </p>
 <h2>Immutability</h2>
 <p>Java by default creates mutable data structures, i.e one can operate directly on a structure instance.</p>
 <div class="highlight"><pre><span></span>list.add(3) // list has the 
@@ -309,7 +328,7 @@ Its constructor, <em>Optional.of()</em> throws an NPE on a null reference (not n
 In javaSlang there is only one constructor <em>Option.of()</em>. It is the only real difference I noticed with Java optional.<br />
 In usage we rather use the same pattern than in standard java. </p>
 <h3>Pattern matching</h3>
-<p>I haven't used this feature much. It is still in development and integration with Intellij is not really that good.</p>
+<p>I haven't used this feature much. It is still in development and integration with Intellij is not really that good.  </p>
 <h1>Drawbacks</h1>
 <h2>Naming collision</h2>
 <p>JavaSlang is a layer above standard Java8 to make it more functional.<br />
@@ -336,7 +355,7 @@ Although JavaSlang provides utilities such as toJavaList, List.ofAll, this work 
 
 
 <p>Are as many potential NPE we have to be carefull on.</p>
-<h1>Should I consider Java for my code</h1>
+<h1>Should I consider Java for my code ?</h1>
 <p>It depends.</p>
 <p>First of all you need your project to run on Java 8. <br />
 The second and as mandatory condition, the code you modify must be tested hard !<br />

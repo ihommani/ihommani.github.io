@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="/" rel="alternate"></link><link href="/feeds/technical.atom.xml" rel="self"></link><id>/</id><updated>2014-02-01T13:09:00+01:00</updated><entry><title>Two-Factor Authentication</title><link href="/2fa.html" rel="alternate"></link><published>2014-02-01T13:09:00+01:00</published><author><name>ihommmani</name></author><id>tag:,2014-02-01:2fa.html</id><summary type="html">&lt;p&gt;&lt;img alt="Login security" src="/images/FEDTECH_2FA.png" /&gt;&lt;/p&gt;
-&lt;h2&gt;Extra security&lt;/h2&gt;
-&lt;p&gt;Some applications require extra set of security because if someone get access to it, things can get ugly for you.
-After reading this sad yet interesting &lt;a href="https://medium.com/p/24eb09e026dd" title="twitter account  stolen"&gt;story&lt;/a&gt;, I was astonished of how you can put a mess in someone's life by getting access to his/her mail account.
-Not only you can change its password, you also can change the password of all applications linked to the hijacked address mail.
-For instance you can virtually restart all the password of the associated social media. (e.g: Facebook)&lt;/p&gt;
-&lt;h2&gt;Two-Factor Authentication&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;2FA&lt;/strong&gt; try to solve this huge chink by applying a second identification step.
-You've surely already experienced 2FA through online paiement. Banks widely use it by sending you a code to your mobile phone to enter it inside the paiement website to finalize the transaction.
-Thus, the bank strengthen the identification process by asking you to make a "proof of work" only you can do. Even if the attacker got your credit card numbers he won't be able to get the paiement done without access to your mobile phone.&lt;/p&gt;
-&lt;p&gt;This useful system is also available in mail clients such as gmail.
-I strongly advice you to enable it since it will reinforce the overall security of your mails'access.
-In the following section I describe the different steps to enable it in Gmail.&lt;/p&gt;
-&lt;p&gt;Here a small scheme to illustrate the different steps:  &lt;br /&gt;
-&lt;img alt="2FA principle" src="http://www.assurity.sg/onekey/2fa.gif" title="2fA" /&gt;&lt;/p&gt;
-&lt;h2&gt;HOW-TO&lt;/h2&gt;
-&lt;p&gt;In your account setting go to the security menu to see a 2-step verification link.... No I'm kidding. 
-Google explain it better than I do :) .  &lt;br /&gt;
-Here the &lt;a href="https://support.google.com/accounts/answer/180744?hl=en" title="2fa"&gt;link&lt;/a&gt;.
-It's very easy and can be done in a matter of minutes. Doing this can't hurt.  &lt;br /&gt;
-For those who blame the fact to rely on mobile phone, several substitutes are explained. &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;N.B: As you may notice we can use interchangeably "two step verification" and "two-factor authentication"&lt;/em&gt;&lt;/p&gt;</summary><category term="Security"></category></entry><entry><title>Go beyond in the functionnal paradigm with Javaslang</title><link href="/slug.html" rel="alternate"></link><published>2014-02-01T13:09:00+01:00</published><author><name>ihommmani</name></author><id>tag:,2014-02-01:slug.html</id><summary type="html">&lt;h1&gt;Functional paradigm vs Object paradigm&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="/" rel="alternate"></link><link href="/feeds/technical.atom.xml" rel="self"></link><id>/</id><updated>2016-09-01T13:09:00+02:00</updated><entry><title>Go beyond in the functionnal paradigm with Javaslang</title><link href="/javaslang.html" rel="alternate"></link><published>2016-09-01T13:09:00+02:00</published><author><name>ihommmani</name></author><id>tag:,2016-09-01:javaslang.html</id><summary type="html">&lt;h1&gt;Functional paradigm vs Object paradigm&lt;/h1&gt;
 &lt;h1&gt;Java 8 a brand new world&lt;/h1&gt;
 &lt;p&gt;Not so long ago I used to code with Java in a world exclusively dedicated to the Object paradigm. 
 Indeed Java 7 was not offering what many languages already were, namely streams and lambdas.&lt;br /&gt;
@@ -62,11 +41,30 @@ Sources are available on the &lt;a href="https://github.com/javaslang/javaslang"
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;JavaSlang goodness&lt;/h1&gt;
+&lt;h2&gt;Javaslang and the functional paradigm&lt;/h2&gt;
+&lt;p&gt;Using and learning about Javaslang showed me one important thing.&lt;br /&gt;
+&lt;strong&gt;Java 8 is not that functional&lt;/strong&gt;. It is still deeply rooted in the OO paradigm.  &lt;br /&gt;
+It allows to apply functionnal patterns with stream and lambda but is not striclty speaking a functional language.    &lt;/p&gt;
+&lt;p&gt;So, what is the difference between an OO language and FP language ?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;FP imposes discipline upon assignment[...] &lt;br /&gt;
+A true functional programming language has no assignment operator. You cannot change the state of a variable.&lt;/em&gt;
+Uncle Bob&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Yep. It's an all word that opened to my brain washed oriented object mind :)&lt;/p&gt;
+&lt;p&gt;In OO we mainly expose void methods to modify the state of an object. 
+According to Javaslang's creator: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;I comprehend a void return type as a smell. It is evidence that side-effects take place, state is mutated.&lt;br /&gt;
+Shared mutable state is an important source of failure, not only in a concurrent setting.&lt;/em&gt;
+Daniel Dietrich&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;How Javaslang does it ?&lt;/h2&gt;
 &lt;p&gt;JavaSlang provides new APIs and data structures to tackle those issues.&lt;br /&gt;
 Unlike utilities such as Guava it is not meant to really cohabit with standard Java.&lt;br /&gt;
 It replaces it where it needs to. In particular in the implementation of the Java Iterable interface.
 This approach gives Javaslang enough liberty to choose immutability over mutability.&lt;br /&gt;
-And this is for the best. &lt;/p&gt;
+And this gives a true functional flavour to Java. &lt;/p&gt;
 &lt;h2&gt;Immutability&lt;/h2&gt;
 &lt;p&gt;Java by default creates mutable data structures, i.e one can operate directly on a structure instance.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;list.add(3) // list has the 
@@ -252,7 +250,7 @@ Its constructor, &lt;em&gt;Optional.of()&lt;/em&gt; throws an NPE on a null refe
 In javaSlang there is only one constructor &lt;em&gt;Option.of()&lt;/em&gt;. It is the only real difference I noticed with Java optional.&lt;br /&gt;
 In usage we rather use the same pattern than in standard java. &lt;/p&gt;
 &lt;h3&gt;Pattern matching&lt;/h3&gt;
-&lt;p&gt;I haven't used this feature much. It is still in development and integration with Intellij is not really that good.&lt;/p&gt;
+&lt;p&gt;I haven't used this feature much. It is still in development and integration with Intellij is not really that good.  &lt;/p&gt;
 &lt;h1&gt;Drawbacks&lt;/h1&gt;
 &lt;h2&gt;Naming collision&lt;/h2&gt;
 &lt;p&gt;JavaSlang is a layer above standard Java8 to make it more functional.&lt;br /&gt;
@@ -279,7 +277,7 @@ Although JavaSlang provides utilities such as toJavaList, List.ofAll, this work 
 
 
 &lt;p&gt;Are as many potential NPE we have to be carefull on.&lt;/p&gt;
-&lt;h1&gt;Should I consider Java for my code&lt;/h1&gt;
+&lt;h1&gt;Should I consider Java for my code ?&lt;/h1&gt;
 &lt;p&gt;It depends.&lt;/p&gt;
 &lt;p&gt;First of all you need your project to run on Java 8. &lt;br /&gt;
 The second and as mandatory condition, the code you modify must be tested hard !&lt;br /&gt;
@@ -292,7 +290,28 @@ This &lt;a href="https://blog.jooq.org/2016/08/11/all-libraries-should-follow-a-
 &lt;p&gt;JavaSlang is really worth the try. It brings java functional development to a more pragmatic level.&lt;br /&gt;
 It is also glimpse of what other functional languages offer.&lt;br /&gt;
 We have however seen that it comes at a price. Wether you can afford this cost or not should not
-detere you from trying it. At least to see what other functional languages offer, in comparaison to Java without having to.&lt;/p&gt;</summary><category term="java"></category></entry><entry><title>Pelican</title><link href="/pelican.html" rel="alternate"></link><published>2014-01-09T23:58:00+01:00</published><author><name>ihommmani</name></author><id>tag:,2014-01-09:pelican.html</id><summary type="html">&lt;h1&gt;Presenting Pelican&lt;/h1&gt;
+detere you from trying it. At least to see what other functional languages offer, in comparaison to Java without having to.&lt;/p&gt;</summary><category term="java"></category></entry><entry><title>Two-Factor Authentication</title><link href="/2fa.html" rel="alternate"></link><published>2014-02-01T13:09:00+01:00</published><author><name>ihommmani</name></author><id>tag:,2014-02-01:2fa.html</id><summary type="html">&lt;p&gt;&lt;img alt="Login security" src="/images/FEDTECH_2FA.png" /&gt;&lt;/p&gt;
+&lt;h2&gt;Extra security&lt;/h2&gt;
+&lt;p&gt;Some applications require extra set of security because if someone get access to it, things can get ugly for you.
+After reading this sad yet interesting &lt;a href="https://medium.com/p/24eb09e026dd" title="twitter account  stolen"&gt;story&lt;/a&gt;, I was astonished of how you can put a mess in someone's life by getting access to his/her mail account.
+Not only you can change its password, you also can change the password of all applications linked to the hijacked address mail.
+For instance you can virtually restart all the password of the associated social media. (e.g: Facebook)&lt;/p&gt;
+&lt;h2&gt;Two-Factor Authentication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;2FA&lt;/strong&gt; try to solve this huge chink by applying a second identification step.
+You've surely already experienced 2FA through online paiement. Banks widely use it by sending you a code to your mobile phone to enter it inside the paiement website to finalize the transaction.
+Thus, the bank strengthen the identification process by asking you to make a "proof of work" only you can do. Even if the attacker got your credit card numbers he won't be able to get the paiement done without access to your mobile phone.&lt;/p&gt;
+&lt;p&gt;This useful system is also available in mail clients such as gmail.
+I strongly advice you to enable it since it will reinforce the overall security of your mails'access.
+In the following section I describe the different steps to enable it in Gmail.&lt;/p&gt;
+&lt;p&gt;Here a small scheme to illustrate the different steps:  &lt;br /&gt;
+&lt;img alt="2FA principle" src="http://www.assurity.sg/onekey/2fa.gif" title="2fA" /&gt;&lt;/p&gt;
+&lt;h2&gt;HOW-TO&lt;/h2&gt;
+&lt;p&gt;In your account setting go to the security menu to see a 2-step verification link.... No I'm kidding. 
+Google explain it better than I do :) .  &lt;br /&gt;
+Here the &lt;a href="https://support.google.com/accounts/answer/180744?hl=en" title="2fa"&gt;link&lt;/a&gt;.
+It's very easy and can be done in a matter of minutes. Doing this can't hurt.  &lt;br /&gt;
+For those who blame the fact to rely on mobile phone, several substitutes are explained. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;N.B: As you may notice we can use interchangeably "two step verification" and "two-factor authentication"&lt;/em&gt;&lt;/p&gt;</summary><category term="Security"></category></entry><entry><title>Pelican</title><link href="/pelican.html" rel="alternate"></link><published>2014-01-09T23:58:00+01:00</published><author><name>ihommmani</name></author><id>tag:,2014-01-09:pelican.html</id><summary type="html">&lt;h1&gt;Presenting Pelican&lt;/h1&gt;
 &lt;p&gt;When I'm reading a blog, besides the article, i'm also interested about the technology behind it. 
 At first it was just good curiosity, to keep me up to date and see what reviews were made on it.
 Then I started this blog. So I had to make my choice. And a clever one i.e adapted to my needs.
