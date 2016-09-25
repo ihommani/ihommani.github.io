@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="/" rel="alternate"></link><link href="/feeds/tools.atom.xml" rel="self"></link><id>/</id><updated>2014-04-13T22:10:00+02:00</updated><entry><title>Ranger</title><link href="/ranger.html" rel="alternate"></link><published>2014-04-13T22:10:00+02:00</published><author><name>ihommmani</name></author><id>tag:,2014-04-13:ranger.html</id><summary type="html">&lt;p&gt;Ranger is a file manager where thing can get fast...blazingly fast. &lt;br /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Thinking about...</title><link href="https://ihommani.github.io/" rel="alternate"></link><link href="https://ihommani.github.io/feeds/tools.atom.xml" rel="self"></link><id>https://ihommani.github.io/</id><updated>2014-04-13T22:10:00+02:00</updated><entry><title>Ranger</title><link href="https://ihommani.github.io/ranger.html" rel="alternate"></link><published>2014-04-13T22:10:00+02:00</published><updated>2014-04-13T22:10:00+02:00</updated><author><name>ihommmani</name></author><id>tag:ihommani.github.io,2014-04-13:ranger.html</id><summary type="html">&lt;p&gt;Ranger is a file manager where thing can get fast...blazingly fast. &lt;br /&gt;
 I trully think you should give it a try. At least to test another paradigm of file manager. &lt;br /&gt;
 So, &lt;strong&gt;is Ranger a true alternative to classic file managers &lt;/strong&gt;?&lt;br /&gt;
 As always, the right response would be "It depends.".
@@ -26,7 +26,7 @@ Pretty cool for sysadmins&lt;/p&gt;
 For instance on my 3Go RAM computer (pretty low in the time writting this article) the memory print wouldn't go over 0.5%. So it is for the CPU comsumption.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="interface" src="/images/ranger1.png" title="ranger's interface" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="interface" src="https://ihommani.github.io/images/ranger1.png" title="ranger's interface" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Navigation is by default made through the central column, although you can change the parent directory from this column&lt;/em&gt;&lt;/p&gt;
 &lt;h1&gt;The tip are the tips of your fingers&lt;/h1&gt;
 &lt;p&gt;The second steps to address is to accept the fact &lt;strong&gt;you won't need a mouse&lt;/strong&gt;.
@@ -109,9 +109,9 @@ Ranger is powerfull only if we know how to take advantage of it.&lt;/p&gt;
 &lt;h2&gt;scope.sh&lt;/h2&gt;
 &lt;p&gt;Like rifle but used to preview files.&lt;br /&gt;
 Very useful, instead of opening files you check through the preview if it is the file you are looking for. Also works for pdf and images.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="interface" src="/images/ranger2.png" title="ranger's preview 1" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="interface" src="https://ihommani.github.io/images/ranger2.png" title="ranger's preview 1" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Example of a text file preview&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="interface" src="/images/ranger3.png" title="ranger's preview 2" /&gt;
+&lt;p&gt;&lt;img alt="interface" src="https://ihommani.github.io/images/ranger3.png" title="ranger's preview 2" /&gt;
 &lt;em&gt;Example of an image preview. Note that this ascii preview rely on my geek taste, but you can perfectly preview a 'normal' aspect. Just read the scope.sh header&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Theming&lt;/h2&gt;
 &lt;p&gt;You can of course change the style of ranger by creating an existing theme or creating a new one.&lt;br /&gt;
@@ -148,7 +148,7 @@ It's the major ranger's drawback of i can see.&lt;/p&gt;
 Ranger is different from other file manager. It gives a different experience while managing your files.&lt;br /&gt;
 Not only it is light and fast, it also stick to your needs to an extent no other file managers can match.&lt;br /&gt;
 Last but not least, a word from our beloved comrade.  &lt;/p&gt;
-&lt;p&gt;&lt;img alt="Texas" src="/images/texas_ranger.jpg" title="Texas ranger" /&gt;&lt;/p&gt;</summary><category term="file manager"></category></entry><entry><title>Quora</title><link href="/quora-fr.html" rel="alternate"></link><published>2014-03-30T20:37:00+02:00</published><author><name>ihommmani</name></author><id>tag:,2014-03-30:quora-fr.html</id><summary type="html">&lt;p&gt;&lt;img alt="Quora" src="https://pbs.twimg.com/profile_images/453594268095889408/EGmOkBn6.png" title="Quora" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Texas" src="https://ihommani.github.io/images/texas_ranger.jpg" title="Texas ranger" /&gt;&lt;/p&gt;</summary><category term="file manager"></category></entry><entry><title>Quora</title><link href="https://ihommani.github.io/quora-fr.html" rel="alternate"></link><published>2014-03-30T20:37:00+02:00</published><updated>2014-03-30T20:37:00+02:00</updated><author><name>ihommmani</name></author><id>tag:ihommani.github.io,2014-03-30:quora-fr.html</id><summary type="html">&lt;p&gt;&lt;img alt="Quora" src="https://pbs.twimg.com/profile_images/453594268095889408/EGmOkBn6.png" title="Quora" /&gt;&lt;/p&gt;
 &lt;h2&gt;Etre curieux&lt;/h2&gt;
 &lt;p&gt;Ce cours billet à pour but de présenter &lt;strong&gt;&lt;a href="http://www.quora.com/" title="quora"&gt;Quora&lt;/a&gt;&lt;/strong&gt;, un site que j'ai récemment découvert et que je trouve digne d'intérêt. &lt;/p&gt;
 &lt;p&gt;Il est naturel et sain de se poser des questions. 
@@ -172,7 +172,7 @@ Il n'est par ailleurs pas rare de lire des réponses venant de personnes experte
 La remarque est légitime et je n'ai pas été étonné de retrouver des questions relatives à la pertinence de Quora sur Quora même.&lt;br /&gt;
 Ce qu'il en ressort est en général la qualité des réponses fournies ainsi que des questions qu'on y pose. &lt;/p&gt;
 &lt;h2&gt;Votre choix&lt;/h2&gt;
-&lt;p&gt;Mon propos n'est pas d'affirmer la supériorité de Quora sur d'autres sites similaires. Il est plutôt d'attirer l'attention sur une communauté grandissante qui m'a aidée à réfléchir certaines questions et qui, je vous le souhaite, vous ouvrira l'esprit sur de nouveaux sujets.&lt;/p&gt;</summary><category term="connaissance"></category><category term="knowledge"></category></entry><entry><title>Pearltrees</title><link href="/pearltree.html" rel="alternate"></link><published>2014-01-12T12:06:00+01:00</published><author><name>ihommmani</name></author><id>tag:,2014-01-12:pearltree.html</id><summary type="html">&lt;p&gt;&lt;img alt="Alt Text" src="/images/pearltrees-logo.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Mon propos n'est pas d'affirmer la supériorité de Quora sur d'autres sites similaires. Il est plutôt d'attirer l'attention sur une communauté grandissante qui m'a aidée à réfléchir certaines questions et qui, je vous le souhaite, vous ouvrira l'esprit sur de nouveaux sujets.&lt;/p&gt;</summary><category term="connaissance"></category><category term="knowledge"></category></entry><entry><title>Pearltrees</title><link href="https://ihommani.github.io/pearltree.html" rel="alternate"></link><published>2014-01-12T12:06:00+01:00</published><updated>2014-01-12T12:06:00+01:00</updated><author><name>ihommmani</name></author><id>tag:ihommani.github.io,2014-01-12:pearltree.html</id><summary type="html">&lt;p&gt;&lt;img alt="Alt Text" src="https://ihommani.github.io/images/pearltrees-logo.jpg" /&gt;&lt;/p&gt;
 &lt;h2&gt;Ces favoris qu'on oublie...&lt;/h2&gt;
 &lt;p&gt;Lorsque nous surfons sur le web, il est très commun de repérer des sites qui ont un attrait particulier et sur lesquels nous souhaitons revenir plus tard.
 De nos jours la plupart des navigateurs web proposent une fonction d'ajout de favoris, permettant de garder en mémoire des URL et de les classer. 
