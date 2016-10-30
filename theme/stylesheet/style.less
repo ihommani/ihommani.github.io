@@ -15,7 +15,7 @@ h6 {
   line-height: 1.1;
 }
 
-h1{
+h1 {
   font-size: 2.4em
 }
 
@@ -163,10 +163,10 @@ main {
     }
 
     blockquote, pre {
-      background-color: rgba(128,128,128,0.05);
+      background-color: rgba(128, 128, 128, 0.05);
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
-      border-left: 8px solid rgba(128,128,128,0.075);
+      border-left: 8px solid rgba(128, 128, 128, 0.075);
       border-left-width: 10px;
     }
 
@@ -190,8 +190,8 @@ main {
 
     kbd {
       padding: .1em .6em;
-      border: 1px solid rgba(63,63,63,0.25);
-      box-shadow: 0 1px 0 rgba(63,63,63,0.25);
+      border: 1px solid rgba(63, 63, 63, 0.25);
+      box-shadow: 0 1px 0 rgba(63, 63, 63, 0.25);
       background-color: #fff;
       color: #333;
       border-radius: 3px;
@@ -220,7 +220,7 @@ main {
       border-spacing: 0;
 
       thead:first-child tr:first-child th {
-         border-top: 0;
+        border-top: 0;
       }
 
       th, td {
@@ -246,23 +246,7 @@ main {
   }
 }
 
-.tag-cloud {
-  a {
-    background-color: @tag-bg;
-    padding: .2em .6em .2em;
-    font-size: .74em;
-    line-height: 1;
-    color: @tag-text-color;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25em;
-  }
 
-  a:hover {
-    background-color: @tag-hover-color;
-  }
-}
 
 a.btn {
   background-color: @btn-bg;
@@ -314,10 +298,54 @@ div.related-posts {
   }
 }
 
-ul.list, ul.social, ul.related-posts {
+ul.list, ul.social, ul.related-posts, ul.tag-cloud {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+ul.tag-cloud {
+
+  list-style: none;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    font-size: 10em;
+
+  }
+
+  li.tag-1 {
+    font-size: 150%;
+  }
+
+  li.tag-2 {
+    font-size: 120%;
+  }
+
+  li.tag-3 {
+    font-size: 100%;
+  }
+
+  li.tag-4 {
+    font-size: 110%;
+  }
+
+  a {
+    background-color: @tag-bg;
+    padding: .2em .6em .2em;
+    font-size: 1em;
+    line-height: 1;
+    color: @tag-text-color;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+  }
+
+  a:hover {
+    background-color: @tag-hover-color;
+  }
 }
 
 ul.list {

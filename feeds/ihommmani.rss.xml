@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Thinking about...</title><link>https://ihommani.github.io/</link><description>Yet another opiniated blog</description><lastBuildDate>Thu, 01 Sep 2016 13:09:00 +0200</lastBuildDate><item><title>Go beyond in the functionnal paradigm with Javaslang</title><link>https://ihommani.github.io/Javaslang.html</link><description>&lt;h1&gt;Functional paradigm vs Object paradigm&lt;/h1&gt;
+<rss version="2.0"><channel><title>Thinking about...</title><link>https://ihommani.github.io/</link><description>Yet another opiniated blog</description><lastBuildDate>Sat, 29 Oct 2016 13:09:00 +0200</lastBuildDate><item><title>History of mankind museum</title><link>https://ihommani.github.io/mankind%20museum.html</link><description>&lt;p&gt;&lt;img alt="interface" src="https://ihommani.github.io/images/mankind_museum.jpg" title="mankind museum poster" /&gt;&lt;/p&gt;
+&lt;h1&gt;Homo Sapiens&lt;/h1&gt;
+&lt;p&gt;Lately I read a book I will remember for a life time. &lt;br /&gt;
+A true master piece of vulgarisation, &lt;a href="https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind"&gt;Sapiens from Youval Harari&lt;/a&gt; opened my mind on what Homo Sapiens is as a specie.&lt;br /&gt;
+As you may guess, I highly suggest you to read this book. It will reshape the way you see the world, and replace it in
+a context that you will discover as very subjective and centrist.  &lt;/p&gt;
+&lt;p&gt;Not so long ago a museum dedicated to mankind opened in Paris.&lt;br /&gt;
+Reasonably called &lt;a href="http://www.museedelhomme.fr/en"&gt;"Museum of mankind"&lt;/a&gt; it is in fact not really new since it has existed since 1938.&lt;br /&gt;
+But it was recently reopened near the &lt;a href="https://www.google.fr/maps/place/Homme+Museum/@48.861166,2.2868264,15z/data=!4m5!3m4!1s0x0:0xdeacab05dc637df!8m2!3d48.861166!4d2.2868264"&gt;Trocadero&lt;/a&gt;.&lt;br /&gt;
+The museum is to invite the visitor to ask himself/herself about our identity as a specie, where do we come from and where are we heading to.&lt;br /&gt;
+The relation with the Sapiens book was obvious and it was with a lot of expectations I went to this museum.  &lt;/p&gt;
+&lt;p&gt;Rather small, the museum is nonetheless  intelligently structured. It focuses on few points with no dispersion.&lt;br /&gt;
+Starting with the common anatomy we share, and our unique status in the animal kingdom,
+it will progressively derive to the extreme diversity homo sapiens has produced throughout its 100 000 years old history.  &lt;/p&gt;
+&lt;p&gt;This diversity is not only in physical traits but also in our cultures, languages, beliefs...&lt;br /&gt;
+This is one special good point of the museum. Its attention to describe the homo Sapiens diversity. &lt;br /&gt;
+Did you know that there was almost 6500 spoken languages on earth ? (Listen to this &lt;a href="https://www.youtube.com/watch?v=_V3YOBUKN58"&gt;one&lt;/a&gt;) &lt;br /&gt;
+That we briefly meet other homo species, bringing new genes in our pool during the process ?&lt;br /&gt;
+We learn a lot of interesting things during the visit and enumerating them is outside of this article's scope.     &lt;/p&gt;
+&lt;p&gt;My favorite part was the bust gallery representing faces from all over the world.&lt;br /&gt;
+There was a real feeling of humility watching at these faces. It made me feel as being part of them, part of one big family
+that has existed and still exist throughout space and time.&lt;/p&gt;
+&lt;p&gt;The second part of the museum focused on our "recent" history, starting with the agricultural revolution and concluding with today. &lt;br /&gt;
+This is maybe the least interesting part of the museum. &lt;br /&gt;
+I got the feeling that the museum has not enough space to finish what it has started, and to answer the last question: Where are we heading to ?&lt;br /&gt;
+There is no room explaining the notion of transhumanism, our evolution through technology, the pression we apply on our environment and last but not least our extinction.
+The last word may chock but we will disappear as a specie. The relevant question is how and when.&lt;br /&gt;
+It is very likely we will be the architect of our own extinction.&lt;br /&gt;
+Either by designing a new specie in our laboratories with enhanceda bodies and better cognitive faculties or more simply by transforming too much
+our environment.&lt;br /&gt;
+This was simply eluded.&lt;/p&gt;
+&lt;p&gt;Last but not least, I think the museum is misplaced.&lt;br /&gt;
+It's weird to see so much diversity explained and praised during the visit, but so few in the visitors.&lt;br /&gt;
+It would have been interesting to open it in a less elitist place.&lt;/p&gt;
+&lt;p&gt;I spent a nice afternoon in this museum. It takes almost 2 hours to complete it and it is without a doubt a well spent time.&lt;br /&gt;
+Although it has a taste of unfinished work it lacks a few to be at the same level as the &lt;a href="http://www.histoire-immigration.fr/"&gt;immigration museum&lt;/a&gt;. &lt;br /&gt;
+A place I may tell you about someday...&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ihommmani</dc:creator><pubDate>Sat, 29 Oct 2016 13:09:00 +0200</pubDate><guid isPermaLink="false">tag:ihommani.github.io,2016-10-29:mankind museum.html</guid><category>open your mind</category></item><item><title>Go beyond in the functionnal paradigm with Javaslang</title><link>https://ihommani.github.io/Javaslang.html</link><description>&lt;h1&gt;Functional paradigm vs Object paradigm&lt;/h1&gt;
 &lt;h1&gt;Java 8 a brand new world&lt;/h1&gt;
 &lt;p&gt;Not so long ago I used to code with Java in a world exclusively dedicated to the Object paradigm. 
 Indeed Java 7 was not offering what many languages already were, namely streams and lambdas.&lt;br /&gt;
